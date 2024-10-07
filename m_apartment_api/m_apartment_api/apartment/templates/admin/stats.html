@@ -1,0 +1,159 @@
+{% extends 'admin/base_site.html' %}
+{% block content %}
+<style>
+    .col {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 120px;
+    }
+
+    ul > li {
+        font-size: 15px;
+        padding: 5px;
+    }
+</style>
+
+<h1 style="text-align: center; margin-bottom: 20px; font-size: 35px; color: red; font-weight: bold">
+    THỐNG KÊ KẾT QUẢ KHẢO SÁT
+</h1>
+
+<div class="container">
+    <h1 style="font-size: 20px; color: gold;">1. Thống kê theo số câu hỏi có trong khảo sát</h1>
+    <div class="col">
+        <ul>
+            {% for q in question_stats %}
+            <li><strong>{{ q.id }} - {{ q.name }}</strong> có {{ q.question_count }} câu hỏi
+            </li>
+            {% endfor %}
+        </ul>
+
+        <div style="width: 30%;">
+            <canvas id="myChart1"></canvas>
+        </div>
+    </div>
+
+    <h1 style="font-size: 20px; color: gold;">2. Thống kê theo số lượt thực hiện khảo sát</h1>
+    <div class="col">
+        <ul>
+            {% for r in resident_stats %}
+            <li><strong>{{ r.id }} - {{ r.name }}</strong> có {{ r.resident_count }} cư dân thực hiện</li>
+            {% endfor %}
+        </ul>
+
+        <div style="width: 60%">
+            <canvas id="myChart2"></canvas>
+        </div>
+    </div>
+
+    <h1 style="font-size: 20px; color: gold;">3. Thống kê theo số câu trả lời có nội dung khác nhau của 1 câu hỏi</h1>
+    <div>
+        <ul>
+            {% for a in answer_stats %}
+            <li style="padding-top: 20px"><strong>{{ a.id }} - Trong câu hỏi "{{ a.content }}" </strong> có
+                {{ a.answer_count }} câu trả lời
+            </li>
+            {% endfor %}
+        </ul>
+
+        <div style="width: 90%; margin: 70px auto">
+            <canvas id="myChart3"></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    let qLabels = [];
+    let qData = [];
+
+    {% for q in question_stats %}
+        qLabels.push('{{ q.name }}');
+        qData.push({{ q.question_count }});
+    {% endfor %}
+
+    let rLabels = [];
+    let rData = [];
+
+    {% for r in resident_stats %}
+        rLabels.push('{{ r.name }}');
+        rData.push({{ r.resident_count }});
+    {% endfor %}
+
+    let aLabels = [];
+    let aData = [];
+
+    {% for a in answer_stats %}
+        aLabels.push('{{ a.id }}');
+        aData.push({{ a.answer_count }});
+    {% endfor %}
+
+    window.onload = function() {
+        const ctx = document.getElementById('myChart1');
+
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: qLabels,
+                datasets: [{
+                    label: 'Câu hỏi',
+                    data: qData,
+                    borderWidth: 1,
+                    backgroundColor: ['blueviolet', 'aquamarine', 'beige', 'gold', 'cadetblue']
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        const ctx2 = document.getElementById('myChart2');
+
+        new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: rLabels,
+                datasets: [{
+                    label: 'Cư dân',
+                    data: rData,
+                    borderWidth: 1,
+                    backgroundColor: ['blueviolet', 'aquamarine', 'beige', 'gold', 'cadetblue']
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        const ctx3 = document.getElementById('myChart3');
+
+        new Chart(ctx3, {
+            type: 'line',
+            data: {
+                labels: aLabels,
+                datasets: [{
+                    label: 'Câu trả lời',
+                    data: aData,
+                    fill: false,
+                    borderColor: 'rgb(75, 192, 192)',
+                    tension: 0.1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    }
+</script>
+{% endblock %}

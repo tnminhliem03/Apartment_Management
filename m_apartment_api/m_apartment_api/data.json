@@ -1,0 +1,4674 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-10-03T13:46:28.217Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Resident",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-10-03T13:47:07.083Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "Admin",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-10-03T14:46:30.128Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "test",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-10-03T14:46:47.405Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "23",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-10-03T14:47:04.397Z",
+      "user": 1,
+      "content_type": 24,
+      "object_id": "1",
+      "object_repr": "431",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+
+
+
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+
+  {
+    "model":"auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add momo paid",
+      "content_type": 7,
+      "codename": "add_momopaid"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change momo paid",
+      "content_type": 7,
+      "codename": "change_momopaid"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete momo paid",
+      "content_type": 7,
+      "codename": "delete_momopaid"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view momo paid",
+      "content_type": 7,
+      "codename": "view_momopaid"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add payment",
+      "content_type": 8,
+      "codename": "add_payment"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change payment",
+      "content_type": 8,
+      "codename": "change_payment"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete payment",
+      "content_type": 8,
+      "codename": "delete_payment"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view payment",
+      "content_type": 8,
+      "codename": "view_payment"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add room",
+      "content_type": 9,
+      "codename": "add_room"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change room",
+      "content_type": 9,
+      "codename": "change_room"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete room",
+      "content_type": 9,
+      "codename": "delete_room"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view room",
+      "content_type": 9,
+      "codename": "view_room"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add s choice",
+      "content_type": 10,
+      "codename": "add_schoice"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change s choice",
+      "content_type": 10,
+      "codename": "change_schoice"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete s choice",
+      "content_type": 10,
+      "codename": "delete_schoice"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view s choice",
+      "content_type": 10,
+      "codename": "view_schoice"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add survey",
+      "content_type": 11,
+      "codename": "add_survey"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change survey",
+      "content_type": 11,
+      "codename": "change_survey"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete survey",
+      "content_type": 11,
+      "codename": "delete_survey"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view survey",
+      "content_type": 11,
+      "codename": "view_survey"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add vnpay paid",
+      "content_type": 12,
+      "codename": "add_vnpaypaid"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change vnpay paid",
+      "content_type": 12,
+      "codename": "change_vnpaypaid"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete vnpay paid",
+      "content_type": 12,
+      "codename": "delete_vnpaypaid"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view vnpay paid",
+      "content_type": 12,
+      "codename": "view_vnpaypaid"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 13,
+      "codename": "add_resident"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 13,
+      "codename": "change_resident"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 13,
+      "codename": "delete_resident"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 13,
+      "codename": "view_resident"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add momo link",
+      "content_type": 14,
+      "codename": "add_momolink"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change momo link",
+      "content_type": 14,
+      "codename": "change_momolink"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete momo link",
+      "content_type": 14,
+      "codename": "delete_momolink"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view momo link",
+      "content_type": 14,
+      "codename": "view_momolink"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add receipt",
+      "content_type": 15,
+      "codename": "add_receipt"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change receipt",
+      "content_type": 15,
+      "codename": "change_receipt"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete receipt",
+      "content_type": 15,
+      "codename": "delete_receipt"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view receipt",
+      "content_type": 15,
+      "codename": "view_receipt"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add survey question",
+      "content_type": 16,
+      "codename": "add_surveyquestion"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change survey question",
+      "content_type": 16,
+      "codename": "change_surveyquestion"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete survey question",
+      "content_type": 16,
+      "codename": "delete_surveyquestion"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view survey question",
+      "content_type": 16,
+      "codename": "view_surveyquestion"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add survey choice answer",
+      "content_type": 17,
+      "codename": "add_surveychoiceanswer"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change survey choice answer",
+      "content_type": 17,
+      "codename": "change_surveychoiceanswer"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete survey choice answer",
+      "content_type": 17,
+      "codename": "delete_surveychoiceanswer"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view survey choice answer",
+      "content_type": 17,
+      "codename": "view_surveychoiceanswer"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add survey text answer",
+      "content_type": 18,
+      "codename": "add_surveytextanswer"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change survey text answer",
+      "content_type": 18,
+      "codename": "change_surveytextanswer"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete survey text answer",
+      "content_type": 18,
+      "codename": "delete_surveytextanswer"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view survey text answer",
+      "content_type": 18,
+      "codename": "view_surveytextanswer"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+      "name": "Can add vnpay link",
+      "content_type": 19,
+      "codename": "add_vnpaylink"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+      "name": "Can change vnpay link",
+      "content_type": 19,
+      "codename": "change_vnpaylink"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+      "name": "Can delete vnpay link",
+      "content_type": 19,
+      "codename": "delete_vnpaylink"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+      "name": "Can view vnpay link",
+      "content_type": 19,
+      "codename": "view_vnpaylink"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+      "name": "Can add security card",
+      "content_type": 20,
+      "codename": "add_securitycard"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+      "name": "Can change security card",
+      "content_type": 20,
+      "codename": "change_securitycard"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+      "name": "Can delete security card",
+      "content_type": 20,
+      "codename": "delete_securitycard"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+      "name": "Can view security card",
+      "content_type": 20,
+      "codename": "view_securitycard"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+      "name": "Can add package",
+      "content_type": 21,
+      "codename": "add_package"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+      "name": "Can change package",
+      "content_type": 21,
+      "codename": "change_package"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+      "name": "Can delete package",
+      "content_type": 21,
+      "codename": "delete_package"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+      "name": "Can view package",
+      "content_type": 21,
+      "codename": "view_package"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+      "name": "Can add notification",
+      "content_type": 22,
+      "codename": "add_notification"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+      "name": "Can change notification",
+      "content_type": 22,
+      "codename": "change_notification"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+      "name": "Can delete notification",
+      "content_type": 22,
+      "codename": "delete_notification"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+      "name": "Can view notification",
+      "content_type": 22,
+      "codename": "view_notification"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+      "name": "Can add complaint",
+      "content_type": 23,
+      "codename": "add_complaint"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+      "name": "Can change complaint",
+      "content_type": 23,
+      "codename": "change_complaint"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+      "name": "Can delete complaint",
+      "content_type": 23,
+      "codename": "delete_complaint"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+      "name": "Can view complaint",
+      "content_type": 23,
+      "codename": "view_complaint"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+      "name": "Can add ownership",
+      "content_type": 24,
+      "codename": "add_ownership"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+      "name": "Can change ownership",
+      "content_type": 24,
+      "codename": "change_ownership"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+      "name": "Can delete ownership",
+      "content_type": 24,
+      "codename": "delete_ownership"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+      "name": "Can view ownership",
+      "content_type": 24,
+      "codename": "view_ownership"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+      "name": "Can add application",
+      "content_type": 25,
+      "codename": "add_application"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+      "name": "Can change application",
+      "content_type": 25,
+      "codename": "change_application"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+      "name": "Can delete application",
+      "content_type": 25,
+      "codename": "delete_application"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+      "name": "Can view application",
+      "content_type": 25,
+      "codename": "view_application"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 101,
+    "fields": {
+      "name": "Can add access token",
+      "content_type": 26,
+      "codename": "add_accesstoken"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 102,
+    "fields": {
+      "name": "Can change access token",
+      "content_type": 26,
+      "codename": "change_accesstoken"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 103,
+    "fields": {
+      "name": "Can delete access token",
+      "content_type": 26,
+      "codename": "delete_accesstoken"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 104,
+    "fields": {
+      "name": "Can view access token",
+      "content_type": 26,
+      "codename": "view_accesstoken"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 105,
+    "fields": {
+      "name": "Can add grant",
+      "content_type": 27,
+      "codename": "add_grant"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 106,
+    "fields": {
+      "name": "Can change grant",
+      "content_type": 27,
+      "codename": "change_grant"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 107,
+    "fields": {
+      "name": "Can delete grant",
+      "content_type": 27,
+      "codename": "delete_grant"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 108,
+    "fields": {
+      "name": "Can view grant",
+      "content_type": 27,
+      "codename": "view_grant"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 109,
+    "fields": {
+      "name": "Can add refresh token",
+      "content_type": 28,
+      "codename": "add_refreshtoken"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 110,
+    "fields": {
+      "name": "Can change refresh token",
+      "content_type": 28,
+      "codename": "change_refreshtoken"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 111,
+    "fields": {
+      "name": "Can delete refresh token",
+      "content_type": 28,
+      "codename": "delete_refreshtoken"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 112,
+    "fields": {
+      "name": "Can view refresh token",
+      "content_type": 28,
+      "codename": "view_refreshtoken"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 113,
+    "fields": {
+      "name": "Can add id token",
+      "content_type": 29,
+      "codename": "add_idtoken"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 114,
+    "fields": {
+      "name": "Can change id token",
+      "content_type": 29,
+      "codename": "change_idtoken"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 115,
+    "fields": {
+      "name": "Can delete id token",
+      "content_type": 29,
+      "codename": "delete_idtoken"
+    }
+  },
+
+  {
+    "model": "auth.permission",
+    "pk": 116,
+    "fields": {
+      "name": "Can view id token",
+      "content_type": 29,
+      "codename": "view_idtoken"
+    }
+  },
+
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Resident",
+      "permissions": [
+        89, 90, 92, 53, 56, 28, 88, 96, 84, 32, 60, 52, 36, 40, 77, 78, 79, 80, 44, 65, 66, 67, 68,64, 69,
+        70, 71, 72, 73, 76, 48
+      ]
+    }
+  },
+
+  {
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+      "name": "Admin",
+      "permissions": [
+        1, 2, 3, 4, 89, 90, 91, 92, 53, 54, 55, 56, 25, 26, 27, 28, 85, 86, 87, 88, 93, 94, 95, 96, 81, 82,
+        83, 84, 29, 30, 31, 32, 57, 58, 59, 60, 49, 50, 51, 52, 33, 34, 35, 36, 37, 38, 39, 40, 77, 78, 79,
+        80, 41, 42, 43, 44, 65, 66, 67, 68, 61, 62, 63, 64, 69, 70, 71, 72, 21, 22, 23, 24, 73, 74, 75, 76,
+        45, 46, 47, 48, 9, 10, 11, 12, 5, 6, 7, 8
+      ]
+    }
+  },
+
+
+
+  {
+    "model":"apartment.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$2nY1UEpGccdpwd5NH2NcSy$oSxNIoRH7RDKejXliHQ7Lu1NRhVWDwGL43dGPhyaYiQ=",
+      "last_login": "2024-10-03T13:37:12.038Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-10-03T13:28:10.382Z",
+      "groups": [
+        [
+          "Admin"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "apartment.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$Di7Zup8R2hJfuYH0MnMzAa$dOx0vWhT9KCsdVEGf9ArQ7Ym8iygAK63y0GxOmWEf/M=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "resident1",
+      "first_name": "Cư Dân",
+      "last_name": "Số 1",
+      "email": "resident1@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-10-03T13:30:10.382Z",
+      "groups": [
+        [
+          "Resident"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "apartment.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$a6KEAYnGQNwG9gqTSZPYbC$PPRaICY7khZPsr+1dm0/ixw0lqsdapWQEQzd/zsT3N0=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "resident2",
+      "first_name": "Cư Dân",
+      "last_name": "Số 2",
+      "email": "resident2@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-10-03T13:32:10.382Z",
+      "groups": [
+        [
+          "Resident"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "apartment.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$YskPpZFrGmd90Lbt4Teh5f$wqhqnzQsOMhA3kUsaRP5Ja7hKfM6jS0OHX2SGBnkIqI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "resident3",
+      "first_name": "Cư Dân",
+      "last_name": "Số 3",
+      "email": "resident3@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-10-03T13:34:10.382Z",
+      "groups": [
+        [
+          "Resident"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "apartment.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$Cw4TJSX2p5KjwWpb0K9gQv$D/4PCtFe/Dw+T8zHkGmXAwFu9U8hyRyniofGnxaAJbM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "resident4",
+      "first_name": "Cư Dân",
+      "last_name": "Số 4",
+      "email": "resident4@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-10-03T13:36:10.382Z",
+      "groups": [
+        [
+          "Resident"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "apartment.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$p28aS0qQLSK2nvojMdLS2b$VXs2Csmy7tLNS301be6oqp27/KKtwY71src53DpM9jI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "resident5",
+      "first_name": "Cư Dân",
+      "last_name": "Số 5",
+      "email": "resident5@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-10-03T13:38:10.382Z",
+      "groups": [
+        [
+          "Resident"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "apartment.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$wx293Y4ws4F38GRQAjXVfQ$Q1hbXq0JzW7jvADwgmJAoPP/5POiowAzXvwdmbir9hE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "resident6",
+      "first_name": "Cư Dân",
+      "last_name": "Số 6",
+      "email": "resident6@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-10-03T13:40:10.382Z",
+      "groups": [
+        [
+          "Resident"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "apartment.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$4Hps2nNBZIctFp4H6HJu07$iWHJnQ5XktPL9l9SqHBW3t8j9iwK/5Lw6VKtabbInPo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "resident7",
+      "first_name": "Cư Dân",
+      "last_name": "Số 7",
+      "email": "resident7@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-10-03T13:42:10.382Z",
+      "groups": [
+          [
+            "Resident"
+          ]
+      ],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "apartment.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$tJVaKOmyqqSUotdyICN0YU$Qken/X0KYZMGQSTGr/9+GnuimL5agmwtO04z6ozU+hU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "resident8",
+      "first_name": "test",
+      "last_name": "Số 8",
+      "email": "resident8@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-10-03T13:44:10.382Z",
+      "groups": [
+        [
+          "Resident"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "apartment.user",
+    "fields": {
+      "password": "pbkdf2_sha256$720000$i3Abca1Np5B0XWPdJUbDYw$oZYw/04amd/p0Tg9wF3UJeB7CItvbGseJjm6ld6/pq8=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "resident9",
+      "first_name": "Cư Dân",
+      "last_name": "Số 9",
+      "email": "resident9@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-10-03T13:46:10.382Z",
+      "groups": [
+        [
+          "Resident"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+
+
+
+  {
+    "model": "apartment.room",
+    "pk": 1,
+    "fields": {
+      "name": "Căn hộ gia đình 1",
+      "created_date": "2024-10-03T13:48:10.410Z",
+      "updated_date": "2024-10-03T13:48:10.730Z",
+      "number": "A501",
+      "description": "3 phòng ngủ, 2 toilet, 1 phòng khách, full nội thất",
+      "image": "image/upload/v1713493899/san2zbbjcysab4cgxlca.jpg",
+      "square": "72.00",
+      "is_empty": false
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 2,
+    "fields": {
+      "name": "Căn hộ gia đình 2",
+      "created_date": "2024-10-03T13:50:10.410Z",
+      "updated_date": "2024-10-03T13:50:10.410Z",
+      "number": "A502",
+      "description": "3 phòng ngủ, 2 toilet, 1 phòng khách, nội thất cơ bản",
+      "image": "image/upload/v1713494009/bf2w4krspox0l8vxjpbc.jpg",
+      "square": "72.00",
+      "is_empty": false
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 3,
+    "fields": {
+      "name": "Căn hộ gia đình 3",
+      "created_date": "2024-10-03T13:52:10.410Z",
+      "updated_date": "2024-10-03T13:52:10.410Z",
+      "number": "A601",
+      "description": "4 phòng ngủ, 4 toilet, 1 phòng khách, full nội thất",
+      "image": "image/upload/v1713494117/onvelxdjnpxjt0nms68e.jpg",
+      "square": "160.00",
+      "is_empty": false
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 4,
+    "fields": {
+      "name": "Căn hộ gia đình 4",
+      "created_date": "2024-10-03T13:54:10.410Z",
+      "updated_date": "2024-10-03T13:54:10.410Z",
+      "number": "A503",
+      "description": "1 phòng ngủ, 1 toilet, ban công rộng, nội thất cơ bản",
+      "image": "image/upload/v1713494240/lxrfi2abg6hz2qhxth5y.jpg",
+      "square": "53.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 5,
+    "fields": {
+      "name": "Căn hộ gia đình 5",
+      "created_date": "2024-10-03T13:56:10.410Z",
+      "updated_date": "2024-10-03T13:56:10.410Z",
+      "number": "A602",
+      "description": "3 phòng ngủ, 2 toilet, có bồn tắm, phòng master",
+      "image": "image/upload/v1713494315/scefrioacj4wxposs8rz.jpg",
+      "square": "129.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 6,
+    "fields": {
+      "name": "Căn hộ gia đình 6",
+      "created_date": "2024-10-03T13:58:10.410Z",
+      "updated_date": "2024-10-03T13:58:10.410Z",
+      "number": "A504",
+      "description": "2 phòng ngủ, 2 toilet, 1 bếp, full nội thất",
+      "image": "image/upload/v1713494441/zz5k1nojhriuh1kqkmet.jpg",
+      "square": "78.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 7,
+    "fields": {
+      "name": "Căn hộ gia đình 7",
+      "created_date": "2024-10-03T14:00:10.410Z",
+      "updated_date": "2024-10-03T14:00:10.410Z",
+      "number": "A505",
+      "description": "2 phòng ngủ, 2 toilet, 1 bếp, full nội thất",
+      "image": "image/upload/v1713494554/qk3cdvvex23svgrsmcfm.jpg",
+      "square": "85.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 8,
+    "fields": {
+      "name": "Căn hộ gia đình 8",
+      "created_date": "2024-10-03T14:02:10.410Z",
+      "updated_date": "2024-10-03T14:02:10.410Z",
+      "number": "A603",
+      "description": "1 phòng ngủ, 1 toilet, 1 bếp, full nội thất",
+      "image": "image/upload/v1713494645/plltwesdurpyefsxcrc3.jpg",
+      "square": "80.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 9,
+    "fields": {
+      "name": "Căn hộ gia đình 9",
+      "created_date": "2024-10-03T14:04:10.410Z",
+      "updated_date": "2024-10-03T14:04:10.410Z",
+      "number": "A605",
+      "description": "4 phòng ngủ, 4 toilet, 1 phòng khách, full nội thất",
+      "image": "image/upload/v1713494708/vluyhjxnxheac8sb2rlu.jpg",
+      "square": "157.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 10,
+    "fields": {
+      "name": "Căn hộ gia đình 10",
+      "created_date": "2024-10-03T14:06:10.410Z",
+      "updated_date": "2024-10-03T14:06:10.410Z",
+      "number": "A604",
+      "description": "3 phòng ngủ, 3 toilet, 1 phòng khách, 1 bếp, full nội thất",
+      "image": "image/upload/v1713494818/tzeqyypa97yzjaebge8v.jpg",
+      "square": "100.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 11,
+    "fields": {
+      "name": "Căn hộ Studio 1",
+      "created_date": "2024-10-03T14:08:10.410Z",
+      "updated_date": "2024-10-03T14:08:10.410Z",
+      "number": "B301",
+      "description": "1 phòng ngủ, 1 toilet, nội thất cơ bản",
+      "image": "image/upload/v1713495078/qpptna2wuydsnher2jfo.jpg",
+      "square": "30.10",
+      "is_empty": false
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 12,
+    "fields": {
+      "name": "Căn hộ Studio 2",
+      "created_date": "2024-10-03T14:10:10.410Z",
+      "updated_date": "2024-10-03T14:10:10.410Z",
+      "number": "B401",
+      "description": "1 phòng ngủ, 1 toilet, full nội thất",
+      "image": "image/upload/v1713495146/cd0w56isctqbg8eshitq.jpg",
+      "square": "38.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 13,
+    "fields": {
+      "name": "Căn hộ Studio 3",
+      "created_date": "2024-10-03T14:12:10.410Z",
+      "updated_date": "2024-10-03T14:12:10.410Z",
+      "number": "A301",
+      "description": "1 phòng ngủ, 1 toilet, nội thất cơ bản",
+      "image": "image/upload/v1713495236/ytq96adr1ipdp89cvbsv.jpg",
+      "square": "36.80",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 14,
+    "fields": {
+      "name": "Căn hộ Studio 4",
+      "created_date": "2024-10-03T14:14:10.410Z",
+      "updated_date": "2024-10-03T14:14:10.410Z",
+      "number": "A401",
+      "description": "1 phòng ngủ, 1 toilet, full nội thất",
+      "image": "image/upload/v1713495366/jfskhhsv7popsegxcfcf.jpg",
+      "square": "50.00",
+      "is_empty": false
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 15,
+    "fields": {
+      "name": "Căn hộ Studio 5",
+      "created_date": "2024-10-03T14:16:10.410Z",
+      "updated_date": "2024-10-03T14:16:10.410Z",
+      "number": "C301",
+      "description": "1 phòng ngủ, 1 toilet, full nội thất",
+      "image": "image/upload/v1713495449/wnd4xbiwxyq7pg6lf40a.jpg",
+      "square": "36.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 16,
+    "fields": {
+      "name": "Căn hộ Studio 6",
+      "created_date": "2024-10-03T14:18:10.410Z",
+      "updated_date": "2024-10-03T14:18:10.410Z",
+      "number": "C401",
+      "description": "1 phòng ngủ, 1 toilet, nội thất cơ bản",
+      "image": "image/upload/v1713495491/z7q2ff2ufwqvh4cy2kfh.jpg",
+      "square": "47.44",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 17,
+    "fields": {
+      "name": "Căn hộ Studio 7",
+      "created_date": "2024-10-03T14:20:10.410Z",
+      "updated_date": "2024-10-03T14:20:10.410Z",
+      "number": "D301",
+      "description": "1 phòng ngủ, 1 toilet, full nội thất",
+      "image": "image/upload/v1713495535/k6sidmslewtfoobq7vpu.jpg",
+      "square": "49.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 18,
+    "fields": {
+      "name": "Căn hộ Studio 8",
+      "created_date": "2024-10-03T14:22:10.410Z",
+      "updated_date": "2024-10-03T14:22:10.410Z",
+      "number": "D401",
+      "description": "1 phòng ngủ, 1 toilet, không nội thất",
+      "image": "image/upload/v1713495605/jbxgnwsz3whga6jxohmb.jpg",
+      "square": "27.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 19,
+    "fields": {
+      "name": "Shophouse 1",
+      "created_date": "2024-10-03T14:24:10.410Z",
+      "updated_date": "2024-10-03T14:24:10.410Z",
+      "number": "A001",
+      "description": "Shop Rainbow, nội khu, hoàn thiện",
+      "image": "image/upload/v1713497535/p9qr36wwblzx5wrxrpob.png",
+      "square": "98.00",
+      "is_empty": false
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 20,
+    "fields": {
+      "name": "Shophouse 2",
+      "created_date": "2024-10-03T14:26:10.410Z",
+      "updated_date": "2024-10-03T14:26:10.410Z",
+      "number": "B002",
+      "description": "Nội thô, Mặt sảnh",
+      "image": "image/upload/v1713495910/hrgipno0u2d5blvjzsjz.jpg",
+      "square": "64.61",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 21,
+    "fields": {
+      "name": "Shophouse 3",
+      "created_date": "2024-10-03T14:28:10.410Z",
+      "updated_date": "2024-10-03T14:28:10.410Z",
+      "number": "C001",
+      "description": "Nội khu, nhà thô",
+      "image": "image/upload/v1713497621/riuvntayoilr0tzecsve.jpg",
+      "square": "90.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 22,
+    "fields": {
+      "name": "Shophouse 4",
+      "created_date": "2024-10-03T14:30:10.410Z",
+      "updated_date": "2024-10-03T14:30:10.410Z",
+      "number": "D001",
+      "description": "Hoàn thiện, mặt sảnh",
+      "image": "image/upload/v1713497468/odt2dpxodutogwy79rqs.jpg",
+      "square": "59.60",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 23,
+    "fields": {
+      "name": "Căn hộ OT 1",
+      "created_date": "2024-10-03T14:32:10.410Z",
+      "updated_date": "2024-10-03T14:32:10.410Z",
+      "number": "A101",
+      "description": "Không nội thất, hoàn thiện cơ bản",
+      "image": "image/upload/v1713496263/izvqt9kzrozzc5llbmw7.jpg",
+      "square": "115.00",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 25,
+    "fields": {
+      "name": "Căn hộ OT 2",
+      "created_date": "2024-10-03T14:34:10.410Z",
+      "updated_date": "2024-10-03T14:34:10.410Z",
+      "number": "B101",
+      "description": "Nội thất cơ bản, hoàn thiện cơ bản",
+      "image": "image/upload/v1713496364/pi1ofujqcttufvxsvhoq.jpg",
+      "square": "150.28",
+      "is_empty": false
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 26,
+    "fields": {
+      "name": "Căn hộ OT 3",
+      "created_date": "2024-10-03T14:36:10.410Z",
+      "updated_date": "2024-10-03T14:36:10.410Z",
+      "number": "C101",
+      "description": "Hoàn thiện, full nội thất",
+      "image": "image/upload/v1713496439/trrvbmczd0xubgpjj15m.jpg",
+      "square": "125.75",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 27,
+    "fields": {
+      "name": "Căn hộ OT 4",
+      "created_date": "2024-10-03T14:38:10.410Z",
+      "updated_date": "2024-10-03T14:38:10.410Z",
+      "number": "D101",
+      "description": "Nội thất cơ bản",
+      "image": "image/upload/v1713496504/b0nvemshas5jstimiuyi.jpg",
+      "square": "50.00",
+      "is_empty": false
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 28,
+    "fields": {
+      "name": "Căn hộ cao cấp 1",
+      "created_date": "2024-10-03T14:40:10.410Z",
+      "updated_date": "2024-10-03T14:40:10.410Z",
+      "number": "A201",
+      "description": "2 phòng ngủ, 2 toilet, 1 phòng khách, full nội thất",
+      "image": "image/upload/v1713498270/huy1ucsvckl5rz99ir79.jpg",
+      "square": "90.00",
+      "is_empty": false
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 29,
+    "fields": {
+      "name": "Căn hộ cao cấp 2",
+      "created_date": "2024-10-03T14:42:10.410Z",
+      "updated_date": "2024-10-03T14:42:10.410Z",
+      "number": "B201",
+      "description": "2 phòng ngủ, 2 toilet, 1 bếp, full nội thất",
+      "image": "image/upload/v1713498481/d04es0yeqfqsxzfjmilr.jpg",
+      "square": "56.20",
+      "is_empty": true
+    }
+  },
+
+  {
+    "model": "apartment.room",
+    "pk": 30,
+    "fields": {
+      "name": "Căn hộ cao cấp 3",
+      "created_date": "2024-10-03T14:44:10.410Z",
+      "updated_date": "2024-10-03T14:44:10.410Z",
+      "number": "C201",
+      "description": "2 phòng ngủ, 2 toilet, 1 bếp, full nội thất",
+      "image": "image/upload/v1713498531/aamodtaf0razzsvmqaem.jpg",
+      "square": "72.50",
+      "is_empty": true
+    }
+  },
+
+
+
+  {
+    "model": "apartment.resident",
+    "fields": {
+      "user_ptr": [
+          "resident1"
+      ],
+      "phone": "0123456789",
+      "birthday": "1990-02-02",
+      "gender": "male",
+      "avatar": "image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+      "answered": [
+          1, 2, 3
+      ]
+    }
+  },
+
+  {
+    "model": "apartment.resident",
+    "fields": {
+      "user_ptr": [
+          "resident2"
+      ],
+      "phone": "0234567890",
+      "birthday": "1989-01-01",
+      "gender": "female",
+      "avatar": "image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+      "answered": [
+          1, 2, 3
+      ]
+    }
+  },
+
+  {
+    "model": "apartment.resident",
+    "fields": {
+      "user_ptr": [
+          "resident3"
+      ],
+      "phone": "0345678901",
+      "birthday": "1988-03-03",
+      "gender": "male",
+      "avatar": "image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+      "answered": [
+          1, 2, 3
+      ]
+    }
+  },
+
+  {
+    "model": "apartment.resident",
+    "fields": {
+      "user_ptr": [
+          "resident4"
+      ],
+      "phone": "0456789012",
+      "birthday": "1987-04-04",
+      "gender": "female",
+      "avatar": "image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+      "answered": []
+    }
+  },
+
+  {
+    "model": "apartment.resident",
+    "fields": {
+      "user_ptr": [
+          "resident5"
+      ],
+      "phone": "0567890123",
+      "birthday": "1991-05-05",
+      "gender": "male",
+      "avatar": "image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+      "answered": []
+    }
+  },
+
+  {
+    "model": "apartment.resident",
+    "fields": {
+      "user_ptr": [
+          "resident6"
+      ],
+      "phone": "0678901234",
+      "birthday": "1992-06-06",
+      "gender": "female",
+      "avatar": "image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+      "answered": []
+    }
+  },
+
+  {
+    "model": "apartment.resident",
+    "fields": {
+      "user_ptr": [
+          "resident7"
+      ],
+      "phone": "0789012345",
+      "birthday": "1986-06-06",
+      "gender": "male",
+      "avatar": "image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+      "answered": []
+    }
+  },
+
+  {
+    "model": "apartment.resident",
+    "fields": {
+      "user_ptr": [
+          "resident8"
+      ],
+      "phone": "0890123456",
+      "birthday": "1993-07-07",
+      "gender": "female",
+      "avatar": "image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+      "answered": []
+    }
+  },
+
+  {
+    "model": "apartment.resident",
+    "fields": {
+      "user_ptr": [
+          "resident9"
+      ],
+      "phone": "0901234567",
+      "birthday": "1989-08-08",
+      "gender": "male",
+      "avatar": "image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+      "answered": []
+    }
+  },
+
+
+
+  {
+    "model": "apartment.ownership",
+    "pk": 1,
+    "fields": {
+      "name": "Hợp đồng tháng 10 năm 2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident1"
+      ],
+      "room": 1,
+      "start_date": "2024-10-03",
+      "end_date": null
+    }
+  },
+
+  {
+    "model": "apartment.ownership",
+    "pk": 2,
+    "fields": {
+      "name": "Hợp đồng tháng 10 năm 2024",
+      "created_date": "2024-10-03T14:50:04.395Z",
+      "updated_date": "2024-10-03T14:50:04.395Z",
+      "active": true,
+      "resident": [
+        "resident2"
+      ],
+      "room": 2,
+      "start_date": "2024-10-03",
+      "end_date": null
+    }
+  },
+
+  {
+    "model": "apartment.ownership",
+    "pk": 3,
+    "fields": {
+      "name": "Hợp đồng tháng 10 năm 2024",
+      "created_date": "2024-10-03T14:53:04.395Z",
+      "updated_date": "2024-10-03T14:53:04.395Z",
+      "active": true,
+      "resident": [
+        "resident3"
+      ],
+      "room": 3,
+      "start_date": "2024-10-03",
+      "end_date": null
+    }
+  },
+
+  {
+    "model": "apartment.ownership",
+    "pk": 4,
+    "fields": {
+      "name": "Hợp đồng tháng 10 năm 2024",
+      "created_date": "2024-10-03T14:56:04.395Z",
+      "updated_date": "2024-10-03T14:56:04.395Z",
+      "active": true,
+      "resident": [
+        "resident4"
+      ],
+      "room": 11,
+      "start_date": "2024-10-03",
+      "end_date": null
+    }
+  },
+
+  {
+    "model": "apartment.ownership",
+    "pk": 5,
+    "fields": {
+      "name": "Hợp đồng tháng 10 năm 2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident5"
+      ],
+      "room": 14,
+      "start_date": "2024-10-03",
+      "end_date": null
+    }
+  },
+
+  {
+    "model": "apartment.ownership",
+    "pk": 6,
+    "fields": {
+      "name": "Hợp đồng tháng 10 năm 2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident6"
+      ],
+      "room": 19,
+      "start_date": "2024-10-03",
+      "end_date": null
+    }
+  },
+
+  {
+    "model": "apartment.ownership",
+    "pk": 7,
+    "fields": {
+      "name": "Hợp đồng tháng 10 năm 2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident7"
+      ],
+      "room": 25,
+      "start_date": "2024-10-03",
+      "end_date": null
+    }
+  },
+
+  {
+    "model": "apartment.ownership",
+    "pk": 8,
+    "fields": {
+      "name": "Hợp đồng tháng 10 năm 2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident8"
+      ],
+      "room": 27,
+      "start_date": "2024-10-03",
+      "end_date": null
+    }
+  },
+
+  {
+    "model": "apartment.ownership",
+    "pk": 9,
+    "fields": {
+      "name": "Hợp đồng tháng 10 năm 2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident9"
+      ],
+      "room": 28,
+      "start_date": "2024-10-03",
+      "end_date": null
+    }
+  },
+
+
+
+  {
+    "model": "apartment.payment",
+    "pk": 1,
+    "fields": {
+      "name": "Tiền điện T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": false,
+      "resident": [
+        "resident1"
+      ],
+      "amount": "1234567"
+    }
+  },
+
+  {
+    "model": "apartment.payment",
+    "pk": 2,
+    "fields": {
+      "name": "Tiền nước T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": false,
+      "resident": [
+        "resident2"
+      ],
+      "amount": "333222"
+    }
+  },
+
+  {
+    "model": "apartment.payment",
+    "pk": 3,
+    "fields": {
+      "name": "Tiền Internet T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": false,
+      "resident": [
+        "resident3"
+      ],
+      "amount": "320000"
+    }
+  },
+
+  {
+    "model": "apartment.payment",
+    "pk": 4,
+    "fields": {
+      "name": "Phí dịch vụ T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": false,
+      "resident": [
+        "resident5"
+      ],
+      "amount": "1000000"
+    }
+  },
+
+  {
+    "model": "apartment.payment",
+    "pk": 5,
+    "fields": {
+      "name": "Phí an ninh T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": false,
+      "resident": [
+        "resident6"
+      ],
+      "amount": "500000"
+    }
+  },
+
+  {
+    "model": "apartment.payment",
+    "pk": 6,
+    "fields": {
+      "name": "Phí vệ sinh T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident4"
+      ],
+      "amount": "150000"
+    }
+  },
+
+  {
+    "model": "apartment.payment",
+    "pk": 7,
+    "fields": {
+      "name": "Phí bảo dưỡng T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident7"
+      ],
+      "amount": "650234"
+    }
+  },
+
+  {
+    "model": "apartment.payment",
+    "pk": 8,
+    "fields": {
+      "name": "Tiền đền bù thiệt hại",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": false,
+      "resident": [
+        "resident9"
+      ],
+      "amount": "1200000"
+    }
+  },
+
+  {
+    "model": "apartment.payment",
+    "pk": 9,
+    "fields": {
+      "name": "Tiền nước T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident1"
+      ],
+      "amount": "200000"
+    }
+  },
+
+
+
+  {
+    "model": "apartment.momolink",
+    "pk": 1,
+    "fields": {
+      "partner_code": "MOMO",
+      "order_id": "MOMO18372334803816163615",
+      "request_id": "MOMO6402193457816690988",
+      "amount": 1234567,
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "pay_url": "https://test-payment.momo.vn/v2/gateway/pay?t=TU9NT3xNT01PMTgzNzIzMzQ4MDM4MTYxNjM2MTU&s=27b4be4dfab5d0de2a79ab7bd0f41ff6c99e7e0608d436069106dba8c94caae8",
+      "short_link": "https://test-payment.momo.vn/shortlink/m9D2blqzKr",
+      "payment": 1
+    }
+  },
+
+  {
+    "model": "apartment.momolink",
+    "pk": 2,
+    "fields": {
+      "partner_code": "MOMO",
+      "order_id": "MOMO345563150496050007665",
+      "request_id": "MOMO438367464841588044103236",
+      "amount": 320000,
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "pay_url": "https://test-payment.momo.vn/v2/gateway/pay?t=TU9NT3xNT01PMzQ1NTYzMTUwNDk2MDUwMDA3NjY1&s=05c1f91958b83da1f0fd08159914e4036d0ed67f15d66d3430fc01909f4a4e04",
+      "short_link": "https://test-payment.momo.vn/shortlink/dEzJUAE4h7",
+      "payment": 3
+    }
+  },
+
+  {
+    "model": "apartment.momolink",
+    "pk": 3,
+    "fields": {
+      "partner_code": "MOMO",
+      "order_id": "MOMO471786474461052258737029",
+      "request_id": "MOMO01756052490650244167611",
+      "amount": 500000,
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "pay_url": "https://test-payment.momo.vn/v2/gateway/pay?t=TU9NT3xNT01PNDcxNzg2NDc0NDYxMDUyMjU4NzM3MDI5&s=d2234bc70624f5b7167ba790b73bfea594c87a82ad75dd8df55bb515d300d615",
+      "short_link": "https://test-payment.momo.vn/shortlink/KvjJHNlYyp",
+      "payment": 5
+    }
+  },
+
+
+
+  {
+    "model": "apartment.momopaid",
+    "pk": 1,
+    "fields": {
+      "partner_code": "MOMO",
+      "order_id": "MOMO18372334803816163615",
+      "request_id": "MOMO6402193457816690988",
+      "amount": 1234567,
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_info": "Thanh toan hoa don bang Momo",
+      "order_type": "momo_wallet",
+      "trans_id": 4058509608,
+      "pay_type": "napas",
+      "signature": "d93f0317c33e05b30eca51d2783cf5fe11e4587102eb90cfb5e75c621bc62526"
+    }
+  },
+
+  {
+    "model": "apartment.momopaid",
+    "pk": 2,
+    "fields": {
+      "partner_code": "MOMO",
+      "order_id": "MOMO345563150496050007665",
+      "request_id": "MOMO438367464841588044103236",
+      "amount": 320000,
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_info": "Thanh toan hoa don bang Momo",
+      "order_type": "momo_wallet",
+      "trans_id": 4058584832,
+      "pay_type": "credit",
+      "signature": "2f39b3a0bac23a521cd1a7862a28172f0fa0f246fd59929ade51f4d04dfc8aa7"
+    }
+  },
+
+  {
+    "model": "apartment.momopaid",
+    "pk": 3,
+    "fields": {
+      "partner_code": "MOMO",
+      "order_id": "MOMO471786474461052258737029",
+      "request_id": "MOMO01756052490650244167611",
+      "amount": 500000,
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_info": "Thanh toan hoa don bang Momo",
+      "order_type": "momo_wallet",
+      "trans_id": 4058509639,
+      "pay_type": "napas",
+      "signature": "5a23ef5c9048e9bf8e91f607069bdd84be72ea1d287aa57449e10a40de60e628"
+    }
+  },
+
+
+
+  {
+    "model": "apartment.vnpaylink",
+    "pk": 1,
+    "fields": {
+      "txn_ref": "VNP2108279844159630819690",
+      "amount": 333223,
+      "order_info": "Thanh toan hoa don bang VnPay",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_type": "billpayment",
+      "ip_addr": "127.0.0.1",
+      "payment_url": "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html?vnp_Amount=33322300&vnp_Command=pay&vnp_CreateDate=20240612185227&vnp_CurrCode=VND&vnp_IpAddr=127.0.0.1&vnp_Locale=vn&vnp_OrderInfo=Thanh+toan+hoa+don+bang+VnPay&vnp_OrderType=billpayment&vnp_ReturnUrl=http%3A%2F%2F127.0.0.1%3A8000%2Fpaid&vnp_TmnCode=BBJDENSU&vnp_TxnRef=VNP2108279844159630819690&vnp_Version=2.1.0&vnp_SecureHash=8535fb6e9a4ddd67628638e2569b263aa3391b9b62cb0ed36d15b4496ada429d797d576e5c33a264414405b1a3bc0a6dbaf1859a48bcd958e6d4d069103db82e",
+      "payment": 2
+    }
+  },
+
+  {
+    "model": "apartment.vnpaylink",
+    "pk": 2,
+    "fields": {
+      "txn_ref": "VNP192252412980684022",
+      "amount": 1000000,
+      "order_info": "Thanh toan hoa don bang VnPay",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_type": "billpayment",
+      "ip_addr": "127.0.0.1",
+      "payment_url": "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html?vnp_Amount=100000000&vnp_Command=pay&vnp_CreateDate=20240612185324&vnp_CurrCode=VND&vnp_IpAddr=127.0.0.1&vnp_Locale=vn&vnp_OrderInfo=Thanh+toan+hoa+don+bang+VnPay&vnp_OrderType=billpayment&vnp_ReturnUrl=http%3A%2F%2F127.0.0.1%3A8000%2Fpaid&vnp_TmnCode=BBJDENSU&vnp_TxnRef=VNP192252412980684022&vnp_Version=2.1.0&vnp_SecureHash=72834cc8c9e6b51930668f30b9971207305216457e692747116d97503bb59fb8e2e160e4ecce1594047d524294c0419911c206ffd3ec2ac94fe9856a800b4d53",
+      "payment": 4
+    }
+  },
+
+  {
+    "model": "apartment.vnpaylink",
+    "pk": 3,
+    "fields": {
+      "txn_ref": "VNP734722249984455546",
+      "amount": 1200000,
+      "order_info": "Thanh toan hoa don bang VnPay",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_type": "billpayment",
+      "ip_addr": "127.0.0.1",
+      "payment_url": "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html?vnp_Amount=120000000&vnp_Command=pay&vnp_CreateDate=20240612185818&vnp_CurrCode=VND&vnp_IpAddr=127.0.0.1&vnp_Locale=vn&vnp_OrderInfo=Thanh+toan+hoa+don+bang+VnPay&vnp_OrderType=billpayment&vnp_ReturnUrl=http%3A%2F%2F127.0.0.1%3A8000%2Fpaid&vnp_TmnCode=BBJDENSU&vnp_TxnRef=VNP734722249984455546&vnp_Version=2.1.0&vnp_SecureHash=c9fb217fe1d5f7fb0d069c329361a8333f83f0c7353abcec9e8530ab9614fba906cfbd2484a1a6ac25d756cb5d8298723b5f36ae18f3a2ded7773eb6fe60873c",
+      "payment": 8
+    }
+  },
+
+
+
+  {
+    "model": "apartment.vnpaypaid",
+    "pk": 1,
+    "fields": {
+      "txn_ref": "VNP2108279844159630819690",
+      "amount": 33322300,
+      "order_info": "Thanh toan hoa don bang VnPay",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "bank_code": "NCB",
+      "bank_tran_no": "VNP14456268",
+      "card_type": "ATM",
+      "pay_date": 20240612184958,
+      "response_code": 0,
+      "tmn_code": "BBJDENSU",
+      "transaction_no": 14456268,
+      "transaction_status": 0,
+      "secure_hash": "bc6a1967a199b5d00dfe8c77fddfcffd0cf062a57fe7fd1f5fb2a846463290d11671bd92c637b880d0e0cc167a673500a8ab7e43a5c658488fefe98a1f0f0bfd"
+    }
+  },
+
+  {
+    "model": "apartment.vnpaypaid",
+    "pk": 2,
+    "fields": {
+      "txn_ref": "VNP192252412980684022",
+      "amount": 100000000,
+      "order_info": "Thanh toan hoa don bang VnPay",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "bank_code": "JCB",
+      "bank_tran_no": "7181931399646836203012",
+      "card_type": "JCB",
+      "pay_date": 20240612185123,
+      "response_code": 0,
+      "tmn_code": "BBJDENSU",
+      "transaction_no": 14456270,
+      "transaction_status": 0,
+      "secure_hash": "e75f0b15e3f9594a469e473587305e2542b05063b5e3040c244354d9d5c64e53bce5abe495aa4ea66826e234afbaaa6e133a5c64558ec5a0dc0390d268c3aec4"
+    }
+  },
+
+  {
+    "model": "apartment.vnpaypaid",
+    "pk": 3,
+    "fields": {
+      "txn_ref": "VNP734722249984455546",
+      "amount": 120000000,
+      "order_info": "Thanh toan hoa don bang VnPay",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "bank_code": "NCB",
+      "bank_tran_no": "VNP14456276",
+      "card_type": "ATM",
+      "pay_date": 20240612185547,
+      "response_code": 0,
+      "tmn_code": "BBJDENSU",
+      "transaction_no": 14456276,
+      "transaction_status": 0,
+      "secure_hash": "801de76d6e7aa71386daf224ab7528ed7cb64d83d1baa6068e9b83bc731aef48f6a85441b1858f7c79a71aea1a61d477a6cf8f0e86dc00d867c51eeb1286f526"
+    }
+  },
+
+
+
+  {
+    "model": "apartment.receipt",
+    "pk": 1,
+    "fields": {
+      "name": "Hóa đơn Tiền điện T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_id": "MOMO18372334803816163615",
+      "pay_method": "momo",
+      "amount": 1234567,
+      "payment": 1
+    }
+  },
+
+  {
+    "model": "apartment.receipt",
+    "pk": 2,
+    "fields": {
+      "name": "Hóa đơn Tiền Internet T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_id": "MOMO345563150496050007665",
+      "pay_method": "momo",
+      "amount": 320000,
+      "payment": 3
+    }
+  },
+
+  {
+    "model": "apartment.receipt",
+    "pk": 3,
+    "fields": {
+      "name": "Hóa đơn Phí an ninh T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_id": "MOMO471786474461052258737029",
+      "pay_method": "momo",
+      "amount": 500000,
+      "payment": 5
+    }
+  },
+
+  {
+    "model": "apartment.receipt",
+    "pk": 4,
+    "fields": {
+      "name": "Hóa đơn Tiền nước T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_id": "VNP2108279844159630819690",
+      "pay_method": "vnpay",
+      "amount": 333223,
+      "payment": 2
+    }
+  },
+
+  {
+    "model": "apartment.receipt",
+    "pk": 5,
+    "fields": {
+      "name": "Hóa đơn Phí dịch vụ T10/2024",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_id": "VNP192252412980684022",
+      "pay_method": "vnpay",
+      "amount": 1000000,
+      "payment": 4
+    }
+  },
+
+  {
+    "model": "apartment.receipt",
+    "pk": 6,
+    "fields": {
+      "name": "Hóa đơn Tiền đền bù thiệt hại",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "order_id": "VNP734722249984455546",
+      "pay_method": "vnpay",
+      "amount": 1200000,
+      "payment": 8
+    }
+  },
+
+
+
+  {
+    "model": "apartment.securitycard",
+    "pk": 1,
+    "fields": {
+      "name": "Thẻ giữ xe",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident8"
+      ],
+      "name_register": "Người thân cư dân 8",
+      "vehicle_number": "88BC-89123",
+      "type_vehicle": "bike"
+    }
+  },
+
+  {
+    "model": "apartment.securitycard",
+    "pk": 2,
+    "fields": {
+      "name": "Thẻ giữ xe",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident3"
+      ],
+      "name_register": "Người thân cư dân 3",
+      "vehicle_number": "33BC-34567",
+      "type_vehicle": "motorbike"
+    }
+  },
+
+  {
+    "model": "apartment.securitycard",
+    "pk": 3,
+    "fields": {
+      "name": "Thẻ giữ xe",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident7"
+      ],
+      "name_register": "Người thân cư dân 7",
+      "vehicle_number": "77BC-789456",
+      "type_vehicle": "car"
+    }
+  },
+
+  {
+    "model": "apartment.securitycard",
+    "pk": 4,
+    "fields": {
+      "name": "Thẻ giữ xe",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident6"
+      ],
+      "name_register": "Người thân cư dân 6",
+      "vehicle_number": "12B2-92138",
+      "type_vehicle": "motorbike"
+    }
+  },
+
+  {
+    "model": "apartment.securitycard",
+    "pk": 5,
+    "fields": {
+      "name": "Thẻ giữ xe",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident5"
+      ],
+      "name_register": "Người thân cư dân 5",
+      "vehicle_number": "49L1-26318",
+      "type_vehicle": "motorbike"
+    }
+  },
+
+
+
+  {
+    "model": "apartment.package",
+    "pk": 1,
+    "fields": {
+      "name": "Đơn Shopee",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident1"
+      ],
+      "note": "Đồ dùng cá nhân",
+      "image": "image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+    }
+  },
+
+  {
+    "model": "apartment.package",
+    "pk": 2,
+    "fields": {
+      "name": "Đơn Lazada",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident2"
+      ],
+      "note": "Đồ dùng cá nhân",
+      "image": "image/upload/v1713532869/nbddqcxcwtn4esgfiksr.jpg"
+    }
+  },
+
+  {
+    "model": "apartment.package",
+    "pk": 3,
+    "fields": {
+      "name": "Đơn TiktokShop",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident3"
+      ],
+      "note": "Đồ dùng cá nhân",
+      "image": "image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+    }
+  },
+
+  {
+    "model": "apartment.package",
+    "pk": 4,
+    "fields": {
+      "name": "Đơn Tiki",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident4"
+      ],
+      "note": "Sách",
+      "image": "image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+    }
+  },
+
+  {
+    "model": "apartment.package",
+    "pk": 5,
+    "fields": {
+      "name": "Đơn Sendo",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident5"
+      ],
+      "note": "Quần áo",
+      "image": "image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+    }
+  },
+
+  {
+    "model": "apartment.package",
+    "pk": 6,
+    "fields": {
+      "name": "Đơn ChoTot",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident6"
+      ],
+      "note": "Quần áo",
+      "image": "image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+    }
+  },
+
+  {
+    "model": "apartment.package",
+    "pk": 7,
+    "fields": {
+      "name": "Đơn Ahamove",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident7"
+      ],
+      "note": "Quần áo",
+      "image": "image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+    }
+  },
+
+  {
+    "model": "apartment.package",
+    "pk": 8,
+    "fields": {
+      "name": "Đơn GHTK",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident8"
+      ],
+      "note": "Quần áo",
+      "image": "image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+    }
+  },
+
+  {
+    "model": "apartment.package",
+    "pk": 9,
+    "fields": {
+      "name": "Đơn GHN",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident9"
+      ],
+      "note": "Quần áo",
+      "image": "image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+    }
+  },
+
+
+
+  {
+    "model": "apartment.complaint",
+    "pk": 1,
+    "fields": {
+      "name": "Vấn đề an ninh",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident1"
+      ],
+      "content": "Mất trật tự"
+    }
+  },
+
+  {
+    "model": "apartment.complaint",
+    "pk": 2,
+    "fields": {
+      "name": "Vấn đề vệ sinh",
+      "created_date": "2024-10-03T14:47:04.395Z",
+      "updated_date": "2024-10-03T14:47:04.395Z",
+      "active": true,
+      "resident": [
+        "resident2"
+      ],
+      "content": "Dạo gần đây, chung cư chúng ta rất mất vệ sinh"
+    }
+  },
+
+
+
+  {
+    "model": "apartment.survey",
+    "pk": 1,
+    "fields": {
+      "name": "Khảo sát định kì T7/2024",
+      "created_date": "2024-10-04T03:29:14.353Z",
+      "updated_date": "2024-10-04T03:29:14.353Z",
+      "description": "Khảo sát nhanh",
+      "active": true
+    }
+  },
+
+  {
+    "model": "apartment.survey",
+    "pk": 2,
+    "fields": {
+      "name": "Khảo sát định kì T8/2024",
+      "created_date": "2024-10-04T03:33:36.614Z",
+      "updated_date": "2024-10-04T03:33:36.614Z",
+      "description": "Khảo sát nhanh",
+      "active": true
+    }
+  },
+
+  {
+    "model": "apartment.survey",
+    "pk": 3,
+    "fields": {
+      "name": "Khảo sát định kì T9/2024",
+      "created_date": "2024-10-04T03:40:46.084Z",
+      "updated_date": "2024-10-04T03:40:46.084Z",
+      "description": "Khảo sát nhanh",
+      "active": true
+    }
+  },
+
+  {
+    "model": "apartment.survey",
+    "pk": 4,
+    "fields": {
+      "name": "Khảo sát định kì T10/2024",
+      "created_date": "2024-10-04T03:40:46.084Z",
+      "updated_date": "2024-10-04T03:40:46.084Z",
+      "description": "Khảo sát nhanh",
+      "active": true
+    }
+  },
+
+
+
+  {
+    "model": "apartment.schoice",
+    "pk": 1,
+    "fields": {
+      "content": "Phù hợp",
+      "question": 1
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 2,
+    "fields": {
+      "content": "Nên giảm khoảng 10-15%",
+      "question": 1
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 3,
+    "fields": {
+      "content": "Có thể tăng giá",
+      "question": 1
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 4,
+    "fields": {
+      "content": "Tuần",
+      "question": 2
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 5,
+    "fields": {
+      "content": "Tháng",
+      "question": 2
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 6,
+    "fields": {
+      "content": "Quý",
+      "question": 2
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 7,
+    "fields": {
+      "content": "Năm",
+      "question": 2
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 8,
+    "fields": {
+      "content": "Xây dựng kế hoạch kinh doanh hàng quý/hàng năm",
+      "question": 3
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 9,
+    "fields": {
+      "content": "Xây dựng dự án đầu tư",
+      "question": 3
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 10,
+    "fields": {
+      "content": "Viết báo cáo tư vấn/ báo cáo phân tích",
+      "question": 3
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 11,
+    "fields": {
+      "content": "Tham khảo cho đề tài/luận văn/luận án/bài báo",
+      "question": 3
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 12,
+    "fields": {
+      "content": "Phân tích chuyên sâu hơn",
+      "question": 4
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 13,
+    "fields": {
+      "content": "Giảm phân tích, tăng số liệu",
+      "question": 4
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 14,
+    "fields": {
+      "content": "Tăng thông tin thế giới",
+      "question": 4
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 15,
+    "fields": {
+      "content": "Tăng thông tin trong nước",
+      "question": 4
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 16,
+    "fields": {
+      "content": "Cung cấp thông tin doanh nghiệp",
+      "question": 4
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 17,
+    "fields": {
+      "content": "Số liệu cần cập nhật hơn",
+      "question": 4
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 18,
+    "fields": {
+      "content": "Báo cáo cần dài hơn",
+      "question": 4
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 19,
+    "fields": {
+      "content": "Báo cáo cần súc tích hơn",
+      "question": 4
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 20,
+    "fields": {
+      "content": "Chưa từng dùng",
+      "question": 6
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 21,
+    "fields": {
+      "content": "Đang dùng",
+      "question": 6
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 22,
+    "fields": {
+      "content": "Đã từng dùng",
+      "question": 6
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 23,
+    "fields": {
+      "content": "Sẽ tiếp tục sử dụng",
+      "question": 7
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 24,
+    "fields": {
+      "content": "Chưa có kế hoạch",
+      "question": 7
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 25,
+    "fields": {
+      "content": "Sẽ dùng sản phẩm của cửa hàng khác",
+      "question": 7
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 26,
+    "fields": {
+      "content": "Thân thiện, lịch sự, có thái độ tốt, quan tâm đến khách hàng",
+      "question": 8
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 27,
+    "fields": {
+      "content": "Chấp nhận được",
+      "question": 8
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 28,
+    "fields": {
+      "content": "Thiêu tính chuyên nghiệp, không chấp nhân được",
+      "question": 8
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 29,
+    "fields": {
+      "content": "Nhanh chóng, kịp thời, thấu đáo",
+      "question": 9
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 30,
+    "fields": {
+      "content": "Chấp nhận được",
+      "question": 9
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 31,
+    "fields": {
+      "content": "Chưa kịp thời, chậm",
+      "question": 9
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 32,
+    "fields": {
+      "content": "Giá cao",
+      "question": 10
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 33,
+    "fields": {
+      "content": "Giá hợp lí",
+      "question": 10
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 34,
+    "fields": {
+      "content": "Giá rẻ",
+      "question": 10
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 35,
+    "fields": {
+      "content": "Lâu",
+      "question": 11
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 36,
+    "fields": {
+      "content": "Nhanh chóng",
+      "question": 11
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 37,
+    "fields": {
+      "content": "Bình thường",
+      "question": 11
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 38,
+    "fields": {
+      "content": "Ngon, vừa miệng",
+      "question": 13
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 39,
+    "fields": {
+      "content": "Bình thường, không đặc sắc",
+      "question": 13
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 40,
+    "fields": {
+      "content": "Không, rất tệ",
+      "question": 13
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 41,
+    "fields": {
+      "content": "Hơn cả mong đợi",
+      "question": 19
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 42,
+    "fields": {
+      "content": "Hoàn toàn hài lòng",
+      "question": 19
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 43,
+    "fields": {
+      "content": "Không hoàn toàn hài lòng nhưng chấp nhận được",
+      "question": 19
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 44,
+    "fields": {
+      "content": "Không thỏa mãn",
+      "question": 19
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 45,
+    "fields": {
+      "content": "Dịch vụ Làm sạch",
+      "question": 20
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 46,
+    "fields": {
+      "content": "Dịch vụ An ninh",
+      "question": 20
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 47,
+    "fields": {
+      "content": "Dịch vụ Kiểm soát côn trùng",
+      "question": 20
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 48,
+    "fields": {
+      "content": "Dịch vụ thu gom rác thải sinh hoạt",
+      "question": 20
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 49,
+    "fields": {
+      "content": "Dịch vụ tiện ích cư dân",
+      "question": 20
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 50,
+    "fields": {
+      "content": "Dịch vụ Làm sạch",
+      "question": 22
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 51,
+    "fields": {
+      "content": "Dịch vụ An ninh",
+      "question": 22
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 52,
+    "fields": {
+      "content": "Dịch vụ Kiểm soát côn trùng",
+      "question": 22
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 53,
+    "fields": {
+      "content": "Dịch vụ thu gom rác thải sinh hoạt",
+      "question": 22
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 54,
+    "fields": {
+      "content": "Dịch vụ tiện ích cư dân",
+      "question": 22
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 55,
+    "fields": {
+      "content": "Chuyên nghiệp",
+      "question": 23
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 56,
+    "fields": {
+      "content": "Tiếp nhận và xử lý kịp thời",
+      "question": 23
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 57,
+    "fields": {
+      "content": "Kỹ năng quản lý tốt",
+      "question": 23
+    }
+  },
+
+  {
+    "model": "apartment.schoice",
+    "pk": 58,
+    "fields": {
+      "content": "Nhiệt tình giúp đỡ",
+      "question": 23
+    }
+  },
+
+
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 1,
+    "fields": {
+      "content": "Quý khách hàng nhận thấy mức giá đối với các báo cáo của chúng tôi hiện nay đã phù hợp chưa?",
+      "created_date": "2024-10-04T03:30:23.914Z",
+      "updated_date": "2024-10-04T03:30:23.914Z",
+      "type": "radiogroup",
+      "survey": 1
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 2,
+    "fields": {
+      "content": "Quý khách hàng lựa chọn các báo cáo theo tần suất?",
+      "created_date": "2024-10-04T03:31:03.949Z",
+      "updated_date": "2024-10-04T03:31:03.949Z",
+      "type": "radiogroup",
+      "survey": 1
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 3,
+    "fields": {
+      "content": "Quý khách hàng sử dụng các thông tin trong báo cáo cho mục đích gì (có thể chọn nhiều phương án):",
+      "created_date": "2024-10-04T03:31:45.595Z",
+      "updated_date": "2024-10-04T03:31:45.595Z",
+      "type": "radiogroup",
+      "survey": 1
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 4,
+    "fields": {
+      "content": "Theo Quý khách hàng, các báo cáo cần bổ sung, điều chỉnh như thế nào?",
+      "created_date": "2024-10-04T03:32:42.096Z",
+      "updated_date": "2024-10-04T03:32:42.096Z",
+      "type": "checkbox",
+      "survey": 1
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 5,
+    "fields": {
+      "content": "Quý khách hàng có muốn cập nhật thông tin thường xuyên về các sản phẩm mới của chúng tôi hay không",
+      "created_date": "2024-10-04T03:32:53.476Z",
+      "updated_date": "2024-10-04T03:32:53.477Z",
+      "type": "boolean",
+      "survey": 1
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 6,
+    "fields": {
+      "content": "Quý khách đã từng sử dụng sản phẩm của ....................... chưa?",
+      "created_date": "2024-10-04T03:34:13.213Z",
+      "updated_date": "2024-10-04T03:34:13.213Z",
+      "type": "radiogroup",
+      "survey": 2
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 7,
+    "fields": {
+      "content": "Quý khách có dự định sẽ tiếp tục sử dụng sản phẩm của ............................ không?",
+      "created_date": "2024-10-04T03:34:44.180Z",
+      "updated_date": "2024-10-04T03:34:44.180Z",
+      "type": "radiogroup",
+      "survey": 2
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 8,
+    "fields": {
+      "content": "Theo quý khách thái độ phục vụ và tư vấn của nhân viên ............................ như thế nào?",
+      "created_date": "2024-10-04T03:35:07.517Z",
+      "updated_date": "2024-10-04T03:35:07.517Z",
+      "type": "radiogroup",
+      "survey": 2
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 9,
+    "fields": {
+      "content": "Theo quý khách chất lượng và thời gian xử lý hỗ trợ, giải quyết các sự cố của ......... là:",
+      "created_date": "2024-10-04T03:35:32.367Z",
+      "updated_date": "2024-10-04T03:35:32.367Z",
+      "type": "radiogroup",
+      "survey": 2
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 10,
+    "fields": {
+      "content": "Theo quý khách giá sản phẩm của ................... như thế nào?",
+      "created_date": "2024-10-04T03:39:41.389Z",
+      "updated_date": "2024-10-04T03:39:41.389Z",
+      "type": "radiogroup",
+      "survey": 2
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 11,
+    "fields": {
+      "content": "Bạn cảm thấy thời gian chờ đợi món ăn như thế nào?",
+      "created_date": "2024-10-04T03:41:43.887Z",
+      "updated_date": "2024-10-04T03:41:43.887Z",
+      "type": "radiogroup",
+      "survey": 3
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 12,
+    "fields": {
+      "content": "Bạn có hài lòng về vấn đề vệ sinh của nhà hàng?",
+      "created_date": "2024-10-04T03:42:06.810Z",
+      "updated_date": "2024-10-04T03:42:06.810Z",
+      "type": "rating",
+      "survey": 3
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 13,
+    "fields": {
+      "content": "Các món ăn của nhà hàng có ngon miệng không?",
+      "created_date": "2024-10-04T03:42:31.147Z",
+      "updated_date": "2024-10-04T03:42:31.147Z",
+      "type": "radiogroup",
+      "survey": 3
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 14,
+    "fields": {
+      "content": "Dịch vụ Làm sạch?",
+      "created_date": "2024-10-04T04:18:53.141Z",
+      "updated_date": "2024-10-04T04:18:53.141Z",
+      "type": "rating",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 15,
+    "fields": {
+      "content": "Dịch vụ An ninh",
+      "created_date": "2024-10-04T04:19:04.200Z",
+      "updated_date": "2024-10-04T04:19:04.200Z",
+      "type": "rating",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 16,
+    "fields": {
+      "content": "Dịch vụ Kiểm soát công trùng",
+      "created_date": "2024-10-04T04:19:18.154Z",
+      "updated_date": "2024-10-04T04:19:18.154Z",
+      "type": "rating",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 17,
+    "fields": {
+      "content": "Dịch vụ thu gom rác thải sinh hoạt",
+      "created_date": "2024-10-04T04:19:34.272Z",
+      "updated_date": "2024-10-04T04:19:34.272Z",
+      "type": "rating",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 18,
+    "fields": {
+      "content": "Dịch vụ tiện ích cư dân",
+      "created_date": "2024-10-04T04:19:48.882Z",
+      "updated_date": "2024-10-04T04:19:48.882Z",
+      "type": "rating",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 19,
+    "fields": {
+      "content": "Quý Cư dân đánh giá như thế nào về cách xử lý, giải quyết vấn đề của BQL",
+      "created_date": "2024-10-04T04:21:24.202Z",
+      "updated_date": "2024-10-04T04:21:24.202Z",
+      "type": "radiogroup",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 20,
+    "fields": {
+      "content": "BQL cần cải thiện chất lượng các dịch vụ nào",
+      "created_date": "2024-10-04T04:24:47.778Z",
+      "updated_date": "2024-10-04T04:24:47.778Z",
+      "type": "checkbox",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 21,
+    "fields": {
+      "content": "BQL nên tổ chức sự kiện/lễ hội hàng tuần không?",
+      "created_date": "2024-10-04T04:25:04.239Z",
+      "updated_date": "2024-10-04T04:25:04.239Z",
+      "type": "boolean",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 22,
+    "fields": {
+      "content": "Bạn cảm thấy hài lòng với dịch vụ nào nhất tại LT House?",
+      "created_date": "2024-10-04T04:27:23.561Z",
+      "updated_date": "2024-10-04T04:27:23.561Z",
+      "type": "dropdown",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 23,
+    "fields": {
+      "content": "Bạn đánh giá chất lượng BQL như thế nào?",
+      "created_date": "2024-10-04T04:28:26.008Z",
+      "updated_date": "2024-10-04T04:28:26.008Z",
+      "type": "tagbox",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 24,
+    "fields": {
+      "content": "Bạn có góp ý nào khác cho BQL không?",
+      "created_date": "2024-10-04T04:28:55.231Z",
+      "updated_date": "2024-10-04T04:28:55.231Z",
+      "type": "text",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 25,
+    "fields": {
+      "content": "Bạn có tiếp tục sử dụng dịch vụ không?",
+      "created_date": "2024-10-04T04:29:10.168Z",
+      "updated_date": "2024-10-04T04:29:10.168Z",
+      "type": "boolean",
+      "survey": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveyquestion",
+    "pk": 26,
+    "fields": {
+      "content": "Bạn sẽ tư vấn cho bạn mình một nơi ở tại LT House?",
+      "created_date": "2024-10-04T04:29:34.277Z",
+      "updated_date": "2024-10-04T04:29:34.277Z",
+      "type": "boolean",
+      "survey": 4
+    }
+  },
+
+
+
+  {
+    "model": "apartment.surveytextanswer",
+    "pk": 1,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.773Z",
+      "updated_date": "2024-10-04T04:52:53.773Z",
+      "question": 5,
+      "content": "Có"
+    }
+  },
+
+  {
+    "model": "apartment.surveytextanswer",
+    "pk": 2,
+    "fields": {
+      "created_date": "2024-10-04T04:53:47.081Z",
+      "updated_date": "2024-10-04T04:53:47.081Z",
+      "question": 12,
+      "content": "3"
+    }
+  },
+
+  {
+    "model": "apartment.surveytextanswer",
+    "pk": 3,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.773Z",
+      "updated_date": "2024-10-04T04:52:53.773Z",
+      "question": 5,
+      "content": "Không"
+    }
+  },
+
+  {
+    "model": "apartment.surveytextanswer",
+    "pk": 4,
+    "fields": {
+      "created_date": "2024-10-04T04:53:47.081Z",
+      "updated_date": "2024-10-04T04:53:47.081Z",
+      "question": 12,
+      "content": "1"
+    }
+  },
+
+  {
+    "model": "apartment.surveytextanswer",
+    "pk": 5,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.773Z",
+      "updated_date": "2024-10-04T04:52:53.773Z",
+      "question": 5,
+      "content": "Có"
+    }
+  },
+
+  {
+    "model": "apartment.surveytextanswer",
+    "pk": 6,
+    "fields": {
+      "created_date": "2024-10-04T04:53:47.081Z",
+      "updated_date": "2024-10-04T04:53:47.081Z",
+      "question": 12,
+      "content": "5"
+    }
+  },
+
+
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 1,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.761Z",
+      "updated_date": "2024-10-04T04:52:53.761Z",
+      "question": 2,
+      "choice": 5
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 2,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.773Z",
+      "updated_date": "2024-10-04T04:52:53.773Z",
+      "question": 1,
+      "choice": 1
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 3,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.775Z",
+      "updated_date": "2024-10-04T04:52:53.775Z",
+      "question": 4,
+      "choice": 13
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 4,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.775Z",
+      "updated_date": "2024-10-04T04:52:53.775Z",
+      "question": 3,
+      "choice": 8
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 5,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.791Z",
+      "updated_date": "2024-10-04T04:52:53.791Z",
+      "question": 4,
+      "choice": 14
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 6,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.797Z",
+      "updated_date": "2024-10-04T04:52:53.797Z",
+      "question": 4,
+      "choice": 12
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 7,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.669Z",
+      "updated_date": "2024-10-04T04:53:19.669Z",
+      "question": 7,
+      "choice": 24
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 8,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.673Z",
+      "updated_date": "2024-10-04T04:53:19.673Z",
+      "question": 6,
+      "choice": 20
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 9,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.672Z",
+      "updated_date": "2024-10-04T04:53:19.672Z",
+      "question": 10,
+      "choice": 32
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 10,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.673Z",
+      "updated_date": "2024-10-04T04:53:19.673Z",
+      "question": 9,
+      "choice": 29
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 11,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.676Z",
+      "updated_date": "2024-10-04T04:53:19.676Z",
+      "question": 8,
+      "choice": 26
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 12,
+    "fields": {
+      "created_date": "2024-10-04T04:53:47.085Z",
+      "updated_date": "2024-10-04T04:53:47.085Z",
+      "question": 13,
+      "choice": 39
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 13,
+    "fields": {
+      "created_date": "2024-10-04T04:53:47.086Z",
+      "updated_date": "2024-10-04T04:53:47.086Z",
+      "question": 11,
+      "choice": 36
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 1,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.761Z",
+      "updated_date": "2024-10-04T04:52:53.761Z",
+      "question": 2,
+      "choice": 5
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 2,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.773Z",
+      "updated_date": "2024-10-04T04:52:53.773Z",
+      "question": 1,
+      "choice": 1
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 3,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.775Z",
+      "updated_date": "2024-10-04T04:52:53.775Z",
+      "question": 4,
+      "choice": 13
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 4,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.775Z",
+      "updated_date": "2024-10-04T04:52:53.775Z",
+      "question": 3,
+      "choice": 8
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 5,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.791Z",
+      "updated_date": "2024-10-04T04:52:53.791Z",
+      "question": 4,
+      "choice": 14
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 6,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.797Z",
+      "updated_date": "2024-10-04T04:52:53.797Z",
+      "question": 4,
+      "choice": 12
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 7,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.669Z",
+      "updated_date": "2024-10-04T04:53:19.669Z",
+      "question": 7,
+      "choice": 24
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 8,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.673Z",
+      "updated_date": "2024-10-04T04:53:19.673Z",
+      "question": 6,
+      "choice": 20
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 9,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.672Z",
+      "updated_date": "2024-10-04T04:53:19.672Z",
+      "question": 10,
+      "choice": 32
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 10,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.673Z",
+      "updated_date": "2024-10-04T04:53:19.673Z",
+      "question": 9,
+      "choice": 29
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 11,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.676Z",
+      "updated_date": "2024-10-04T04:53:19.676Z",
+      "question": 8,
+      "choice": 26
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 12,
+    "fields": {
+      "created_date": "2024-10-04T04:53:47.085Z",
+      "updated_date": "2024-10-04T04:53:47.085Z",
+      "question": 13,
+      "choice": 39
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 13,
+    "fields": {
+      "created_date": "2024-10-04T04:53:47.086Z",
+      "updated_date": "2024-10-04T04:53:47.086Z",
+      "question": 11,
+      "choice": 36
+    }
+  },
+
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 14,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.761Z",
+      "updated_date": "2024-10-04T04:52:53.761Z",
+      "question": 2,
+      "choice": 4
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 15,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.773Z",
+      "updated_date": "2024-10-04T04:52:53.773Z",
+      "question": 1,
+      "choice": 2
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 16,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.775Z",
+      "updated_date": "2024-10-04T04:52:53.775Z",
+      "question": 4,
+      "choice": 12
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 17,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.775Z",
+      "updated_date": "2024-10-04T04:52:53.775Z",
+      "question": 3,
+      "choice": 9
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 18,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.791Z",
+      "updated_date": "2024-10-04T04:52:53.791Z",
+      "question": 4,
+      "choice": 19
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 19,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.797Z",
+      "updated_date": "2024-10-04T04:52:53.797Z",
+      "question": 4,
+      "choice": 17
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 20,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.669Z",
+      "updated_date": "2024-10-04T04:53:19.669Z",
+      "question": 7,
+      "choice": 23
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 21,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.673Z",
+      "updated_date": "2024-10-04T04:53:19.673Z",
+      "question": 6,
+      "choice": 22
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 22,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.672Z",
+      "updated_date": "2024-10-04T04:53:19.672Z",
+      "question": 10,
+      "choice": 33
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 23,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.673Z",
+      "updated_date": "2024-10-04T04:53:19.673Z",
+      "question": 9,
+      "choice": 30
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 24,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.676Z",
+      "updated_date": "2024-10-04T04:53:19.676Z",
+      "question": 8,
+      "choice": 27
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 25,
+    "fields": {
+      "created_date": "2024-10-04T04:53:47.085Z",
+      "updated_date": "2024-10-04T04:53:47.085Z",
+      "question": 13,
+      "choice": 40
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 26,
+    "fields": {
+      "created_date": "2024-10-04T04:53:47.086Z",
+      "updated_date": "2024-10-04T04:53:47.086Z",
+      "question": 11,
+      "choice": 35
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 27,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.761Z",
+      "updated_date": "2024-10-04T04:52:53.761Z",
+      "question": 2,
+      "choice": 6
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 28,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.773Z",
+      "updated_date": "2024-10-04T04:52:53.773Z",
+      "question": 1,
+      "choice": 3
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 29,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.775Z",
+      "updated_date": "2024-10-04T04:52:53.775Z",
+      "question": 4,
+      "choice": 15
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 30,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.775Z",
+      "updated_date": "2024-10-04T04:52:53.775Z",
+      "question": 3,
+      "choice": 10
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 31,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.791Z",
+      "updated_date": "2024-10-04T04:52:53.791Z",
+      "question": 4,
+      "choice": 16
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 32,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.797Z",
+      "updated_date": "2024-10-04T04:52:53.797Z",
+      "question": 4,
+      "choice": 12
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 33,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.797Z",
+      "updated_date": "2024-10-04T04:52:53.797Z",
+      "question": 4,
+      "choice": 13
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 34,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.797Z",
+      "updated_date": "2024-10-04T04:52:53.797Z",
+      "question": 4,
+      "choice": 14
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 35,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.797Z",
+      "updated_date": "2024-10-04T04:52:53.797Z",
+      "question": 4,
+      "choice": 17
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 36,
+    "fields": {
+      "created_date": "2024-10-04T04:52:53.797Z",
+      "updated_date": "2024-10-04T04:52:53.797Z",
+      "question": 4,
+      "choice": 18
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 37,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.669Z",
+      "updated_date": "2024-10-04T04:53:19.669Z",
+      "question": 7,
+      "choice": 25
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 38,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.673Z",
+      "updated_date": "2024-10-04T04:53:19.673Z",
+      "question": 6,
+      "choice": 21
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 39,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.672Z",
+      "updated_date": "2024-10-04T04:53:19.672Z",
+      "question": 10,
+      "choice": 34
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 40,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.673Z",
+      "updated_date": "2024-10-04T04:53:19.673Z",
+      "question": 9,
+      "choice": 31
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 41,
+    "fields": {
+      "created_date": "2024-10-04T04:53:19.676Z",
+      "updated_date": "2024-10-04T04:53:19.676Z",
+      "question": 8,
+      "choice": 28
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 42,
+    "fields": {
+      "created_date": "2024-10-04T04:53:47.085Z",
+      "updated_date": "2024-10-04T04:53:47.085Z",
+      "question": 13,
+      "choice": 38
+    }
+  },
+
+  {
+    "model": "apartment.surveychoiceanswer",
+    "pk": 43,
+    "fields": {
+      "created_date": "2024-10-04T04:53:47.086Z",
+      "updated_date": "2024-10-04T04:53:47.086Z",
+      "question": 11,
+      "choice": 37
+    }
+  },
+
+
+
+  {
+    "model": "apartment.notification",
+    "pk": 1,
+    "fields": {
+      "name": "Thông báo khảo sát",
+      "created_date": "2024-10-04T05:16:52.910Z",
+      "updated_date": "2024-10-04T05:16:52.911Z",
+      "active": true,
+      "content": "Bạn có một khảo sát mới cần được thực hiện"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 2,
+    "fields": {
+      "name": "Lịch cắt điện T10/2024",
+      "created_date": "2024-10-04T05:22:13.582Z",
+      "updated_date": "2024-10-04T05:22:13.582Z",
+      "active": true,
+      "content": "Cư dân chú ý: Ngày 10/10, từ 8h-12h, toàn bộ chung cư sẽ cắt điện để sửa chữa."
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 3,
+    "fields": {
+      "name": "Lịch sửa chữa thang máy T10/2024",
+      "created_date": "2024-10-04T05:22:50.611Z",
+      "updated_date": "2024-10-04T05:22:50.611Z",
+      "active": true,
+      "content": "Cư dân chú ý: Từ ngày 20/10 - 25/10, toàn bộ thang máy sẽ dừng hoạt động vào lúc 2h-6h mỗi ngày"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 4,
+    "fields": {
+      "name": "Tổ chức cuộc họp T10/2024",
+      "created_date": "2024-10-04T05:23:22.234Z",
+      "updated_date": "2024-10-04T05:23:22.234Z",
+      "active": true,
+      "content": "Vào ngày 15/10, ban quản lý sẽ tổ chức cuộc họp với cư dân vào lúc 19h tại phòng sinh hoạt chung của chung cư"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 5,
+    "fields": {
+        "name": "Tăng cường bảo vệ an ninh trong khu vực",
+        "created_date": "2024-10-04T05:24:45.243Z",
+        "updated_date": "2024-10-04T05:24:45.243Z",
+        "active": true,
+        "content": "Bổ sung thêm 2 bảo vệ tuần tra từ 22h-6h"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 6,
+    "fields": {
+      "name": "Dịch vụ vệ sinh định kỳ vào ngày chủ nhật",
+      "created_date": "2024-10-04T05:24:56.695Z",
+      "updated_date": "2024-10-04T05:24:56.695Z",
+      "active": true,
+      "content": "Vệ sinh toàn bộ khu vực chung"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 7,
+    "fields": {
+        "name": "Thông báo hoạt động",
+        "created_date": "2024-10-04T05:26:08.130Z",
+        "updated_date": "2024-10-04T05:26:08.130Z",
+        "active": true,
+        "content": "Với châm ngôn \"Cũ ta mới người\", ban quản lý chung cư tổ chức hoạt động thiện nguyện với nội dung quyên góp sách vở, quần áo, đồ chung và đồ chơi cũ"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 8,
+    "fields": {
+      "name": "Tổ chức hội chợ hàng hóa",
+      "created_date": "2024-10-04T05:26:23.450Z",
+      "updated_date": "2024-10-04T05:26:23.450Z",
+      "active": true,
+      "content": "Hội chợ mở cửa từ 8h-18h ngày 03/10 tại khu vực sân chơi của chung cư"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 9,
+    "fields": {
+      "name": "Tập huấn phòng cháy chữa cháy ngày 12/10",
+      "created_date": "2024-10-04T05:26:48.099Z",
+      "updated_date": "2024-10-04T05:26:48.099Z",
+      "active": true,
+      "content": "Tập huấn tại khu vực nhà để xe từ 9h-11h"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 10,
+    "fields": {
+      "name": "Chỉnh trang cảnh quan sân vườn",
+      "created_date": "2024-10-04T05:27:03.447Z",
+      "updated_date": "2024-10-04T05:27:03.447Z",
+      "active": true,
+      "content": "Bắt đầu từ ngày 22/10, kéo dài trong 1 tuần"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 11,
+    "fields": {
+        "name": "Chỉnh trang cảnh quan sân vườn",
+        "created_date": "2024-10-04T05:27:03.475Z",
+        "updated_date": "2024-10-04T05:27:03.475Z",
+        "active": true,
+        "content": "Bắt đầu từ ngày 22/10, kéo dài trong 1 tuần"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 12,
+    "fields": {
+        "name": "Thực hiện an toàn phòng cháy chữa cháy",
+        "created_date": "2024-10-04T05:27:33.217Z",
+        "updated_date": "2024-10-04T05:27:33.217Z",
+        "active": true,
+        "content": "Xin thông báo về việc kiểm tra hệ thống PCCC vào 17/10, từ 9h-12h trưa"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 13,
+    "fields": {
+      "name": "Hội nghị cư dân",
+      "created_date": "2024-10-04T05:27:49.112Z",
+      "updated_date": "2024-10-04T05:27:49.112Z",
+      "active": true,
+      "content": "Đề xuất ý kiến về việc sắp xếp lại lịch trình vệ sinh khu vực chung"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 14,
+    "fields": {
+      "name": "Thay đổi hệ thông cửa",
+      "created_date": "2024-10-04T05:28:04.034Z",
+      "updated_date": "2024-10-04T05:28:04.034Z",
+      "active": true,
+      "content": "Thông báo về việc thay đổi hệ thống cửa chính vào ngày 28/10"
+    }
+  },
+
+  {
+    "model": "apartment.notification",
+    "pk": 15,
+    "fields": {
+      "name": "Ý thức trẻ nhỏ",
+      "created_date": "2024-10-04T05:28:30.606Z",
+      "updated_date": "2024-10-04T05:28:30.606Z",
+      "active": true,
+      "content": "Lưu ý: Trẻ em dưới 12 tuổi phải được người lớn giám sát khi sử dụng cơ sở vật chất chung"
+    }
+  }
+]
