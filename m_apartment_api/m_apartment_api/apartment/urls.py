@@ -23,12 +23,12 @@ r.register('s_questions', views.SurveyQuestionViewSet, basename='s_questions')
 r.register('s_answers', views.SurveyAnswerViewSet, basename='s_answers')
 r.register('s_text_answers', views.SurveyTextAnswerViewSet, basename='s_text_answers')
 r.register('s_choice_answers', views.SurveyChoiceAnswerViewSet, basename='s_choice_answers')
-r.register('email', views.SendEmal, basename='email')
+r.register('email', views.SendEmail, basename='email')
 r.register('notifications', views.NotificationViewSet, basename='notifications')
 
 
 urlpatterns = [
     path('', include(r.urls)),
-    path('paid', views.save_payment, name='paid')
+    path('paid', views.save_payment, name='paid'),
     # path('admin/', admin.site.urls),
 ]

@@ -4,13 +4,8 @@ import random
 import hmac
 import hashlib
 import requests
-from django.core.mail import send_mail
-from django.db.models.signals import post_save, post_delete
-from django.dispatch import receiver
-from django.http import JsonResponse, HttpResponse
-from django.shortcuts import render
 from rest_framework import viewsets, generics, parsers, permissions, status
-from rest_framework.decorators import action, api_view
+from rest_framework.decorators import action
 from rest_framework.response import Response
 from django.contrib.auth.hashers import make_password
 from apartment.models import (User, Resident, Room, Ownership, Payment, Receipt, SecurityCard, Package, Complaint,
@@ -20,19 +15,27 @@ from apartment import serializers, paginators, perms
 from m_apartment_api import settings
 from datetime import datetime
 from mailjet_rest import Client
-
-# Create your views here.
-
+from django.shortcuts import render
+from firebase_admin import db
 from apartment.vnpay import vnpay
 
-vnp = vnpay()
+# Create your views here.
+def write_data(model, pk, fields):
+    ref = db.reference(f"{model}/{pk}")
+    ref.set(fields)
 
+def read_data(model, pk):
+    ref = db.reference(f"{model}/{pk}")
+    data = ref.get()
+    return data
+
+vnp = vnpay()
 
 # Thêm khảo sát vừa thực hiện vào danh sách các khảo sát đã trả lời của Resident
 def add_survey_for_resident(resident, survey):
     resident.answered.add(survey)
 
-# Kim tra trạng thái payment
+# Kiểm tra trạng thái payment
 def check_active_payment(payment):
     if (payment.active == 1):
         return 1
@@ -48,38 +51,6 @@ def update_active_payment(payment):
     if check_active_payment(payment):
         setattr(payment, 'active', '0')
         payment.save()
-
-# Tạo thanh toán mới
-def create_payment(name, amount, resident_id):
-    Payment.objects.create(name=name, amount=amount, resident_id=resident_id)
-
-# Gửi thông báo qua Email bằng MailJet
-@receiver(post_save, sender=Payment)
-@receiver(post_save, sender=Receipt)
-@receiver(post_save, sender=Package)
-def send_notification(sender, instance, created, **kwargs):
-    if created:
-        email_view = SendEmal()
-
-        if isinstance(instance, Payment):
-            message = f"Bạn có một hóa đơn mới cần được thanh toán: {instance.name}. Tổng tiền: {instance.amount}"
-        elif isinstance(instance, Receipt):
-            message = f"Bạn vừa thanh toán thành công 1 hóa đơn: {instance.name}"
-        elif isinstance(instance, Package):
-            message = "Bạn có 1 đơn hàng vừa được giao đến. Hãy kiểm tra tủ đồ trên hệ thống nhé!"
-
-        result = email_view.send_email(message)
-        if result["status"] == "error":
-            print(result["message"])
-
-# Xử lý khi tạo thẻ giữ xe mới
-def type_vehicle_create_pay(sc):
-    if sc.type_vehicle == 'bike':
-        create_payment('Phí gửi xe đạp tháng', '900000', sc.resident.id)
-    elif sc.type_vehicle == 'motorbike':
-        create_payment('Phí gửi xe máy tháng', '150000', sc.resident.id)
-    elif sc.type_vehicle == 'car':
-        create_payment('Phí gửi xe hơi tháng', '1600000', sc.resident.id)
 
 # Tạo receipt mới khi đã thanh toán
 def create_receipt(payment, order_id, pay_type):
@@ -317,18 +288,6 @@ class RoomViewSet(viewsets.ViewSet, generics.ListAPIView):
 
         return queryset
 
-    @receiver(post_save, sender=Ownership)
-    def update_room_on_create_resident(sender, instance, **kwargs):
-        if instance.room:
-            instance.room.is_empty = False
-            instance.room.save()
-
-    @receiver(post_delete, sender=Ownership)
-    def update_room_on_delete_resident(sender, instance, **kwargs):
-        if instance.room:
-            instance.room.is_empty = True
-            instance.room.save()
-
 class OwnershipViewSet(viewsets.ViewSet, generics.ListAPIView):
     queryset = Ownership.objects.all()
     serializer_class = serializers.OwnershipSerializer
@@ -461,8 +420,6 @@ class SecurityCardViewSet(viewsets.ViewSet, generics.ListAPIView, generics.Destr
                                          vehicle_number=request.data.get('vehicle_number'),
                                          type_vehicle = request.data.get('type_vehicle'),
                                          resident_id=request.user.id)
-
-        type_vehicle_create_pay(sc)
 
         return Response(serializers.SecurityCardSerializer(sc).data, status=status.HTTP_201_CREATED)
 
@@ -618,10 +575,13 @@ class NotificationViewSet(viewsets.ViewSet, generics.ListAPIView):
     serializer_class = serializers.NotificationSerializer
     pagination_class = paginators.BasePaginator
 
-class SendEmal(viewsets.ViewSet):
+class SendEmail(viewsets.ViewSet):
     @action(methods=["POST"], url_path="send-email", detail=False)
     def send_notification_email(self, request):
-        return Response({'message': 'Đã gửi mail thành công!'})
+        message = request.data.get('message', 'Không có nội dung')
+        result = self.send_email(message)
+        return Response(result)
+        # return Response({'message': 'Đã gửi mail thành công!'})
 
     def send_email(self, message):
         api_key = settings.MAILJET_API_KEY
@@ -647,16 +607,11 @@ class SendEmal(viewsets.ViewSet):
             ]
         }
 
-        print(data)
-
         try:
             result = mailjet.send.create(data=data)
             if result.status_code != 200:
-                print(f"Lỗi khi gửi email: {result.json()}")
                 return {"status": "error", "message": "Không thể gửi email, vui lòng kiểm tra lại."}
 
             return {"status": "success", "message": f"Email đã được gửi thành công với nội dung: {message}"}
         except Exception as e:
-            print(f"Lỗi hệ thống: {e}")
             return {"status": "error", "message": "Đã xảy ra lỗi không xác định."}
-

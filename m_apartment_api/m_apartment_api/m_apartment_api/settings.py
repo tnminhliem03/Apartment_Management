@@ -12,8 +12,28 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
-import django_heroku
-import dj_database_url
+from dotenv import load_dotenv
+import firebase_admin
+from firebase_admin import credentials
+
+load_dotenv()
+
+cred = credentials.Certificate({
+    "type": os.getenv("FIREBASE_TYPE"),
+    "project_id": os.getenv("FIREBASE_PROJECT_ID"),
+    "private_key_id": os.getenv("FIREBASE_PRIVATE_KEY_ID"),
+    "private_key": os.getenv("FIREBASE_PRIVATE_KEY").replace('\\n', '\n'),
+    "client_email": os.getenv("FIREBASE_CLIENT_EMAIL"),
+    "client_id": os.getenv("FIREBASE_CLIENT_ID"),
+    "auth_uri": os.getenv("FIREBASE_AUTH_URI"),
+    "token_uri": os.getenv("FIREBASE_TOKEN_URI"),
+    "auth_provider_x509_cert_url": os.getenv("FIREBASE_AUTH_PROVIDER_CERT_URL"),
+    "client_x509_cert_url": os.getenv("FIREBASE_CLIENT_CERT_URL"),
+})
+
+firebase_admin.initialize_app(cred, {
+    'databaseURL': 'https://lt-house-4024d-default-rtdb.firebaseio.com/'
+})
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -65,7 +85,6 @@ AUTH_USER_MODEL = 'apartment.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -165,7 +184,6 @@ STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATICSTORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
@@ -177,8 +195,8 @@ CLIENT_ID = '4WQgo6OG13j1Ca5YAD7VzIRZrN0hvGtMx4Upbsy8'
 CLIENT_SECRET = 'oMdZge49c15Q5d6QquDQceKhqxrrVb61AJtOknPKh6RaSxl40atL5KnOePvj7yzXHxvmmAyULBS2vNJ3z5OcXVKxTmbcmfBsJ3pvtiwceXbQ8VVHHT2y4dZA7SMnzEjr'
 
 # Pythonanywhere
-CLIENT_ID = 'ixf3r8dG1ckyj2LGi9UQrLhu9cSU8cNyPIDsURrS'
-CLIENT_SECRET = '5EECr7BSNWYN5oaQv6h9fyAfMOFiXcaMd5TvX0DvD0nXCujsiE4SajgkjLHMpERz2VIEYUniJJQtBx6K0COIYctCSYNeMMTHquCyuXYKZEhorV1lhbMOxgYRH82VLamU'
+CLIENT_ID = 'qORR4AvOwob80sLKjGbV1CvuZXmRzYhrDnRhfs3b'
+CLIENT_SECRET = 'uyFHp3jYSHg4S3480AXd4EBviI5PZfjgHoW0aJNwudsArxRYCqLU627RHwBZ69DZFcWWkOtExRKPRvDAmQXFqrdSp6nflL4JTECmv7lRnKKSKal93ySEqr4bA2r6St5Z'
 OAUTH2_PROVIDER = {'OAUTH2_BACKEND_CLASS': 'oauth2_provider.oauth2_backends.JSONOAuthLibCore'}
 
 # vnpay
