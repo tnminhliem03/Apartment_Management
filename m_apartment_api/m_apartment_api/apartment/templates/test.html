@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django Channels Example</title>
+    <script>
+        const socket = new WebSocket('ws://localhost:8000/ws/some_path/');
+
+        socket.onmessage = function(event) {
+            const data = JSON.parse(event.data);
+            const messageElement = document.createElement('li');
+            messageElement.textContent = data.message;
+            document.getElementById('messages').appendChild(messageElement);
+        };
+
+        function sendMessage() {
+            if (socket.readyState === WebSocket.OPEN) {
+                const messageInput = document.getElementById('messageInput');
+                socket.send(JSON.stringify({
+                    'message': messageInput.value
+                }));
+                messageInput.value = '';
+            } else {
+                console.error('WebSocket is not open. Current state:', socket.readyState);
+            }
+        }
+    </script>
+</head>
+<body>
+    <ul id="messages"></ul>
+    <input id="messageInput" type="text" placeholder="Enter message">
+    <button onclick="sendMessage()">Send</button>
+</body>
+</html>

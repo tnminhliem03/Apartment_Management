@@ -1,0 +1,4311 @@
+{
+    "logentrys": {
+        "9": {
+            "action_time": "2024-10-09T05:22:14.671006+00:00",
+            "user": {
+                "username": "admin",
+                "email": "admin@gmail.com"
+            },
+            "content_type": "Apartment | security card",
+            "object_id": "12",
+            "object_repr": "fefwq",
+            "action_flag": "1",
+            "change_message": "[{\"added\": {}}]"
+        },
+        "8": {
+            "action_time": "2024-10-09T04:37:36.350705+00:00",
+            "user": {
+                "username": "admin",
+                "email": "admin@gmail.com"
+            },
+            "content_type": "Apartment | security card",
+            "object_id": "8",
+            "object_repr": "feq",
+            "action_flag": "1",
+            "change_message": "[{\"added\": {}}]"
+        },
+        "7": {
+            "action_time": "2024-10-09T04:36:08.595496+00:00",
+            "user": {
+                "username": "admin",
+                "email": "admin@gmail.com"
+            },
+            "content_type": "Apartment | package",
+            "object_id": "10",
+            "object_repr": "avsa",
+            "action_flag": "1",
+            "change_message": "[{\"added\": {}}]"
+        },
+        "6": {
+            "action_time": "2024-10-05T12:27:24.265358+00:00",
+            "user": {
+                "username": "admin",
+                "email": "admin@gmail.com"
+            },
+            "content_type": "Apartment | payment",
+            "object_id": "10",
+            "object_repr": "Tiền test",
+            "action_flag": "1",
+            "change_message": "[{\"added\": {}}]"
+        },
+        "5": {
+            "action_time": "2024-10-03T14:47:04.397000+00:00",
+            "user": {
+                "username": "admin",
+                "email": "admin@gmail.com"
+            },
+            "content_type": "Apartment | ownership",
+            "object_id": "1",
+            "object_repr": "431",
+            "action_flag": "1",
+            "change_message": "[{\"added\": {}}]"
+        },
+        "4": {
+            "action_time": "2024-10-03T14:46:47.405000+00:00",
+            "user": {
+                "username": "admin",
+                "email": "admin@gmail.com"
+            },
+            "content_type": "Apartment | payment",
+            "object_id": "1",
+            "object_repr": "23",
+            "action_flag": "1",
+            "change_message": "[{\"added\": {}}]"
+        },
+        "3": {
+            "action_time": "2024-10-03T14:46:30.128000+00:00",
+            "user": {
+                "username": "admin",
+                "email": "admin@gmail.com"
+            },
+            "content_type": "Apartment | vnpay paid",
+            "object_id": "2",
+            "object_repr": "test",
+            "action_flag": "1",
+            "change_message": "[{\"added\": {}}]"
+        },
+        "2": {
+            "action_time": "2024-10-03T13:47:07.083000+00:00",
+            "user": {
+                "username": "admin",
+                "email": "admin@gmail.com"
+            },
+            "content_type": "Authentication and Authorization | group",
+            "object_id": "2",
+            "object_repr": "Admin",
+            "action_flag": "1",
+            "change_message": "[{\"added\": {}}]"
+        },
+        "1": {
+            "action_time": "2024-10-03T13:46:28.217000+00:00",
+            "user": {
+                "username": "admin",
+                "email": "admin@gmail.com"
+            },
+            "content_type": "Authentication and Authorization | group",
+            "object_id": "1",
+            "object_repr": "Resident",
+            "action_flag": "1",
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    "permissions": {
+        "1": {
+            "name": "Can add log entry",
+            "content_type": "Administration | log entry",
+            "codename": "add_logentry"
+        },
+        "2": {
+            "name": "Can change log entry",
+            "content_type": "Administration | log entry",
+            "codename": "change_logentry"
+        },
+        "3": {
+            "name": "Can delete log entry",
+            "content_type": "Administration | log entry",
+            "codename": "delete_logentry"
+        },
+        "4": {
+            "name": "Can view log entry",
+            "content_type": "Administration | log entry",
+            "codename": "view_logentry"
+        },
+        "89": {
+            "name": "Can add complaint",
+            "content_type": "Apartment | complaint",
+            "codename": "add_complaint"
+        },
+        "90": {
+            "name": "Can change complaint",
+            "content_type": "Apartment | complaint",
+            "codename": "change_complaint"
+        },
+        "91": {
+            "name": "Can delete complaint",
+            "content_type": "Apartment | complaint",
+            "codename": "delete_complaint"
+        },
+        "92": {
+            "name": "Can view complaint",
+            "content_type": "Apartment | complaint",
+            "codename": "view_complaint"
+        },
+        "145": {
+            "name": "Can add momo link",
+            "content_type": "Apartment | momo link",
+            "codename": "add_momolink"
+        },
+        "57": {
+            "name": "Can add receipt",
+            "content_type": "Apartment | momo link",
+            "codename": "add_receipt"
+        },
+        "146": {
+            "name": "Can change momo link",
+            "content_type": "Apartment | momo link",
+            "codename": "change_momolink"
+        },
+        "58": {
+            "name": "Can change receipt",
+            "content_type": "Apartment | momo link",
+            "codename": "change_receipt"
+        },
+        "147": {
+            "name": "Can delete momo link",
+            "content_type": "Apartment | momo link",
+            "codename": "delete_momolink"
+        },
+        "59": {
+            "name": "Can delete receipt",
+            "content_type": "Apartment | momo link",
+            "codename": "delete_receipt"
+        },
+        "148": {
+            "name": "Can view momo link",
+            "content_type": "Apartment | momo link",
+            "codename": "view_momolink"
+        },
+        "60": {
+            "name": "Can view receipt",
+            "content_type": "Apartment | momo link",
+            "codename": "view_receipt"
+        },
+        "25": {
+            "name": "Can add momo paid",
+            "content_type": "Apartment | momo paid",
+            "codename": "add_momopaid"
+        },
+        "26": {
+            "name": "Can change momo paid",
+            "content_type": "Apartment | momo paid",
+            "codename": "change_momopaid"
+        },
+        "27": {
+            "name": "Can delete momo paid",
+            "content_type": "Apartment | momo paid",
+            "codename": "delete_momopaid"
+        },
+        "28": {
+            "name": "Can view momo paid",
+            "content_type": "Apartment | momo paid",
+            "codename": "view_momopaid"
+        },
+        "117": {
+            "name": "Can add notification",
+            "content_type": "Apartment | notification",
+            "codename": "add_notification"
+        },
+        "29": {
+            "name": "Can add payment",
+            "content_type": "Apartment | notification",
+            "codename": "add_payment"
+        },
+        "118": {
+            "name": "Can change notification",
+            "content_type": "Apartment | notification",
+            "codename": "change_notification"
+        },
+        "30": {
+            "name": "Can change payment",
+            "content_type": "Apartment | notification",
+            "codename": "change_payment"
+        },
+        "119": {
+            "name": "Can delete notification",
+            "content_type": "Apartment | notification",
+            "codename": "delete_notification"
+        },
+        "31": {
+            "name": "Can delete payment",
+            "content_type": "Apartment | notification",
+            "codename": "delete_payment"
+        },
+        "120": {
+            "name": "Can view notification",
+            "content_type": "Apartment | notification",
+            "codename": "view_notification"
+        },
+        "32": {
+            "name": "Can view payment",
+            "content_type": "Apartment | notification",
+            "codename": "view_payment"
+        },
+        "93": {
+            "name": "Can add ownership",
+            "content_type": "Apartment | ownership",
+            "codename": "add_ownership"
+        },
+        "94": {
+            "name": "Can change ownership",
+            "content_type": "Apartment | ownership",
+            "codename": "change_ownership"
+        },
+        "95": {
+            "name": "Can delete ownership",
+            "content_type": "Apartment | ownership",
+            "codename": "delete_ownership"
+        },
+        "96": {
+            "name": "Can view ownership",
+            "content_type": "Apartment | ownership",
+            "codename": "view_ownership"
+        },
+        "85": {
+            "name": "Can add notification",
+            "content_type": "Apartment | package",
+            "codename": "add_notification"
+        },
+        "173": {
+            "name": "Can add package",
+            "content_type": "Apartment | package",
+            "codename": "add_package"
+        },
+        "86": {
+            "name": "Can change notification",
+            "content_type": "Apartment | package",
+            "codename": "change_notification"
+        },
+        "174": {
+            "name": "Can change package",
+            "content_type": "Apartment | package",
+            "codename": "change_package"
+        },
+        "87": {
+            "name": "Can delete notification",
+            "content_type": "Apartment | package",
+            "codename": "delete_notification"
+        },
+        "175": {
+            "name": "Can delete package",
+            "content_type": "Apartment | package",
+            "codename": "delete_package"
+        },
+        "88": {
+            "name": "Can view notification",
+            "content_type": "Apartment | package",
+            "codename": "view_notification"
+        },
+        "176": {
+            "name": "Can view package",
+            "content_type": "Apartment | package",
+            "codename": "view_package"
+        },
+        "121": {
+            "name": "Can add payment",
+            "content_type": "Apartment | payment",
+            "codename": "add_payment"
+        },
+        "33": {
+            "name": "Can add room",
+            "content_type": "Apartment | payment",
+            "codename": "add_room"
+        },
+        "122": {
+            "name": "Can change payment",
+            "content_type": "Apartment | payment",
+            "codename": "change_payment"
+        },
+        "34": {
+            "name": "Can change room",
+            "content_type": "Apartment | payment",
+            "codename": "change_room"
+        },
+        "123": {
+            "name": "Can delete payment",
+            "content_type": "Apartment | payment",
+            "codename": "delete_payment"
+        },
+        "35": {
+            "name": "Can delete room",
+            "content_type": "Apartment | payment",
+            "codename": "delete_room"
+        },
+        "124": {
+            "name": "Can view payment",
+            "content_type": "Apartment | payment",
+            "codename": "view_payment"
+        },
+        "36": {
+            "name": "Can view room",
+            "content_type": "Apartment | payment",
+            "codename": "view_room"
+        },
+        "149": {
+            "name": "Can add receipt",
+            "content_type": "Apartment | receipt",
+            "codename": "add_receipt"
+        },
+        "61": {
+            "name": "Can add survey question",
+            "content_type": "Apartment | receipt",
+            "codename": "add_surveyquestion"
+        },
+        "150": {
+            "name": "Can change receipt",
+            "content_type": "Apartment | receipt",
+            "codename": "change_receipt"
+        },
+        "62": {
+            "name": "Can change survey question",
+            "content_type": "Apartment | receipt",
+            "codename": "change_surveyquestion"
+        },
+        "151": {
+            "name": "Can delete receipt",
+            "content_type": "Apartment | receipt",
+            "codename": "delete_receipt"
+        },
+        "63": {
+            "name": "Can delete survey question",
+            "content_type": "Apartment | receipt",
+            "codename": "delete_surveyquestion"
+        },
+        "152": {
+            "name": "Can view receipt",
+            "content_type": "Apartment | receipt",
+            "codename": "view_receipt"
+        },
+        "64": {
+            "name": "Can view survey question",
+            "content_type": "Apartment | receipt",
+            "codename": "view_surveyquestion"
+        },
+        "53": {
+            "name": "Can add momo link",
+            "content_type": "Apartment | user",
+            "codename": "add_momolink"
+        },
+        "141": {
+            "name": "Can add user",
+            "content_type": "Apartment | user",
+            "codename": "add_resident"
+        },
+        "54": {
+            "name": "Can change momo link",
+            "content_type": "Apartment | user",
+            "codename": "change_momolink"
+        },
+        "142": {
+            "name": "Can change user",
+            "content_type": "Apartment | user",
+            "codename": "change_resident"
+        },
+        "55": {
+            "name": "Can delete momo link",
+            "content_type": "Apartment | user",
+            "codename": "delete_momolink"
+        },
+        "143": {
+            "name": "Can delete user",
+            "content_type": "Apartment | user",
+            "codename": "delete_resident"
+        },
+        "56": {
+            "name": "Can view momo link",
+            "content_type": "Apartment | user",
+            "codename": "view_momolink"
+        },
+        "144": {
+            "name": "Can view user",
+            "content_type": "Apartment | user",
+            "codename": "view_resident"
+        },
+        "125": {
+            "name": "Can add room",
+            "content_type": "Apartment | room",
+            "codename": "add_room"
+        },
+        "37": {
+            "name": "Can add s choice",
+            "content_type": "Apartment | room",
+            "codename": "add_schoice"
+        },
+        "126": {
+            "name": "Can change room",
+            "content_type": "Apartment | room",
+            "codename": "change_room"
+        },
+        "38": {
+            "name": "Can change s choice",
+            "content_type": "Apartment | room",
+            "codename": "change_schoice"
+        },
+        "127": {
+            "name": "Can delete room",
+            "content_type": "Apartment | room",
+            "codename": "delete_room"
+        },
+        "39": {
+            "name": "Can delete s choice",
+            "content_type": "Apartment | room",
+            "codename": "delete_schoice"
+        },
+        "128": {
+            "name": "Can view room",
+            "content_type": "Apartment | room",
+            "codename": "view_room"
+        },
+        "40": {
+            "name": "Can view s choice",
+            "content_type": "Apartment | room",
+            "codename": "view_schoice"
+        },
+        "129": {
+            "name": "Can add s choice",
+            "content_type": "Apartment | s choice",
+            "codename": "add_schoice"
+        },
+        "41": {
+            "name": "Can add survey",
+            "content_type": "Apartment | s choice",
+            "codename": "add_survey"
+        },
+        "130": {
+            "name": "Can change s choice",
+            "content_type": "Apartment | s choice",
+            "codename": "change_schoice"
+        },
+        "42": {
+            "name": "Can change survey",
+            "content_type": "Apartment | s choice",
+            "codename": "change_survey"
+        },
+        "131": {
+            "name": "Can delete s choice",
+            "content_type": "Apartment | s choice",
+            "codename": "delete_schoice"
+        },
+        "43": {
+            "name": "Can delete survey",
+            "content_type": "Apartment | s choice",
+            "codename": "delete_survey"
+        },
+        "132": {
+            "name": "Can view s choice",
+            "content_type": "Apartment | s choice",
+            "codename": "view_schoice"
+        },
+        "44": {
+            "name": "Can view survey",
+            "content_type": "Apartment | s choice",
+            "codename": "view_survey"
+        },
+        "81": {
+            "name": "Can add package",
+            "content_type": "Apartment | security card",
+            "codename": "add_package"
+        },
+        "169": {
+            "name": "Can add security card",
+            "content_type": "Apartment | security card",
+            "codename": "add_securitycard"
+        },
+        "82": {
+            "name": "Can change package",
+            "content_type": "Apartment | security card",
+            "codename": "change_package"
+        },
+        "170": {
+            "name": "Can change security card",
+            "content_type": "Apartment | security card",
+            "codename": "change_securitycard"
+        },
+        "83": {
+            "name": "Can delete package",
+            "content_type": "Apartment | security card",
+            "codename": "delete_package"
+        },
+        "171": {
+            "name": "Can delete security card",
+            "content_type": "Apartment | security card",
+            "codename": "delete_securitycard"
+        },
+        "84": {
+            "name": "Can view package",
+            "content_type": "Apartment | security card",
+            "codename": "view_package"
+        },
+        "172": {
+            "name": "Can view security card",
+            "content_type": "Apartment | security card",
+            "codename": "view_securitycard"
+        },
+        "133": {
+            "name": "Can add survey",
+            "content_type": "Apartment | survey",
+            "codename": "add_survey"
+        },
+        "45": {
+            "name": "Can add vnpay paid",
+            "content_type": "Apartment | survey",
+            "codename": "add_vnpaypaid"
+        },
+        "134": {
+            "name": "Can change survey",
+            "content_type": "Apartment | survey",
+            "codename": "change_survey"
+        },
+        "46": {
+            "name": "Can change vnpay paid",
+            "content_type": "Apartment | survey",
+            "codename": "change_vnpaypaid"
+        },
+        "135": {
+            "name": "Can delete survey",
+            "content_type": "Apartment | survey",
+            "codename": "delete_survey"
+        },
+        "47": {
+            "name": "Can delete vnpay paid",
+            "content_type": "Apartment | survey",
+            "codename": "delete_vnpaypaid"
+        },
+        "136": {
+            "name": "Can view survey",
+            "content_type": "Apartment | survey",
+            "codename": "view_survey"
+        },
+        "48": {
+            "name": "Can view vnpay paid",
+            "content_type": "Apartment | survey",
+            "codename": "view_vnpaypaid"
+        },
+        "157": {
+            "name": "Can add survey choice answer",
+            "content_type": "Apartment | survey choice answer",
+            "codename": "add_surveychoiceanswer"
+        },
+        "69": {
+            "name": "Can add survey text answer",
+            "content_type": "Apartment | survey choice answer",
+            "codename": "add_surveytextanswer"
+        },
+        "158": {
+            "name": "Can change survey choice answer",
+            "content_type": "Apartment | survey choice answer",
+            "codename": "change_surveychoiceanswer"
+        },
+        "70": {
+            "name": "Can change survey text answer",
+            "content_type": "Apartment | survey choice answer",
+            "codename": "change_surveytextanswer"
+        },
+        "159": {
+            "name": "Can delete survey choice answer",
+            "content_type": "Apartment | survey choice answer",
+            "codename": "delete_surveychoiceanswer"
+        },
+        "71": {
+            "name": "Can delete survey text answer",
+            "content_type": "Apartment | survey choice answer",
+            "codename": "delete_surveytextanswer"
+        },
+        "160": {
+            "name": "Can view survey choice answer",
+            "content_type": "Apartment | survey choice answer",
+            "codename": "view_surveychoiceanswer"
+        },
+        "72": {
+            "name": "Can view survey text answer",
+            "content_type": "Apartment | survey choice answer",
+            "codename": "view_surveytextanswer"
+        },
+        "65": {
+            "name": "Can add survey choice answer",
+            "content_type": "Apartment | survey question",
+            "codename": "add_surveychoiceanswer"
+        },
+        "153": {
+            "name": "Can add survey question",
+            "content_type": "Apartment | survey question",
+            "codename": "add_surveyquestion"
+        },
+        "66": {
+            "name": "Can change survey choice answer",
+            "content_type": "Apartment | survey question",
+            "codename": "change_surveychoiceanswer"
+        },
+        "154": {
+            "name": "Can change survey question",
+            "content_type": "Apartment | survey question",
+            "codename": "change_surveyquestion"
+        },
+        "67": {
+            "name": "Can delete survey choice answer",
+            "content_type": "Apartment | survey question",
+            "codename": "delete_surveychoiceanswer"
+        },
+        "155": {
+            "name": "Can delete survey question",
+            "content_type": "Apartment | survey question",
+            "codename": "delete_surveyquestion"
+        },
+        "68": {
+            "name": "Can view survey choice answer",
+            "content_type": "Apartment | survey question",
+            "codename": "view_surveychoiceanswer"
+        },
+        "156": {
+            "name": "Can view survey question",
+            "content_type": "Apartment | survey question",
+            "codename": "view_surveyquestion"
+        },
+        "161": {
+            "name": "Can add survey text answer",
+            "content_type": "Apartment | survey text answer",
+            "codename": "add_surveytextanswer"
+        },
+        "73": {
+            "name": "Can add vnpay link",
+            "content_type": "Apartment | survey text answer",
+            "codename": "add_vnpaylink"
+        },
+        "162": {
+            "name": "Can change survey text answer",
+            "content_type": "Apartment | survey text answer",
+            "codename": "change_surveytextanswer"
+        },
+        "74": {
+            "name": "Can change vnpay link",
+            "content_type": "Apartment | survey text answer",
+            "codename": "change_vnpaylink"
+        },
+        "163": {
+            "name": "Can delete survey text answer",
+            "content_type": "Apartment | survey text answer",
+            "codename": "delete_surveytextanswer"
+        },
+        "75": {
+            "name": "Can delete vnpay link",
+            "content_type": "Apartment | survey text answer",
+            "codename": "delete_vnpaylink"
+        },
+        "164": {
+            "name": "Can view survey text answer",
+            "content_type": "Apartment | survey text answer",
+            "codename": "view_surveytextanswer"
+        },
+        "76": {
+            "name": "Can view vnpay link",
+            "content_type": "Apartment | survey text answer",
+            "codename": "view_vnpaylink"
+        },
+        "21": {
+            "name": "Can add user",
+            "content_type": "Apartment | user",
+            "codename": "add_user"
+        },
+        "22": {
+            "name": "Can change user",
+            "content_type": "Apartment | user",
+            "codename": "change_user"
+        },
+        "23": {
+            "name": "Can delete user",
+            "content_type": "Apartment | user",
+            "codename": "delete_user"
+        },
+        "24": {
+            "name": "Can view user",
+            "content_type": "Apartment | user",
+            "codename": "view_user"
+        },
+        "77": {
+            "name": "Can add security card",
+            "content_type": "Apartment | vnpay link",
+            "codename": "add_securitycard"
+        },
+        "165": {
+            "name": "Can add vnpay link",
+            "content_type": "Apartment | vnpay link",
+            "codename": "add_vnpaylink"
+        },
+        "78": {
+            "name": "Can change security card",
+            "content_type": "Apartment | vnpay link",
+            "codename": "change_securitycard"
+        },
+        "166": {
+            "name": "Can change vnpay link",
+            "content_type": "Apartment | vnpay link",
+            "codename": "change_vnpaylink"
+        },
+        "79": {
+            "name": "Can delete security card",
+            "content_type": "Apartment | vnpay link",
+            "codename": "delete_securitycard"
+        },
+        "167": {
+            "name": "Can delete vnpay link",
+            "content_type": "Apartment | vnpay link",
+            "codename": "delete_vnpaylink"
+        },
+        "80": {
+            "name": "Can view security card",
+            "content_type": "Apartment | vnpay link",
+            "codename": "view_securitycard"
+        },
+        "168": {
+            "name": "Can view vnpay link",
+            "content_type": "Apartment | vnpay link",
+            "codename": "view_vnpaylink"
+        },
+        "49": {
+            "name": "Can add user",
+            "content_type": "Apartment | vnpay paid",
+            "codename": "add_resident"
+        },
+        "137": {
+            "name": "Can add vnpay paid",
+            "content_type": "Apartment | vnpay paid",
+            "codename": "add_vnpaypaid"
+        },
+        "50": {
+            "name": "Can change user",
+            "content_type": "Apartment | vnpay paid",
+            "codename": "change_resident"
+        },
+        "138": {
+            "name": "Can change vnpay paid",
+            "content_type": "Apartment | vnpay paid",
+            "codename": "change_vnpaypaid"
+        },
+        "51": {
+            "name": "Can delete user",
+            "content_type": "Apartment | vnpay paid",
+            "codename": "delete_resident"
+        },
+        "139": {
+            "name": "Can delete vnpay paid",
+            "content_type": "Apartment | vnpay paid",
+            "codename": "delete_vnpaypaid"
+        },
+        "52": {
+            "name": "Can view user",
+            "content_type": "Apartment | vnpay paid",
+            "codename": "view_resident"
+        },
+        "140": {
+            "name": "Can view vnpay paid",
+            "content_type": "Apartment | vnpay paid",
+            "codename": "view_vnpaypaid"
+        },
+        "9": {
+            "name": "Can add group",
+            "content_type": "Authentication and Authorization | group",
+            "codename": "add_group"
+        },
+        "10": {
+            "name": "Can change group",
+            "content_type": "Authentication and Authorization | group",
+            "codename": "change_group"
+        },
+        "11": {
+            "name": "Can delete group",
+            "content_type": "Authentication and Authorization | group",
+            "codename": "delete_group"
+        },
+        "12": {
+            "name": "Can view group",
+            "content_type": "Authentication and Authorization | group",
+            "codename": "view_group"
+        },
+        "5": {
+            "name": "Can add permission",
+            "content_type": "Authentication and Authorization | permission",
+            "codename": "add_permission"
+        },
+        "6": {
+            "name": "Can change permission",
+            "content_type": "Authentication and Authorization | permission",
+            "codename": "change_permission"
+        },
+        "7": {
+            "name": "Can delete permission",
+            "content_type": "Authentication and Authorization | permission",
+            "codename": "delete_permission"
+        },
+        "8": {
+            "name": "Can view permission",
+            "content_type": "Authentication and Authorization | permission",
+            "codename": "view_permission"
+        },
+        "13": {
+            "name": "Can add content type",
+            "content_type": "Content Types | content type",
+            "codename": "add_contenttype"
+        },
+        "14": {
+            "name": "Can change content type",
+            "content_type": "Content Types | content type",
+            "codename": "change_contenttype"
+        },
+        "15": {
+            "name": "Can delete content type",
+            "content_type": "Content Types | content type",
+            "codename": "delete_contenttype"
+        },
+        "16": {
+            "name": "Can view content type",
+            "content_type": "Content Types | content type",
+            "codename": "view_contenttype"
+        },
+        "101": {
+            "name": "Can add access token",
+            "content_type": "Django OAuth Toolkit | access token",
+            "codename": "add_accesstoken"
+        },
+        "102": {
+            "name": "Can change access token",
+            "content_type": "Django OAuth Toolkit | access token",
+            "codename": "change_accesstoken"
+        },
+        "103": {
+            "name": "Can delete access token",
+            "content_type": "Django OAuth Toolkit | access token",
+            "codename": "delete_accesstoken"
+        },
+        "104": {
+            "name": "Can view access token",
+            "content_type": "Django OAuth Toolkit | access token",
+            "codename": "view_accesstoken"
+        },
+        "97": {
+            "name": "Can add application",
+            "content_type": "Django OAuth Toolkit | application",
+            "codename": "add_application"
+        },
+        "98": {
+            "name": "Can change application",
+            "content_type": "Django OAuth Toolkit | application",
+            "codename": "change_application"
+        },
+        "99": {
+            "name": "Can delete application",
+            "content_type": "Django OAuth Toolkit | application",
+            "codename": "delete_application"
+        },
+        "100": {
+            "name": "Can view application",
+            "content_type": "Django OAuth Toolkit | application",
+            "codename": "view_application"
+        },
+        "105": {
+            "name": "Can add grant",
+            "content_type": "Django OAuth Toolkit | grant",
+            "codename": "add_grant"
+        },
+        "106": {
+            "name": "Can change grant",
+            "content_type": "Django OAuth Toolkit | grant",
+            "codename": "change_grant"
+        },
+        "107": {
+            "name": "Can delete grant",
+            "content_type": "Django OAuth Toolkit | grant",
+            "codename": "delete_grant"
+        },
+        "108": {
+            "name": "Can view grant",
+            "content_type": "Django OAuth Toolkit | grant",
+            "codename": "view_grant"
+        },
+        "113": {
+            "name": "Can add id token",
+            "content_type": "Django OAuth Toolkit | id token",
+            "codename": "add_idtoken"
+        },
+        "114": {
+            "name": "Can change id token",
+            "content_type": "Django OAuth Toolkit | id token",
+            "codename": "change_idtoken"
+        },
+        "115": {
+            "name": "Can delete id token",
+            "content_type": "Django OAuth Toolkit | id token",
+            "codename": "delete_idtoken"
+        },
+        "116": {
+            "name": "Can view id token",
+            "content_type": "Django OAuth Toolkit | id token",
+            "codename": "view_idtoken"
+        },
+        "109": {
+            "name": "Can add refresh token",
+            "content_type": "Django OAuth Toolkit | refresh token",
+            "codename": "add_refreshtoken"
+        },
+        "110": {
+            "name": "Can change refresh token",
+            "content_type": "Django OAuth Toolkit | refresh token",
+            "codename": "change_refreshtoken"
+        },
+        "111": {
+            "name": "Can delete refresh token",
+            "content_type": "Django OAuth Toolkit | refresh token",
+            "codename": "delete_refreshtoken"
+        },
+        "112": {
+            "name": "Can view refresh token",
+            "content_type": "Django OAuth Toolkit | refresh token",
+            "codename": "view_refreshtoken"
+        },
+        "17": {
+            "name": "Can add session",
+            "content_type": "Sessions | session",
+            "codename": "add_session"
+        },
+        "18": {
+            "name": "Can change session",
+            "content_type": "Sessions | session",
+            "codename": "change_session"
+        },
+        "19": {
+            "name": "Can delete session",
+            "content_type": "Sessions | session",
+            "codename": "delete_session"
+        },
+        "20": {
+            "name": "Can view session",
+            "content_type": "Sessions | session",
+            "codename": "view_session"
+        }
+    },
+    "groups": {
+        "2": {
+            "name": "Admin"
+        },
+        "1": {
+            "name": "Resident"
+        }
+    },
+    "contenttypes": {
+        "1": {
+            "app_label": "admin",
+            "model": "logentry"
+        },
+        "23": {
+            "app_label": "apartment",
+            "model": "complaint"
+        },
+        "15": {
+            "app_label": "apartment",
+            "model": "momolink"
+        },
+        "7": {
+            "app_label": "apartment",
+            "model": "momopaid"
+        },
+        "8": {
+            "app_label": "apartment",
+            "model": "notification"
+        },
+        "24": {
+            "app_label": "apartment",
+            "model": "ownership"
+        },
+        "22": {
+            "app_label": "apartment",
+            "model": "package"
+        },
+        "9": {
+            "app_label": "apartment",
+            "model": "payment"
+        },
+        "16": {
+            "app_label": "apartment",
+            "model": "receipt"
+        },
+        "14": {
+            "app_label": "apartment",
+            "model": "resident"
+        },
+        "10": {
+            "app_label": "apartment",
+            "model": "room"
+        },
+        "11": {
+            "app_label": "apartment",
+            "model": "schoice"
+        },
+        "21": {
+            "app_label": "apartment",
+            "model": "securitycard"
+        },
+        "12": {
+            "app_label": "apartment",
+            "model": "survey"
+        },
+        "18": {
+            "app_label": "apartment",
+            "model": "surveychoiceanswer"
+        },
+        "17": {
+            "app_label": "apartment",
+            "model": "surveyquestion"
+        },
+        "19": {
+            "app_label": "apartment",
+            "model": "surveytextanswer"
+        },
+        "6": {
+            "app_label": "apartment",
+            "model": "user"
+        },
+        "20": {
+            "app_label": "apartment",
+            "model": "vnpaylink"
+        },
+        "13": {
+            "app_label": "apartment",
+            "model": "vnpaypaid"
+        },
+        "3": {
+            "app_label": "auth",
+            "model": "group"
+        },
+        "2": {
+            "app_label": "auth",
+            "model": "permission"
+        },
+        "4": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        },
+        "26": {
+            "app_label": "oauth2_provider",
+            "model": "accesstoken"
+        },
+        "25": {
+            "app_label": "oauth2_provider",
+            "model": "application"
+        },
+        "27": {
+            "app_label": "oauth2_provider",
+            "model": "grant"
+        },
+        "29": {
+            "app_label": "oauth2_provider",
+            "model": "idtoken"
+        },
+        "28": {
+            "app_label": "oauth2_provider",
+            "model": "refreshtoken"
+        },
+        "5": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    "sessions": {
+        "welf8zaxi4345i2d718mp57qw2j6s7wj": {
+            "session_key": "welf8zaxi4345i2d718mp57qw2j6s7wj",
+            "session_data": ".eJxVjDsOwjAQBe_iGln-xR9Kes5g7XptHEC2FCcV4u4QKQW0b2bei0XY1hq3kZc4EzszyU6_G0J65LYDukO7dZ56W5cZ-a7wgw5-7ZSfl8P9O6gw6rcWIlkUXiQJpKQKNutiJlsoUHFk0AvAkAw5jUl5EyQZJaFIp1XGMFn2_gDh6TfI:1swfbf:rJLwA1EUXoOL4nqiYcr_XsK4SLDlK7jdr6_zQSwYqwI",
+            "expire_date": "2024-10-18T10:32:19.014350+00:00"
+        }
+    },
+    "users": {
+        "1": {
+            "password": "pbkdf2_sha256$870000$2nY1UEpGccdpwd5NH2NcSy$oSxNIoRH7RDKejXliHQ7Lu1NRhVWDwGL43dGPhyaYiQ=",
+            "last_login": "2024-10-04T10:32:19.009594+00:00",
+            "is_superuser": "True",
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@gmail.com",
+            "is_staff": "True",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:28:10.382000+00:00"
+        },
+        "20": {
+            "password": "pbkdf2_sha256$870000$jNpvFxT8OCEshWjvJf7rx3$F6KI9IrsHTdoNrscDWaG43TjICmrkfu+ua1OKXQj1UA=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident1",
+            "first_name": "Đồ án ngành",
+            "last_name": "Số 1",
+            "email": "resident1@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:30:10.382000+00:00"
+        },
+        "21": {
+            "password": "pbkdf2_sha256$870000$N8vZrgkkLyc6He6IV0QxK0$h7Fc3iqX8OqXJWzgve2lfC0tLj0fukhAMLY+76/I1g8=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident2",
+            "first_name": "Cư Dân",
+            "last_name": "Số 2",
+            "email": "resident2@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:32:10.382000+00:00"
+        },
+        "22": {
+            "password": "pbkdf2_sha256$870000$FIMqna0lofvQKTp6i7KwK9$yTLdsLoscMpbM9lbRBpcJ6t1QE9odtO4ifHvasVRj/8=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident3",
+            "first_name": "Cư Dân",
+            "last_name": "Số 3",
+            "email": "resident3@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:34:10.382000+00:00"
+        },
+        "23": {
+            "password": "pbkdf2_sha256$720000$Cw4TJSX2p5KjwWpb0K9gQv$D/4PCtFe/Dw+T8zHkGmXAwFu9U8hyRyniofGnxaAJbM=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident4",
+            "first_name": "Cư Dân",
+            "last_name": "Số 4",
+            "email": "resident4@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:36:10.382000+00:00"
+        },
+        "24": {
+            "password": "pbkdf2_sha256$720000$p28aS0qQLSK2nvojMdLS2b$VXs2Csmy7tLNS301be6oqp27/KKtwY71src53DpM9jI=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident5",
+            "first_name": "Cư Dân",
+            "last_name": "Số 5",
+            "email": "resident5@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:38:10.382000+00:00"
+        },
+        "25": {
+            "password": "pbkdf2_sha256$720000$wx293Y4ws4F38GRQAjXVfQ$Q1hbXq0JzW7jvADwgmJAoPP/5POiowAzXvwdmbir9hE=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident6",
+            "first_name": "Cư Dân",
+            "last_name": "Số 6",
+            "email": "resident6@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:40:10.382000+00:00"
+        },
+        "26": {
+            "password": "pbkdf2_sha256$720000$4Hps2nNBZIctFp4H6HJu07$iWHJnQ5XktPL9l9SqHBW3t8j9iwK/5Lw6VKtabbInPo=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident7",
+            "first_name": "Cư Dân",
+            "last_name": "Số 7",
+            "email": "resident7@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:42:10.382000+00:00"
+        },
+        "27": {
+            "password": "pbkdf2_sha256$720000$tJVaKOmyqqSUotdyICN0YU$Qken/X0KYZMGQSTGr/9+GnuimL5agmwtO04z6ozU+hU=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident8",
+            "first_name": "test",
+            "last_name": "Số 8",
+            "email": "resident8@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:44:10.382000+00:00"
+        },
+        "28": {
+            "password": "pbkdf2_sha256$720000$i3Abca1Np5B0XWPdJUbDYw$oZYw/04amd/p0Tg9wF3UJeB7CItvbGseJjm6ld6/pq8=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident9",
+            "first_name": "Cư Dân",
+            "last_name": "Số 9",
+            "email": "resident9@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:46:10.382000+00:00"
+        }
+    },
+    "residents": {
+        "20": {
+            "password": "pbkdf2_sha256$870000$jNpvFxT8OCEshWjvJf7rx3$F6KI9IrsHTdoNrscDWaG43TjICmrkfu+ua1OKXQj1UA=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident1",
+            "first_name": "Đồ án ngành",
+            "last_name": "Số 1",
+            "email": "resident1@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:30:10.382000+00:00",
+            "user_ptr": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "phone": "0123456789",
+            "avatar": "http://res.cloudinary.com/dr1frcopo/image/upload/v1728283447/ep2sumrvivk10zbzfpzb.jpg",
+            "birthday": "1990-02-02",
+            "gender": "male"
+        },
+        "21": {
+            "password": "pbkdf2_sha256$870000$N8vZrgkkLyc6He6IV0QxK0$h7Fc3iqX8OqXJWzgve2lfC0tLj0fukhAMLY+76/I1g8=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident2",
+            "first_name": "Cư Dân",
+            "last_name": "Số 2",
+            "email": "resident2@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:32:10.382000+00:00",
+            "user_ptr": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "phone": "0234567890",
+            "avatar": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+            "birthday": "1989-01-01",
+            "gender": "female"
+        },
+        "22": {
+            "password": "pbkdf2_sha256$870000$FIMqna0lofvQKTp6i7KwK9$yTLdsLoscMpbM9lbRBpcJ6t1QE9odtO4ifHvasVRj/8=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident3",
+            "first_name": "Cư Dân",
+            "last_name": "Số 3",
+            "email": "resident3@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:34:10.382000+00:00",
+            "user_ptr": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "phone": "0345678901",
+            "avatar": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+            "birthday": "1988-03-03",
+            "gender": "male"
+        },
+        "23": {
+            "password": "pbkdf2_sha256$720000$Cw4TJSX2p5KjwWpb0K9gQv$D/4PCtFe/Dw+T8zHkGmXAwFu9U8hyRyniofGnxaAJbM=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident4",
+            "first_name": "Cư Dân",
+            "last_name": "Số 4",
+            "email": "resident4@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:36:10.382000+00:00",
+            "user_ptr": {
+                "username": "resident4",
+                "email": "resident4@gmail.com"
+            },
+            "phone": "0456789012",
+            "avatar": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+            "birthday": "1987-04-04",
+            "gender": "female"
+        },
+        "24": {
+            "password": "pbkdf2_sha256$720000$p28aS0qQLSK2nvojMdLS2b$VXs2Csmy7tLNS301be6oqp27/KKtwY71src53DpM9jI=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident5",
+            "first_name": "Cư Dân",
+            "last_name": "Số 5",
+            "email": "resident5@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:38:10.382000+00:00",
+            "user_ptr": {
+                "username": "resident5",
+                "email": "resident5@gmail.com"
+            },
+            "phone": "0567890123",
+            "avatar": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+            "birthday": "1991-05-05",
+            "gender": "male"
+        },
+        "25": {
+            "password": "pbkdf2_sha256$720000$wx293Y4ws4F38GRQAjXVfQ$Q1hbXq0JzW7jvADwgmJAoPP/5POiowAzXvwdmbir9hE=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident6",
+            "first_name": "Cư Dân",
+            "last_name": "Số 6",
+            "email": "resident6@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:40:10.382000+00:00",
+            "user_ptr": {
+                "username": "resident6",
+                "email": "resident6@gmail.com"
+            },
+            "phone": "0678901234",
+            "avatar": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+            "birthday": "1992-06-06",
+            "gender": "female"
+        },
+        "26": {
+            "password": "pbkdf2_sha256$720000$4Hps2nNBZIctFp4H6HJu07$iWHJnQ5XktPL9l9SqHBW3t8j9iwK/5Lw6VKtabbInPo=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident7",
+            "first_name": "Cư Dân",
+            "last_name": "Số 7",
+            "email": "resident7@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:42:10.382000+00:00",
+            "user_ptr": {
+                "username": "resident7",
+                "email": "resident7@gmail.com"
+            },
+            "phone": "0789012345",
+            "avatar": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+            "birthday": "1986-06-06",
+            "gender": "male"
+        },
+        "27": {
+            "password": "pbkdf2_sha256$720000$tJVaKOmyqqSUotdyICN0YU$Qken/X0KYZMGQSTGr/9+GnuimL5agmwtO04z6ozU+hU=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident8",
+            "first_name": "test",
+            "last_name": "Số 8",
+            "email": "resident8@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:44:10.382000+00:00",
+            "user_ptr": {
+                "username": "resident8",
+                "email": "resident8@gmail.com"
+            },
+            "phone": "0890123456",
+            "avatar": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+            "birthday": "1993-07-07",
+            "gender": "female"
+        },
+        "28": {
+            "password": "pbkdf2_sha256$720000$i3Abca1Np5B0XWPdJUbDYw$oZYw/04amd/p0Tg9wF3UJeB7CItvbGseJjm6ld6/pq8=",
+            "last_login": "None",
+            "is_superuser": "False",
+            "username": "resident9",
+            "first_name": "Cư Dân",
+            "last_name": "Số 9",
+            "email": "resident9@gmail.com",
+            "is_staff": "False",
+            "is_active": "True",
+            "date_joined": "2024-10-03T13:46:10.382000+00:00",
+            "user_ptr": {
+                "username": "resident9",
+                "email": "resident9@gmail.com"
+            },
+            "phone": "0901234567",
+            "avatar": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713498839/regvcw9ph5vv5gmhmzf8.jpg",
+            "birthday": "1989-08-08",
+            "gender": "male"
+        }
+    },
+    "rooms": {
+        "1": {
+            "name": "Căn hộ gia đình 1",
+            "created_date": "2024-10-03T13:48:10.410000+00:00",
+            "updated_date": "2024-10-04T10:06:49.893603+00:00",
+            "number": "A501",
+            "is_empty": "False",
+            "square": 72.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713493899/san2zbbjcysab4cgxlca.jpg",
+            "description": "3 phòng ngủ, 2 toilet, 1 phòng khách, full nội thất"
+        },
+        "2": {
+            "name": "Căn hộ gia đình 2",
+            "created_date": "2024-10-03T13:50:10.410000+00:00",
+            "updated_date": "2024-10-04T10:06:49.896597+00:00",
+            "number": "A502",
+            "is_empty": "False",
+            "square": 72.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713494009/bf2w4krspox0l8vxjpbc.jpg",
+            "description": "3 phòng ngủ, 2 toilet, 1 phòng khách, nội thất cơ bản"
+        },
+        "3": {
+            "name": "Căn hộ gia đình 3",
+            "created_date": "2024-10-03T13:52:10.410000+00:00",
+            "updated_date": "2024-10-04T10:06:49.899674+00:00",
+            "number": "A601",
+            "is_empty": "False",
+            "square": 160.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713494117/onvelxdjnpxjt0nms68e.jpg",
+            "description": "4 phòng ngủ, 4 toilet, 1 phòng khách, full nội thất"
+        },
+        "4": {
+            "name": "Căn hộ gia đình 4",
+            "created_date": "2024-10-03T13:54:10.410000+00:00",
+            "updated_date": "2024-10-03T13:54:10.410000+00:00",
+            "number": "A503",
+            "is_empty": "True",
+            "square": 53.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713494240/lxrfi2abg6hz2qhxth5y.jpg",
+            "description": "1 phòng ngủ, 1 toilet, ban công rộng, nội thất cơ bản"
+        },
+        "5": {
+            "name": "Căn hộ gia đình 5",
+            "created_date": "2024-10-03T13:56:10.410000+00:00",
+            "updated_date": "2024-10-03T13:56:10.410000+00:00",
+            "number": "A602",
+            "is_empty": "True",
+            "square": 129.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713494315/scefrioacj4wxposs8rz.jpg",
+            "description": "3 phòng ngủ, 2 toilet, có bồn tắm, phòng master"
+        },
+        "6": {
+            "name": "Căn hộ gia đình 6",
+            "created_date": "2024-10-03T13:58:10.410000+00:00",
+            "updated_date": "2024-10-03T13:58:10.410000+00:00",
+            "number": "A504",
+            "is_empty": "True",
+            "square": 78.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713494441/zz5k1nojhriuh1kqkmet.jpg",
+            "description": "2 phòng ngủ, 2 toilet, 1 bếp, full nội thất"
+        },
+        "7": {
+            "name": "Căn hộ gia đình 7",
+            "created_date": "2024-10-03T14:00:10.410000+00:00",
+            "updated_date": "2024-10-03T14:00:10.410000+00:00",
+            "number": "A505",
+            "is_empty": "True",
+            "square": 85.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713494554/qk3cdvvex23svgrsmcfm.jpg",
+            "description": "2 phòng ngủ, 2 toilet, 1 bếp, full nội thất"
+        },
+        "8": {
+            "name": "Căn hộ gia đình 8",
+            "created_date": "2024-10-03T14:02:10.410000+00:00",
+            "updated_date": "2024-10-03T14:02:10.410000+00:00",
+            "number": "A603",
+            "is_empty": "True",
+            "square": 80.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713494645/plltwesdurpyefsxcrc3.jpg",
+            "description": "1 phòng ngủ, 1 toilet, 1 bếp, full nội thất"
+        },
+        "9": {
+            "name": "Căn hộ gia đình 9",
+            "created_date": "2024-10-03T14:04:10.410000+00:00",
+            "updated_date": "2024-10-03T14:04:10.410000+00:00",
+            "number": "A605",
+            "is_empty": "True",
+            "square": 157.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713494708/vluyhjxnxheac8sb2rlu.jpg",
+            "description": "4 phòng ngủ, 4 toilet, 1 phòng khách, full nội thất"
+        },
+        "10": {
+            "name": "Căn hộ gia đình 10",
+            "created_date": "2024-10-03T14:06:10.410000+00:00",
+            "updated_date": "2024-10-03T14:06:10.410000+00:00",
+            "number": "A604",
+            "is_empty": "True",
+            "square": 100.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713494818/tzeqyypa97yzjaebge8v.jpg",
+            "description": "3 phòng ngủ, 3 toilet, 1 phòng khách, 1 bếp, full nội thất"
+        },
+        "11": {
+            "name": "Căn hộ Studio 1",
+            "created_date": "2024-10-03T14:08:10.410000+00:00",
+            "updated_date": "2024-10-04T10:06:49.903606+00:00",
+            "number": "B301",
+            "is_empty": "False",
+            "square": 30.1,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713495078/qpptna2wuydsnher2jfo.jpg",
+            "description": "1 phòng ngủ, 1 toilet, nội thất cơ bản"
+        },
+        "12": {
+            "name": "Căn hộ Studio 2",
+            "created_date": "2024-10-03T14:10:10.410000+00:00",
+            "updated_date": "2024-10-03T14:10:10.410000+00:00",
+            "number": "B401",
+            "is_empty": "True",
+            "square": 38.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713495146/cd0w56isctqbg8eshitq.jpg",
+            "description": "1 phòng ngủ, 1 toilet, full nội thất"
+        },
+        "13": {
+            "name": "Căn hộ Studio 3",
+            "created_date": "2024-10-03T14:12:10.410000+00:00",
+            "updated_date": "2024-10-03T14:12:10.410000+00:00",
+            "number": "A301",
+            "is_empty": "True",
+            "square": 36.8,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713495236/ytq96adr1ipdp89cvbsv.jpg",
+            "description": "1 phòng ngủ, 1 toilet, nội thất cơ bản"
+        },
+        "14": {
+            "name": "Căn hộ Studio 4",
+            "created_date": "2024-10-03T14:14:10.410000+00:00",
+            "updated_date": "2024-10-04T10:06:49.910067+00:00",
+            "number": "A401",
+            "is_empty": "False",
+            "square": 50.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713495366/jfskhhsv7popsegxcfcf.jpg",
+            "description": "1 phòng ngủ, 1 toilet, full nội thất"
+        },
+        "15": {
+            "name": "Căn hộ Studio 5",
+            "created_date": "2024-10-03T14:16:10.410000+00:00",
+            "updated_date": "2024-10-03T14:16:10.410000+00:00",
+            "number": "C301",
+            "is_empty": "True",
+            "square": 36.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713495449/wnd4xbiwxyq7pg6lf40a.jpg",
+            "description": "1 phòng ngủ, 1 toilet, full nội thất"
+        },
+        "16": {
+            "name": "Căn hộ Studio 6",
+            "created_date": "2024-10-03T14:18:10.410000+00:00",
+            "updated_date": "2024-10-03T14:18:10.410000+00:00",
+            "number": "C401",
+            "is_empty": "True",
+            "square": 47.44,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713495491/z7q2ff2ufwqvh4cy2kfh.jpg",
+            "description": "1 phòng ngủ, 1 toilet, nội thất cơ bản"
+        },
+        "17": {
+            "name": "Căn hộ Studio 7",
+            "created_date": "2024-10-03T14:20:10.410000+00:00",
+            "updated_date": "2024-10-03T14:20:10.410000+00:00",
+            "number": "D301",
+            "is_empty": "True",
+            "square": 49.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713495535/k6sidmslewtfoobq7vpu.jpg",
+            "description": "1 phòng ngủ, 1 toilet, full nội thất"
+        },
+        "18": {
+            "name": "Căn hộ Studio 8",
+            "created_date": "2024-10-03T14:22:10.410000+00:00",
+            "updated_date": "2024-10-03T14:22:10.410000+00:00",
+            "number": "D401",
+            "is_empty": "True",
+            "square": 27.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713495605/jbxgnwsz3whga6jxohmb.jpg",
+            "description": "1 phòng ngủ, 1 toilet, không nội thất"
+        },
+        "19": {
+            "name": "Shophouse 1",
+            "created_date": "2024-10-03T14:24:10.410000+00:00",
+            "updated_date": "2024-10-04T10:06:49.912257+00:00",
+            "number": "A001",
+            "is_empty": "False",
+            "square": 98.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713497535/p9qr36wwblzx5wrxrpob.png",
+            "description": "Shop Rainbow, nội khu, hoàn thiện"
+        },
+        "20": {
+            "name": "Shophouse 2",
+            "created_date": "2024-10-03T14:26:10.410000+00:00",
+            "updated_date": "2024-10-03T14:26:10.410000+00:00",
+            "number": "B002",
+            "is_empty": "True",
+            "square": 64.61,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713495910/hrgipno0u2d5blvjzsjz.jpg",
+            "description": "Nội thô, Mặt sảnh"
+        },
+        "21": {
+            "name": "Shophouse 3",
+            "created_date": "2024-10-03T14:28:10.410000+00:00",
+            "updated_date": "2024-10-03T14:28:10.410000+00:00",
+            "number": "C001",
+            "is_empty": "True",
+            "square": 90.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713497621/riuvntayoilr0tzecsve.jpg",
+            "description": "Nội khu, nhà thô"
+        },
+        "22": {
+            "name": "Shophouse 4",
+            "created_date": "2024-10-03T14:30:10.410000+00:00",
+            "updated_date": "2024-10-03T14:30:10.410000+00:00",
+            "number": "D001",
+            "is_empty": "True",
+            "square": 59.6,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713497468/odt2dpxodutogwy79rqs.jpg",
+            "description": "Hoàn thiện, mặt sảnh"
+        },
+        "23": {
+            "name": "Căn hộ OT 1",
+            "created_date": "2024-10-03T14:32:10.410000+00:00",
+            "updated_date": "2024-10-03T14:32:10.410000+00:00",
+            "number": "A101",
+            "is_empty": "True",
+            "square": 115.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713496263/izvqt9kzrozzc5llbmw7.jpg",
+            "description": "Không nội thất, hoàn thiện cơ bản"
+        },
+        "25": {
+            "name": "Căn hộ OT 2",
+            "created_date": "2024-10-03T14:34:10.410000+00:00",
+            "updated_date": "2024-10-04T10:06:49.914597+00:00",
+            "number": "B101",
+            "is_empty": "False",
+            "square": 150.28,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713496364/pi1ofujqcttufvxsvhoq.jpg",
+            "description": "Nội thất cơ bản, hoàn thiện cơ bản"
+        },
+        "26": {
+            "name": "Căn hộ OT 3",
+            "created_date": "2024-10-03T14:36:10.410000+00:00",
+            "updated_date": "2024-10-03T14:36:10.410000+00:00",
+            "number": "C101",
+            "is_empty": "True",
+            "square": 125.75,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713496439/trrvbmczd0xubgpjj15m.jpg",
+            "description": "Hoàn thiện, full nội thất"
+        },
+        "27": {
+            "name": "Căn hộ OT 4",
+            "created_date": "2024-10-03T14:38:10.410000+00:00",
+            "updated_date": "2024-10-04T10:06:49.917371+00:00",
+            "number": "D101",
+            "is_empty": "False",
+            "square": 50.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713496504/b0nvemshas5jstimiuyi.jpg",
+            "description": "Nội thất cơ bản"
+        },
+        "28": {
+            "name": "Căn hộ cao cấp 1",
+            "created_date": "2024-10-03T14:40:10.410000+00:00",
+            "updated_date": "2024-10-04T10:06:49.920456+00:00",
+            "number": "A201",
+            "is_empty": "False",
+            "square": 90.0,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713498270/huy1ucsvckl5rz99ir79.jpg",
+            "description": "2 phòng ngủ, 2 toilet, 1 phòng khách, full nội thất"
+        },
+        "29": {
+            "name": "Căn hộ cao cấp 2",
+            "created_date": "2024-10-03T14:42:10.410000+00:00",
+            "updated_date": "2024-10-03T14:42:10.410000+00:00",
+            "number": "B201",
+            "is_empty": "True",
+            "square": 56.2,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713498481/d04es0yeqfqsxzfjmilr.jpg",
+            "description": "2 phòng ngủ, 2 toilet, 1 bếp, full nội thất"
+        },
+        "30": {
+            "name": "Căn hộ cao cấp 3",
+            "created_date": "2024-10-03T14:44:10.410000+00:00",
+            "updated_date": "2024-10-03T14:44:10.410000+00:00",
+            "number": "C201",
+            "is_empty": "True",
+            "square": 72.5,
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713498531/aamodtaf0razzsvmqaem.jpg",
+            "description": "2 phòng ngủ, 2 toilet, 1 bếp, full nội thất"
+        }
+    },
+    "ownerships": {
+        "1": {
+            "name": "Hợp đồng tháng 10 năm 2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "room": 1,
+            "start_date": "2024-10-03",
+            "end_date": "None"
+        },
+        "2": {
+            "name": "Hợp đồng tháng 10 năm 2024",
+            "created_date": "2024-10-03T14:50:04.395000+00:00",
+            "updated_date": "2024-10-03T14:50:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "room": 2,
+            "start_date": "2024-10-03",
+            "end_date": "None"
+        },
+        "3": {
+            "name": "Hợp đồng tháng 10 năm 2024",
+            "created_date": "2024-10-03T14:53:04.395000+00:00",
+            "updated_date": "2024-10-03T14:53:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "room": 3,
+            "start_date": "2024-10-03",
+            "end_date": "None"
+        },
+        "4": {
+            "name": "Hợp đồng tháng 10 năm 2024",
+            "created_date": "2024-10-03T14:56:04.395000+00:00",
+            "updated_date": "2024-10-03T14:56:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident4",
+                "email": "resident4@gmail.com"
+            },
+            "room": 11,
+            "start_date": "2024-10-03",
+            "end_date": "None"
+        },
+        "5": {
+            "name": "Hợp đồng tháng 10 năm 2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident5",
+                "email": "resident5@gmail.com"
+            },
+            "room": 14,
+            "start_date": "2024-10-03",
+            "end_date": "None"
+        },
+        "6": {
+            "name": "Hợp đồng tháng 10 năm 2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident6",
+                "email": "resident6@gmail.com"
+            },
+            "room": 19,
+            "start_date": "2024-10-03",
+            "end_date": "None"
+        },
+        "7": {
+            "name": "Hợp đồng tháng 10 năm 2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident7",
+                "email": "resident7@gmail.com"
+            },
+            "room": 25,
+            "start_date": "2024-10-03",
+            "end_date": "None"
+        },
+        "8": {
+            "name": "Hợp đồng tháng 10 năm 2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident8",
+                "email": "resident8@gmail.com"
+            },
+            "room": 27,
+            "start_date": "2024-10-03",
+            "end_date": "None"
+        },
+        "9": {
+            "name": "Hợp đồng tháng 10 năm 2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident9",
+                "email": "resident9@gmail.com"
+            },
+            "room": 28,
+            "start_date": "2024-10-03",
+            "end_date": "None"
+        }
+    },
+    "payments": {
+        "1": {
+            "name": "Tiền điện T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "False",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "amount": "1234567"
+        },
+        "2": {
+            "name": "Tiền nước T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "False",
+            "resident": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "amount": "333222"
+        },
+        "3": {
+            "name": "Tiền Internet T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "False",
+            "resident": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "amount": "320000"
+        },
+        "4": {
+            "name": "Phí dịch vụ T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "False",
+            "resident": {
+                "username": "resident5",
+                "email": "resident5@gmail.com"
+            },
+            "amount": "1000000"
+        },
+        "5": {
+            "name": "Phí an ninh T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "False",
+            "resident": {
+                "username": "resident6",
+                "email": "resident6@gmail.com"
+            },
+            "amount": "500000"
+        },
+        "6": {
+            "name": "Phí vệ sinh T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident4",
+                "email": "resident4@gmail.com"
+            },
+            "amount": "150000"
+        },
+        "7": {
+            "name": "Phí bảo dưỡng T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident7",
+                "email": "resident7@gmail.com"
+            },
+            "amount": "650234"
+        },
+        "8": {
+            "name": "Tiền đền bù thiệt hại",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "False",
+            "resident": {
+                "username": "resident9",
+                "email": "resident9@gmail.com"
+            },
+            "amount": "1200000"
+        },
+        "9": {
+            "name": "Tiền nước T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "amount": "200000"
+        },
+        "10": {
+            "name": "Tiền test",
+            "created_date": "2024-10-05T12:27:22.984430+00:00",
+            "updated_date": "2024-10-05T12:27:22.984430+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "amount": "9999999"
+        },
+        "11": {
+            "name": "Phí gửi xe đạp tháng",
+            "created_date": "2024-10-05T12:32:50.118851+00:00",
+            "updated_date": "2024-10-05T12:32:50.118851+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "amount": "900000"
+        },
+        "12": {
+            "name": "Phí gửi xe máy tháng",
+            "created_date": "2024-10-05T13:41:28.889329+00:00",
+            "updated_date": "2024-10-05T13:41:28.889329+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "amount": "150000"
+        },
+        "13": {
+            "name": "Phí gửi xe motorbike tháng",
+            "created_date": "2024-10-09T05:22:13.615772+00:00",
+            "updated_date": "2024-10-09T05:22:13.615772+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident9",
+                "email": "resident9@gmail.com"
+            },
+            "amount": "150000"
+        }
+    },
+    "momolinks": {
+        "1": {
+            "partner_code": "MOMO",
+            "order_id": "MOMO18372334803816163615",
+            "request_id": "MOMO6402193457816690988",
+            "amount": "1234567",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "pay_url": "https://test-payment.momo.vn/v2/gateway/pay?t=TU9NT3xNT01PMTgzNzIzMzQ4MDM4MTYxNjM2MTU&s=27b4be4dfab5d0de2a79ab7bd0f41ff6c99e7e0608d436069106dba8c94caae8",
+            "short_link": "https://test-payment.momo.vn/shortlink/m9D2blqzKr",
+            "payment": 1
+        },
+        "2": {
+            "partner_code": "MOMO",
+            "order_id": "MOMO345563150496050007665",
+            "request_id": "MOMO438367464841588044103236",
+            "amount": "320000",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "pay_url": "https://test-payment.momo.vn/v2/gateway/pay?t=TU9NT3xNT01PMzQ1NTYzMTUwNDk2MDUwMDA3NjY1&s=05c1f91958b83da1f0fd08159914e4036d0ed67f15d66d3430fc01909f4a4e04",
+            "short_link": "https://test-payment.momo.vn/shortlink/dEzJUAE4h7",
+            "payment": 3
+        },
+        "3": {
+            "partner_code": "MOMO",
+            "order_id": "MOMO471786474461052258737029",
+            "request_id": "MOMO01756052490650244167611",
+            "amount": "500000",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "pay_url": "https://test-payment.momo.vn/v2/gateway/pay?t=TU9NT3xNT01PNDcxNzg2NDc0NDYxMDUyMjU4NzM3MDI5&s=d2234bc70624f5b7167ba790b73bfea594c87a82ad75dd8df55bb515d300d615",
+            "short_link": "https://test-payment.momo.vn/shortlink/KvjJHNlYyp",
+            "payment": 5
+        },
+        "4": {
+            "partner_code": "MOMO",
+            "order_id": "MOMO100425748671966237298",
+            "request_id": "MOMO172786406754290454620169",
+            "amount": "9999999",
+            "created_date": "2024-10-05T12:27:51.299677+00:00",
+            "updated_date": "2024-10-05T12:27:51.299677+00:00",
+            "pay_url": "https://test-payment.momo.vn/v2/gateway/pay?t=TU9NT3xNT01PMTAwNDI1NzQ4NjcxOTY2MjM3Mjk4&s=186293422431e15aa0a50d51e81799432b671dfea17c814d7b038569d194da50",
+            "short_link": "https://test-payment.momo.vn/shortlink/9cyc6ymEBi",
+            "payment": 10
+        }
+    },
+    "momopaids": {
+        "1": {
+            "partner_code": "MOMO",
+            "order_id": "MOMO18372334803816163615",
+            "request_id": "MOMO6402193457816690988",
+            "amount": "1234567",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_info": "Thanh toan hoa don bang Momo",
+            "order_type": "momo_wallet",
+            "trans_id": "4058509608",
+            "pay_type": "napas",
+            "signature": "d93f0317c33e05b30eca51d2783cf5fe11e4587102eb90cfb5e75c621bc62526"
+        },
+        "2": {
+            "partner_code": "MOMO",
+            "order_id": "MOMO345563150496050007665",
+            "request_id": "MOMO438367464841588044103236",
+            "amount": "320000",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_info": "Thanh toan hoa don bang Momo",
+            "order_type": "momo_wallet",
+            "trans_id": "4058584832",
+            "pay_type": "credit",
+            "signature": "2f39b3a0bac23a521cd1a7862a28172f0fa0f246fd59929ade51f4d04dfc8aa7"
+        },
+        "3": {
+            "partner_code": "MOMO",
+            "order_id": "MOMO471786474461052258737029",
+            "request_id": "MOMO01756052490650244167611",
+            "amount": "500000",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_info": "Thanh toan hoa don bang Momo",
+            "order_type": "momo_wallet",
+            "trans_id": "4058509639",
+            "pay_type": "napas",
+            "signature": "5a23ef5c9048e9bf8e91f607069bdd84be72ea1d287aa57449e10a40de60e628"
+        }
+    },
+    "vnpaylinks": {
+        "1": {
+            "txn_ref": "VNP2108279844159630819690",
+            "amount": "333223",
+            "order_info": "Thanh toan hoa don bang VnPay",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_type": "billpayment",
+            "ip_addr": "127.0.0.1",
+            "payment_url": "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html?vnp_Amount=33322300&vnp_Command=pay&vnp_CreateDate=20240612185227&vnp_CurrCode=VND&vnp_IpAddr=127.0.0.1&vnp_Locale=vn&vnp_OrderInfo=Thanh+toan+hoa+don+bang+VnPay&vnp_OrderType=billpayment&vnp_ReturnUrl=http%3A%2F%2F127.0.0.1%3A8000%2Fpaid&vnp_TmnCode=BBJDENSU&vnp_TxnRef=VNP2108279844159630819690&vnp_Version=2.1.0&vnp_SecureHash=8535fb6e9a4ddd67628638e2569b263aa3391b9b62cb0ed36d15b4496ada429d797d576e5c33a264414405b1a3bc0a6dbaf1859a48bcd958e6d4d069103db82e",
+            "payment": 2
+        },
+        "2": {
+            "txn_ref": "VNP192252412980684022",
+            "amount": "1000000",
+            "order_info": "Thanh toan hoa don bang VnPay",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_type": "billpayment",
+            "ip_addr": "127.0.0.1",
+            "payment_url": "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html?vnp_Amount=100000000&vnp_Command=pay&vnp_CreateDate=20240612185324&vnp_CurrCode=VND&vnp_IpAddr=127.0.0.1&vnp_Locale=vn&vnp_OrderInfo=Thanh+toan+hoa+don+bang+VnPay&vnp_OrderType=billpayment&vnp_ReturnUrl=http%3A%2F%2F127.0.0.1%3A8000%2Fpaid&vnp_TmnCode=BBJDENSU&vnp_TxnRef=VNP192252412980684022&vnp_Version=2.1.0&vnp_SecureHash=72834cc8c9e6b51930668f30b9971207305216457e692747116d97503bb59fb8e2e160e4ecce1594047d524294c0419911c206ffd3ec2ac94fe9856a800b4d53",
+            "payment": 4
+        },
+        "3": {
+            "txn_ref": "VNP734722249984455546",
+            "amount": "1200000",
+            "order_info": "Thanh toan hoa don bang VnPay",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_type": "billpayment",
+            "ip_addr": "127.0.0.1",
+            "payment_url": "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html?vnp_Amount=120000000&vnp_Command=pay&vnp_CreateDate=20240612185818&vnp_CurrCode=VND&vnp_IpAddr=127.0.0.1&vnp_Locale=vn&vnp_OrderInfo=Thanh+toan+hoa+don+bang+VnPay&vnp_OrderType=billpayment&vnp_ReturnUrl=http%3A%2F%2F127.0.0.1%3A8000%2Fpaid&vnp_TmnCode=BBJDENSU&vnp_TxnRef=VNP734722249984455546&vnp_Version=2.1.0&vnp_SecureHash=c9fb217fe1d5f7fb0d069c329361a8333f83f0c7353abcec9e8530ab9614fba906cfbd2484a1a6ac25d756cb5d8298723b5f36ae18f3a2ded7773eb6fe60873c",
+            "payment": 8
+        },
+        "4": {
+            "txn_ref": "VNP7452143444439887735308",
+            "amount": "9999999",
+            "order_info": "Thanh toán hóa đơn Tiền test bằng VNPay",
+            "created_date": "2024-10-05T12:28:44.760647+00:00",
+            "updated_date": "2024-10-05T12:28:44.760647+00:00",
+            "order_type": "billpayment",
+            "ip_addr": "127.0.0.1",
+            "payment_url": "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html?vnp_Amount=999999900&vnp_Command=pay&vnp_CreateDate=20241005192844&vnp_CurrCode=VND&vnp_IpAddr=127.0.0.1&vnp_Locale=vn&vnp_OrderInfo=Thanh+to%C3%A1n+h%C3%B3a+%C4%91%C6%A1n+Ti%E1%BB%81n+test+b%E1%BA%B1ng+VNPay&vnp_OrderType=billpayment&vnp_ReturnUrl=http%3A%2F%2F127.0.0.1%3A8000%2Fpaid&vnp_TmnCode=BBJDENSU&vnp_TxnRef=VNP7452143444439887735308&vnp_Version=2.1.0&vnp_SecureHash=2f790c1c6fd9a097e9b669821cf4b61e4109f588b55021be7365b871a7c560be6ad4eaf23183f1ee2a7d91f6bef614afdddd30888f3c82e8d4aee105f3ad7235",
+            "payment": 10
+        }
+    },
+    "vnpaypaids": {
+        "1": {
+            "txn_ref": "VNP2108279844159630819690",
+            "amount": "33322300",
+            "order_info": "Thanh toan hoa don bang VnPay",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "bank_code": "NCB",
+            "bank_tran_no": "VNP14456268",
+            "card_type": "ATM",
+            "pay_date": "20240612184958",
+            "response_code": "0",
+            "tmn_code": "BBJDENSU",
+            "transaction_no": "14456268",
+            "transaction_status": "0",
+            "secure_hash": "bc6a1967a199b5d00dfe8c77fddfcffd0cf062a57fe7fd1f5fb2a846463290d11671bd92c637b880d0e0cc167a673500a8ab7e43a5c658488fefe98a1f0f0bfd"
+        },
+        "2": {
+            "txn_ref": "VNP192252412980684022",
+            "amount": "100000000",
+            "order_info": "Thanh toan hoa don bang VnPay",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "bank_code": "JCB",
+            "bank_tran_no": "7181931399646836203012",
+            "card_type": "JCB",
+            "pay_date": "20240612185123",
+            "response_code": "0",
+            "tmn_code": "BBJDENSU",
+            "transaction_no": "14456270",
+            "transaction_status": "0",
+            "secure_hash": "e75f0b15e3f9594a469e473587305e2542b05063b5e3040c244354d9d5c64e53bce5abe495aa4ea66826e234afbaaa6e133a5c64558ec5a0dc0390d268c3aec4"
+        },
+        "3": {
+            "txn_ref": "VNP734722249984455546",
+            "amount": "120000000",
+            "order_info": "Thanh toan hoa don bang VnPay",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "bank_code": "NCB",
+            "bank_tran_no": "VNP14456276",
+            "card_type": "ATM",
+            "pay_date": "20240612185547",
+            "response_code": "0",
+            "tmn_code": "BBJDENSU",
+            "transaction_no": "14456276",
+            "transaction_status": "0",
+            "secure_hash": "801de76d6e7aa71386daf224ab7528ed7cb64d83d1baa6068e9b83bc731aef48f6a85441b1858f7c79a71aea1a61d477a6cf8f0e86dc00d867c51eeb1286f526"
+        }
+    },
+    "receipts": {
+        "1": {
+            "name": "Hóa đơn Tiền điện T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_id": "MOMO18372334803816163615",
+            "pay_method": "momo",
+            "amount": "1234567",
+            "payment": 1
+        },
+        "2": {
+            "name": "Hóa đơn Tiền Internet T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_id": "MOMO345563150496050007665",
+            "pay_method": "momo",
+            "amount": "320000",
+            "payment": 3
+        },
+        "3": {
+            "name": "Hóa đơn Phí an ninh T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_id": "MOMO471786474461052258737029",
+            "pay_method": "momo",
+            "amount": "500000",
+            "payment": 5
+        },
+        "4": {
+            "name": "Hóa đơn Tiền nước T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_id": "VNP2108279844159630819690",
+            "pay_method": "vnpay",
+            "amount": "333223",
+            "payment": 2
+        },
+        "5": {
+            "name": "Hóa đơn Phí dịch vụ T4/2024",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_id": "VNP192252412980684022",
+            "pay_method": "vnpay",
+            "amount": "1000000",
+            "payment": 4
+        },
+        "6": {
+            "name": "Hóa đơn Tiền đền bù thiệt hại",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "order_id": "VNP734722249984455546",
+            "pay_method": "vnpay",
+            "amount": "1200000",
+            "payment": 8
+        }
+    },
+    "securitycards": {
+        "1": {
+            "name": "Thẻ giữ xe",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident8",
+                "email": "resident8@gmail.com"
+            },
+            "name_register": "Người thân cư dân 8",
+            "vehicle_number": "88BC-89123",
+            "type_vehicle": "bike"
+        },
+        "2": {
+            "name": "Thẻ giữ xe",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "name_register": "Người thân cư dân 3",
+            "vehicle_number": "33BC-34567",
+            "type_vehicle": "motorbike"
+        },
+        "3": {
+            "name": "Thẻ giữ xe",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident7",
+                "email": "resident7@gmail.com"
+            },
+            "name_register": "Người thân cư dân 7",
+            "vehicle_number": "77BC-789456",
+            "type_vehicle": "car"
+        },
+        "4": {
+            "name": "Thẻ giữ xe",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident6",
+                "email": "resident6@gmail.com"
+            },
+            "name_register": "Người thân cư dân 6",
+            "vehicle_number": "12B2-92138",
+            "type_vehicle": "motorbike"
+        },
+        "5": {
+            "name": "Thẻ giữ xe",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident5",
+                "email": "resident5@gmail.com"
+            },
+            "name_register": "Người thân cư dân 5",
+            "vehicle_number": "49L1-26318",
+            "type_vehicle": "motorbike"
+        },
+        "7": {
+            "name": "Thẻ giữ xe",
+            "created_date": "2024-10-05T13:41:28.873055+00:00",
+            "updated_date": "2024-10-05T13:41:28.873055+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "name_register": "Nguyễn Văn A",
+            "vehicle_number": "123456",
+            "type_vehicle": "motorbike"
+        },
+        "8": {
+            "name": "feq",
+            "created_date": "2024-10-09T04:37:36.347625+00:00",
+            "updated_date": "2024-10-09T04:37:36.347625+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "name_register": "dsaf",
+            "vehicle_number": "321",
+            "type_vehicle": "motorbike"
+        },
+        "12": {
+            "name": "fefwq",
+            "created_date": "2024-10-09T05:22:13.609632+00:00",
+            "updated_date": "2024-10-09T05:22:13.609632+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident9",
+                "email": "resident9@gmail.com"
+            },
+            "name_register": "41dfsafds",
+            "vehicle_number": "1235",
+            "type_vehicle": "motorbike"
+        }
+    },
+    "packages": {
+        "1": {
+            "name": "Đơn Shopee",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "note": "Đồ dùng cá nhân",
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+        },
+        "2": {
+            "name": "Đơn Lazada",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "note": "Đồ dùng cá nhân",
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713532869/nbddqcxcwtn4esgfiksr.jpg"
+        },
+        "3": {
+            "name": "Đơn TiktokShop",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "note": "Đồ dùng cá nhân",
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+        },
+        "4": {
+            "name": "Đơn Tiki",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident4",
+                "email": "resident4@gmail.com"
+            },
+            "note": "Sách",
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+        },
+        "5": {
+            "name": "Đơn Sendo",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident5",
+                "email": "resident5@gmail.com"
+            },
+            "note": "Quần áo",
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+        },
+        "6": {
+            "name": "Đơn ChoTot",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident6",
+                "email": "resident6@gmail.com"
+            },
+            "note": "Quần áo",
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+        },
+        "7": {
+            "name": "Đơn Ahamove",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident7",
+                "email": "resident7@gmail.com"
+            },
+            "note": "Quần áo",
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+        },
+        "8": {
+            "name": "Đơn GHTK",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident8",
+                "email": "resident8@gmail.com"
+            },
+            "note": "Quần áo",
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+        },
+        "9": {
+            "name": "Đơn GHN",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident9",
+                "email": "resident9@gmail.com"
+            },
+            "note": "Quần áo",
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1713532852/eo0fsvrsmadbpdem49ja.jpg"
+        },
+        "10": {
+            "name": "avsa",
+            "created_date": "2024-10-09T04:36:01.904543+00:00",
+            "updated_date": "2024-10-09T04:36:01.904543+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "note": "ed",
+            "image": "http://res.cloudinary.com/dr1frcopo/image/upload/v1728448291/n0qbh5mdhmzkpucup0dx.jpg"
+        }
+    },
+    "complaints": {
+        "1": {
+            "name": "Vấn đề an ninh",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "content": "Mất trật tự"
+        },
+        "2": {
+            "name": "Vấn đề vệ sinh",
+            "created_date": "2024-10-03T14:47:04.395000+00:00",
+            "updated_date": "2024-10-03T14:47:04.395000+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "content": "Dạo gần đây, chung cư chúng ta rất mất vệ sinh"
+        },
+        "3": {
+            "name": "Vấn đề nội bộ",
+            "created_date": "2024-10-05T12:38:46.360621+00:00",
+            "updated_date": "2024-10-05T12:38:46.360621+00:00",
+            "active": "True",
+            "resident": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "content": "Lục đục, cần thay đổi cách vận hành"
+        }
+    },
+    "surveys": {
+        "1": {
+            "name": "Khảo sát định kì T7/2024",
+            "created_date": "2024-10-04T03:29:14.353000+00:00",
+            "updated_date": "2024-10-04T03:29:14.353000+00:00",
+            "description": "Khảo sát nhanh",
+            "active": "True"
+        },
+        "2": {
+            "name": "Khảo sát định kì T8/2024",
+            "created_date": "2024-10-04T03:33:36.614000+00:00",
+            "updated_date": "2024-10-04T03:33:36.614000+00:00",
+            "description": "Khảo sát nhanh",
+            "active": "True"
+        },
+        "3": {
+            "name": "Khảo sát định kì T9/2024",
+            "created_date": "2024-10-04T03:40:46.084000+00:00",
+            "updated_date": "2024-10-04T03:40:46.084000+00:00",
+            "description": "Khảo sát nhanh",
+            "active": "True"
+        },
+        "4": {
+            "name": "Khảo sát định kì T10/2024",
+            "created_date": "2024-10-04T03:40:46.084000+00:00",
+            "updated_date": "2024-10-04T03:40:46.084000+00:00",
+            "description": "Khảo sát nhanh",
+            "active": "True"
+        }
+    },
+    "schoices": {
+        "1": {
+            "content": "Phù hợp",
+            "question": 1
+        },
+        "2": {
+            "content": "Nên giảm khoảng 10-15%",
+            "question": 1
+        },
+        "3": {
+            "content": "Có thể tăng giá",
+            "question": 1
+        },
+        "4": {
+            "content": "Tuần",
+            "question": 2
+        },
+        "5": {
+            "content": "Tháng",
+            "question": 2
+        },
+        "6": {
+            "content": "Quý",
+            "question": 2
+        },
+        "7": {
+            "content": "Năm",
+            "question": 2
+        },
+        "8": {
+            "content": "Xây dựng kế hoạch kinh doanh hàng quý/hàng năm",
+            "question": 3
+        },
+        "9": {
+            "content": "Xây dựng dự án đầu tư",
+            "question": 3
+        },
+        "10": {
+            "content": "Viết báo cáo tư vấn/ báo cáo phân tích",
+            "question": 3
+        },
+        "11": {
+            "content": "Tham khảo cho đề tài/luận văn/luận án/bài báo",
+            "question": 3
+        },
+        "12": {
+            "content": "Phân tích chuyên sâu hơn",
+            "question": 4
+        },
+        "13": {
+            "content": "Giảm phân tích, tăng số liệu",
+            "question": 4
+        },
+        "14": {
+            "content": "Tăng thông tin thế giới",
+            "question": 4
+        },
+        "15": {
+            "content": "Tăng thông tin trong nước",
+            "question": 4
+        },
+        "16": {
+            "content": "Cung cấp thông tin doanh nghiệp",
+            "question": 4
+        },
+        "17": {
+            "content": "Số liệu cần cập nhật hơn",
+            "question": 4
+        },
+        "18": {
+            "content": "Báo cáo cần dài hơn",
+            "question": 4
+        },
+        "19": {
+            "content": "Báo cáo cần súc tích hơn",
+            "question": 4
+        },
+        "20": {
+            "content": "Chưa từng dùng",
+            "question": 6
+        },
+        "21": {
+            "content": "Đang dùng",
+            "question": 6
+        },
+        "22": {
+            "content": "Đã từng dùng",
+            "question": 6
+        },
+        "23": {
+            "content": "Sẽ tiếp tục sử dụng",
+            "question": 7
+        },
+        "24": {
+            "content": "Chưa có kế hoạch",
+            "question": 7
+        },
+        "25": {
+            "content": "Sẽ dùng sản phẩm của cửa hàng khác",
+            "question": 7
+        },
+        "26": {
+            "content": "Thân thiện, lịch sự, có thái độ tốt, quan tâm đến khách hàng",
+            "question": 8
+        },
+        "27": {
+            "content": "Chấp nhận được",
+            "question": 8
+        },
+        "28": {
+            "content": "Thiêu tính chuyên nghiệp, không chấp nhân được",
+            "question": 8
+        },
+        "29": {
+            "content": "Nhanh chóng, kịp thời, thấu đáo",
+            "question": 9
+        },
+        "30": {
+            "content": "Chấp nhận được",
+            "question": 9
+        },
+        "31": {
+            "content": "Chưa kịp thời, chậm",
+            "question": 9
+        },
+        "32": {
+            "content": "Giá cao",
+            "question": 10
+        },
+        "33": {
+            "content": "Giá hợp lí",
+            "question": 10
+        },
+        "34": {
+            "content": "Giá rẻ",
+            "question": 10
+        },
+        "35": {
+            "content": "Lâu",
+            "question": 11
+        },
+        "36": {
+            "content": "Nhanh chóng",
+            "question": 11
+        },
+        "37": {
+            "content": "Bình thường",
+            "question": 11
+        },
+        "38": {
+            "content": "Ngon, vừa miệng",
+            "question": 13
+        },
+        "39": {
+            "content": "Bình thường, không đặc sắc",
+            "question": 13
+        },
+        "40": {
+            "content": "Không, rất tệ",
+            "question": 13
+        },
+        "41": {
+            "content": "Hơn cả mong đợi",
+            "question": 19
+        },
+        "42": {
+            "content": "Hoàn toàn hài lòng",
+            "question": 19
+        },
+        "43": {
+            "content": "Không hoàn toàn hài lòng nhưng chấp nhận được",
+            "question": 19
+        },
+        "44": {
+            "content": "Không thỏa mãn",
+            "question": 19
+        },
+        "45": {
+            "content": "Dịch vụ Làm sạch",
+            "question": 20
+        },
+        "46": {
+            "content": "Dịch vụ An ninh",
+            "question": 20
+        },
+        "47": {
+            "content": "Dịch vụ Kiểm soát côn trùng",
+            "question": 20
+        },
+        "48": {
+            "content": "Dịch vụ thu gom rác thải sinh hoạt",
+            "question": 20
+        },
+        "49": {
+            "content": "Dịch vụ tiện ích cư dân",
+            "question": 20
+        },
+        "50": {
+            "content": "Dịch vụ Làm sạch",
+            "question": 22
+        },
+        "51": {
+            "content": "Dịch vụ An ninh",
+            "question": 22
+        },
+        "52": {
+            "content": "Dịch vụ Kiểm soát côn trùng",
+            "question": 22
+        },
+        "53": {
+            "content": "Dịch vụ thu gom rác thải sinh hoạt",
+            "question": 22
+        },
+        "54": {
+            "content": "Dịch vụ tiện ích cư dân",
+            "question": 22
+        },
+        "55": {
+            "content": "Chuyên nghiệp",
+            "question": 23
+        },
+        "56": {
+            "content": "Tiếp nhận và xử lý kịp thời",
+            "question": 23
+        },
+        "57": {
+            "content": "Kỹ năng quản lý tốt",
+            "question": 23
+        },
+        "58": {
+            "content": "Nhiệt tình giúp đỡ",
+            "question": 23
+        }
+    },
+    "surveyquestions": {
+        "1": {
+            "content": "Quý khách hàng nhận thấy mức giá đối với các báo cáo của chúng tôi hiện nay đã phù hợp chưa?",
+            "created_date": "2024-10-04T03:30:23.914000+00:00",
+            "updated_date": "2024-10-04T03:30:23.914000+00:00",
+            "type": "radiogroup",
+            "survey": 1
+        },
+        "2": {
+            "content": "Quý khách hàng lựa chọn các báo cáo theo tần suất?",
+            "created_date": "2024-10-04T03:31:03.949000+00:00",
+            "updated_date": "2024-10-04T03:31:03.949000+00:00",
+            "type": "radiogroup",
+            "survey": 1
+        },
+        "3": {
+            "content": "Quý khách hàng sử dụng các thông tin trong báo cáo cho mục đích gì (có thể chọn nhiều phương án):",
+            "created_date": "2024-10-04T03:31:45.595000+00:00",
+            "updated_date": "2024-10-04T03:31:45.595000+00:00",
+            "type": "radiogroup",
+            "survey": 1
+        },
+        "4": {
+            "content": "Theo Quý khách hàng, các báo cáo cần bổ sung, điều chỉnh như thế nào?",
+            "created_date": "2024-10-04T03:32:42.096000+00:00",
+            "updated_date": "2024-10-04T03:32:42.096000+00:00",
+            "type": "checkbox",
+            "survey": 1
+        },
+        "5": {
+            "content": "Quý khách hàng có muốn cập nhật thông tin thường xuyên về các sản phẩm mới của chúng tôi hay không",
+            "created_date": "2024-10-04T03:32:53.476000+00:00",
+            "updated_date": "2024-10-04T03:32:53.477000+00:00",
+            "type": "boolean",
+            "survey": 1
+        },
+        "6": {
+            "content": "Quý khách đã từng sử dụng sản phẩm của ....................... chưa?",
+            "created_date": "2024-10-04T03:34:13.213000+00:00",
+            "updated_date": "2024-10-04T03:34:13.213000+00:00",
+            "type": "radiogroup",
+            "survey": 2
+        },
+        "7": {
+            "content": "Quý khách có dự định sẽ tiếp tục sử dụng sản phẩm của ............................ không?",
+            "created_date": "2024-10-04T03:34:44.180000+00:00",
+            "updated_date": "2024-10-04T03:34:44.180000+00:00",
+            "type": "radiogroup",
+            "survey": 2
+        },
+        "8": {
+            "content": "Theo quý khách thái độ phục vụ và tư vấn của nhân viên ............................ như thế nào?",
+            "created_date": "2024-10-04T03:35:07.517000+00:00",
+            "updated_date": "2024-10-04T03:35:07.517000+00:00",
+            "type": "radiogroup",
+            "survey": 2
+        },
+        "9": {
+            "content": "Theo quý khách chất lượng và thời gian xử lý hỗ trợ, giải quyết các sự cố của ......... là:",
+            "created_date": "2024-10-04T03:35:32.367000+00:00",
+            "updated_date": "2024-10-04T03:35:32.367000+00:00",
+            "type": "radiogroup",
+            "survey": 2
+        },
+        "10": {
+            "content": "Theo quý khách giá sản phẩm của ................... như thế nào?",
+            "created_date": "2024-10-04T03:39:41.389000+00:00",
+            "updated_date": "2024-10-04T03:39:41.389000+00:00",
+            "type": "radiogroup",
+            "survey": 2
+        },
+        "11": {
+            "content": "Bạn cảm thấy thời gian chờ đợi món ăn như thế nào?",
+            "created_date": "2024-10-04T03:41:43.887000+00:00",
+            "updated_date": "2024-10-04T03:41:43.887000+00:00",
+            "type": "radiogroup",
+            "survey": 3
+        },
+        "12": {
+            "content": "Bạn có hài lòng về vấn đề vệ sinh của nhà hàng?",
+            "created_date": "2024-10-04T03:42:06.810000+00:00",
+            "updated_date": "2024-10-04T03:42:06.810000+00:00",
+            "type": "rating",
+            "survey": 3
+        },
+        "13": {
+            "content": "Các món ăn của nhà hàng có ngon miệng không?",
+            "created_date": "2024-10-04T03:42:31.147000+00:00",
+            "updated_date": "2024-10-04T03:42:31.147000+00:00",
+            "type": "radiogroup",
+            "survey": 3
+        },
+        "14": {
+            "content": "Dịch vụ Làm sạch?",
+            "created_date": "2024-10-04T04:18:53.141000+00:00",
+            "updated_date": "2024-10-04T04:18:53.141000+00:00",
+            "type": "rating",
+            "survey": 4
+        },
+        "15": {
+            "content": "Dịch vụ An ninh",
+            "created_date": "2024-10-04T04:19:04.200000+00:00",
+            "updated_date": "2024-10-04T04:19:04.200000+00:00",
+            "type": "rating",
+            "survey": 4
+        },
+        "16": {
+            "content": "Dịch vụ Kiểm soát công trùng",
+            "created_date": "2024-10-04T04:19:18.154000+00:00",
+            "updated_date": "2024-10-04T04:19:18.154000+00:00",
+            "type": "rating",
+            "survey": 4
+        },
+        "17": {
+            "content": "Dịch vụ thu gom rác thải sinh hoạt",
+            "created_date": "2024-10-04T04:19:34.272000+00:00",
+            "updated_date": "2024-10-04T04:19:34.272000+00:00",
+            "type": "rating",
+            "survey": 4
+        },
+        "18": {
+            "content": "Dịch vụ tiện ích cư dân",
+            "created_date": "2024-10-04T04:19:48.882000+00:00",
+            "updated_date": "2024-10-04T04:19:48.882000+00:00",
+            "type": "rating",
+            "survey": 4
+        },
+        "19": {
+            "content": "Quý Cư dân đánh giá như thế nào về cách xử lý, giải quyết vấn đề của BQL",
+            "created_date": "2024-10-04T04:21:24.202000+00:00",
+            "updated_date": "2024-10-04T04:21:24.202000+00:00",
+            "type": "radiogroup",
+            "survey": 4
+        },
+        "20": {
+            "content": "BQL cần cải thiện chất lượng các dịch vụ nào",
+            "created_date": "2024-10-04T04:24:47.778000+00:00",
+            "updated_date": "2024-10-04T04:24:47.778000+00:00",
+            "type": "checkbox",
+            "survey": 4
+        },
+        "21": {
+            "content": "BQL nên tổ chức sự kiện/lễ hội hàng tuần không?",
+            "created_date": "2024-10-04T04:25:04.239000+00:00",
+            "updated_date": "2024-10-04T04:25:04.239000+00:00",
+            "type": "boolean",
+            "survey": 4
+        },
+        "22": {
+            "content": "Bạn cảm thấy hài lòng với dịch vụ nào nhất tại LT House?",
+            "created_date": "2024-10-04T04:27:23.561000+00:00",
+            "updated_date": "2024-10-04T04:27:23.561000+00:00",
+            "type": "dropdown",
+            "survey": 4
+        },
+        "23": {
+            "content": "Bạn đánh giá chất lượng BQL như thế nào?",
+            "created_date": "2024-10-04T04:28:26.008000+00:00",
+            "updated_date": "2024-10-04T04:28:26.008000+00:00",
+            "type": "tagbox",
+            "survey": 4
+        },
+        "24": {
+            "content": "Bạn có góp ý nào khác cho BQL không?",
+            "created_date": "2024-10-04T04:28:55.231000+00:00",
+            "updated_date": "2024-10-04T04:28:55.231000+00:00",
+            "type": "text",
+            "survey": 4
+        },
+        "25": {
+            "content": "Bạn có tiếp tục sử dụng dịch vụ không?",
+            "created_date": "2024-10-04T04:29:10.168000+00:00",
+            "updated_date": "2024-10-04T04:29:10.168000+00:00",
+            "type": "boolean",
+            "survey": 4
+        },
+        "26": {
+            "content": "Bạn sẽ tư vấn cho bạn mình một nơi ở tại LT House?",
+            "created_date": "2024-10-04T04:29:34.277000+00:00",
+            "updated_date": "2024-10-04T04:29:34.277000+00:00",
+            "type": "boolean",
+            "survey": 4
+        }
+    },
+    "surveytextanswers": {
+        "1": {
+            "created_date": "2024-10-04T04:52:53.773000+00:00",
+            "updated_date": "2024-10-04T04:52:53.773000+00:00",
+            "question": 5,
+            "content": "Có"
+        },
+        "2": {
+            "created_date": "2024-10-04T04:53:47.081000+00:00",
+            "updated_date": "2024-10-04T04:53:47.081000+00:00",
+            "question": 12,
+            "content": "3"
+        },
+        "3": {
+            "created_date": "2024-10-04T04:52:53.773000+00:00",
+            "updated_date": "2024-10-04T04:52:53.773000+00:00",
+            "question": 5,
+            "content": "Không"
+        },
+        "4": {
+            "created_date": "2024-10-04T04:53:47.081000+00:00",
+            "updated_date": "2024-10-04T04:53:47.081000+00:00",
+            "question": 12,
+            "content": "1"
+        },
+        "5": {
+            "created_date": "2024-10-04T04:52:53.773000+00:00",
+            "updated_date": "2024-10-04T04:52:53.773000+00:00",
+            "question": 5,
+            "content": "Có"
+        },
+        "6": {
+            "created_date": "2024-10-04T04:53:47.081000+00:00",
+            "updated_date": "2024-10-04T04:53:47.081000+00:00",
+            "question": 12,
+            "content": "5"
+        },
+        "7": {
+            "created_date": "2024-10-05T12:49:04.423133+00:00",
+            "updated_date": "2024-10-05T12:49:04.423133+00:00",
+            "question": 24,
+            "content": "Không có góp ý gì thêm"
+        },
+        "8": {
+            "created_date": "2024-10-05T12:57:12.983156+00:00",
+            "updated_date": "2024-10-05T12:57:12.983156+00:00",
+            "question": 24,
+            "content": "Đóng góp ý kiến"
+        }
+    },
+    "surveychoiceanswers": {
+        "1": {
+            "created_date": "2024-10-04T04:52:53.761000+00:00",
+            "updated_date": "2024-10-04T04:52:53.761000+00:00",
+            "question": 2,
+            "choice": 5
+        },
+        "2": {
+            "created_date": "2024-10-04T04:52:53.773000+00:00",
+            "updated_date": "2024-10-04T04:52:53.773000+00:00",
+            "question": 1,
+            "choice": 1
+        },
+        "3": {
+            "created_date": "2024-10-04T04:52:53.775000+00:00",
+            "updated_date": "2024-10-04T04:52:53.775000+00:00",
+            "question": 4,
+            "choice": 13
+        },
+        "4": {
+            "created_date": "2024-10-04T04:52:53.775000+00:00",
+            "updated_date": "2024-10-04T04:52:53.775000+00:00",
+            "question": 3,
+            "choice": 8
+        },
+        "5": {
+            "created_date": "2024-10-04T04:52:53.791000+00:00",
+            "updated_date": "2024-10-04T04:52:53.791000+00:00",
+            "question": 4,
+            "choice": 14
+        },
+        "6": {
+            "created_date": "2024-10-04T04:52:53.797000+00:00",
+            "updated_date": "2024-10-04T04:52:53.797000+00:00",
+            "question": 4,
+            "choice": 12
+        },
+        "7": {
+            "created_date": "2024-10-04T04:53:19.669000+00:00",
+            "updated_date": "2024-10-04T04:53:19.669000+00:00",
+            "question": 7,
+            "choice": 24
+        },
+        "8": {
+            "created_date": "2024-10-04T04:53:19.673000+00:00",
+            "updated_date": "2024-10-04T04:53:19.673000+00:00",
+            "question": 6,
+            "choice": 20
+        },
+        "9": {
+            "created_date": "2024-10-04T04:53:19.672000+00:00",
+            "updated_date": "2024-10-04T04:53:19.672000+00:00",
+            "question": 10,
+            "choice": 32
+        },
+        "10": {
+            "created_date": "2024-10-04T04:53:19.673000+00:00",
+            "updated_date": "2024-10-04T04:53:19.673000+00:00",
+            "question": 9,
+            "choice": 29
+        },
+        "11": {
+            "created_date": "2024-10-04T04:53:19.676000+00:00",
+            "updated_date": "2024-10-04T04:53:19.676000+00:00",
+            "question": 8,
+            "choice": 26
+        },
+        "12": {
+            "created_date": "2024-10-04T04:53:47.085000+00:00",
+            "updated_date": "2024-10-04T04:53:47.085000+00:00",
+            "question": 13,
+            "choice": 39
+        },
+        "13": {
+            "created_date": "2024-10-04T04:53:47.086000+00:00",
+            "updated_date": "2024-10-04T04:53:47.086000+00:00",
+            "question": 11,
+            "choice": 36
+        },
+        "14": {
+            "created_date": "2024-10-04T04:52:53.761000+00:00",
+            "updated_date": "2024-10-04T04:52:53.761000+00:00",
+            "question": 2,
+            "choice": 4
+        },
+        "15": {
+            "created_date": "2024-10-04T04:52:53.773000+00:00",
+            "updated_date": "2024-10-04T04:52:53.773000+00:00",
+            "question": 1,
+            "choice": 2
+        },
+        "16": {
+            "created_date": "2024-10-04T04:52:53.775000+00:00",
+            "updated_date": "2024-10-04T04:52:53.775000+00:00",
+            "question": 4,
+            "choice": 12
+        },
+        "17": {
+            "created_date": "2024-10-04T04:52:53.775000+00:00",
+            "updated_date": "2024-10-04T04:52:53.775000+00:00",
+            "question": 3,
+            "choice": 9
+        },
+        "18": {
+            "created_date": "2024-10-04T04:52:53.791000+00:00",
+            "updated_date": "2024-10-04T04:52:53.791000+00:00",
+            "question": 4,
+            "choice": 19
+        },
+        "19": {
+            "created_date": "2024-10-04T04:52:53.797000+00:00",
+            "updated_date": "2024-10-04T04:52:53.797000+00:00",
+            "question": 4,
+            "choice": 17
+        },
+        "20": {
+            "created_date": "2024-10-04T04:53:19.669000+00:00",
+            "updated_date": "2024-10-04T04:53:19.669000+00:00",
+            "question": 7,
+            "choice": 23
+        },
+        "21": {
+            "created_date": "2024-10-04T04:53:19.673000+00:00",
+            "updated_date": "2024-10-04T04:53:19.673000+00:00",
+            "question": 6,
+            "choice": 22
+        },
+        "22": {
+            "created_date": "2024-10-04T04:53:19.672000+00:00",
+            "updated_date": "2024-10-04T04:53:19.672000+00:00",
+            "question": 10,
+            "choice": 33
+        },
+        "23": {
+            "created_date": "2024-10-04T04:53:19.673000+00:00",
+            "updated_date": "2024-10-04T04:53:19.673000+00:00",
+            "question": 9,
+            "choice": 30
+        },
+        "24": {
+            "created_date": "2024-10-04T04:53:19.676000+00:00",
+            "updated_date": "2024-10-04T04:53:19.676000+00:00",
+            "question": 8,
+            "choice": 27
+        },
+        "25": {
+            "created_date": "2024-10-04T04:53:47.085000+00:00",
+            "updated_date": "2024-10-04T04:53:47.085000+00:00",
+            "question": 13,
+            "choice": 40
+        },
+        "26": {
+            "created_date": "2024-10-04T04:53:47.086000+00:00",
+            "updated_date": "2024-10-04T04:53:47.086000+00:00",
+            "question": 11,
+            "choice": 35
+        },
+        "27": {
+            "created_date": "2024-10-04T04:52:53.761000+00:00",
+            "updated_date": "2024-10-04T04:52:53.761000+00:00",
+            "question": 2,
+            "choice": 6
+        },
+        "28": {
+            "created_date": "2024-10-04T04:52:53.773000+00:00",
+            "updated_date": "2024-10-04T04:52:53.773000+00:00",
+            "question": 1,
+            "choice": 3
+        },
+        "29": {
+            "created_date": "2024-10-04T04:52:53.775000+00:00",
+            "updated_date": "2024-10-04T04:52:53.775000+00:00",
+            "question": 4,
+            "choice": 15
+        },
+        "30": {
+            "created_date": "2024-10-04T04:52:53.775000+00:00",
+            "updated_date": "2024-10-04T04:52:53.775000+00:00",
+            "question": 3,
+            "choice": 10
+        },
+        "31": {
+            "created_date": "2024-10-04T04:52:53.791000+00:00",
+            "updated_date": "2024-10-04T04:52:53.791000+00:00",
+            "question": 4,
+            "choice": 16
+        },
+        "32": {
+            "created_date": "2024-10-04T04:52:53.797000+00:00",
+            "updated_date": "2024-10-04T04:52:53.797000+00:00",
+            "question": 4,
+            "choice": 12
+        },
+        "33": {
+            "created_date": "2024-10-04T04:52:53.797000+00:00",
+            "updated_date": "2024-10-04T04:52:53.797000+00:00",
+            "question": 4,
+            "choice": 13
+        },
+        "34": {
+            "created_date": "2024-10-04T04:52:53.797000+00:00",
+            "updated_date": "2024-10-04T04:52:53.797000+00:00",
+            "question": 4,
+            "choice": 14
+        },
+        "35": {
+            "created_date": "2024-10-04T04:52:53.797000+00:00",
+            "updated_date": "2024-10-04T04:52:53.797000+00:00",
+            "question": 4,
+            "choice": 17
+        },
+        "36": {
+            "created_date": "2024-10-04T04:52:53.797000+00:00",
+            "updated_date": "2024-10-04T04:52:53.797000+00:00",
+            "question": 4,
+            "choice": 18
+        },
+        "37": {
+            "created_date": "2024-10-04T04:53:19.669000+00:00",
+            "updated_date": "2024-10-04T04:53:19.669000+00:00",
+            "question": 7,
+            "choice": 25
+        },
+        "38": {
+            "created_date": "2024-10-04T04:53:19.673000+00:00",
+            "updated_date": "2024-10-04T04:53:19.673000+00:00",
+            "question": 6,
+            "choice": 21
+        },
+        "39": {
+            "created_date": "2024-10-04T04:53:19.672000+00:00",
+            "updated_date": "2024-10-04T04:53:19.672000+00:00",
+            "question": 10,
+            "choice": 34
+        },
+        "40": {
+            "created_date": "2024-10-04T04:53:19.673000+00:00",
+            "updated_date": "2024-10-04T04:53:19.673000+00:00",
+            "question": 9,
+            "choice": 31
+        },
+        "41": {
+            "created_date": "2024-10-04T04:53:19.676000+00:00",
+            "updated_date": "2024-10-04T04:53:19.676000+00:00",
+            "question": 8,
+            "choice": 28
+        },
+        "42": {
+            "created_date": "2024-10-04T04:53:47.085000+00:00",
+            "updated_date": "2024-10-04T04:53:47.085000+00:00",
+            "question": 13,
+            "choice": 38
+        },
+        "43": {
+            "created_date": "2024-10-04T04:53:47.086000+00:00",
+            "updated_date": "2024-10-04T04:53:47.086000+00:00",
+            "question": 11,
+            "choice": 37
+        },
+        "44": {
+            "created_date": "2024-10-05T12:56:08.342314+00:00",
+            "updated_date": "2024-10-05T12:56:08.342314+00:00",
+            "question": 19,
+            "choice": 44
+        }
+    },
+    "notifications": {
+        "1": {
+            "name": "Thông báo khảo sát",
+            "created_date": "2024-10-04T05:16:52.910000+00:00",
+            "updated_date": "2024-10-04T05:16:52.911000+00:00",
+            "content": "Bạn có một khảo sát mới cần được thực hiện",
+            "active": "True"
+        },
+        "2": {
+            "name": "Lịch cắt điện T10/2024",
+            "created_date": "2024-10-04T05:22:13.582000+00:00",
+            "updated_date": "2024-10-04T05:22:13.582000+00:00",
+            "content": "Cư dân chú ý: Ngày 10/10, từ 8h-12h, toàn bộ chung cư sẽ cắt điện để sửa chữa.",
+            "active": "True"
+        },
+        "3": {
+            "name": "Lịch sửa chữa thang máy T10/2024",
+            "created_date": "2024-10-04T05:22:50.611000+00:00",
+            "updated_date": "2024-10-04T05:22:50.611000+00:00",
+            "content": "Cư dân chú ý: Từ ngày 20/10 - 25/10, toàn bộ thang máy sẽ dừng hoạt động vào lúc 2h-6h mỗi ngày",
+            "active": "True"
+        },
+        "4": {
+            "name": "Tổ chức cuộc họp T10/2024",
+            "created_date": "2024-10-04T05:23:22.234000+00:00",
+            "updated_date": "2024-10-04T05:23:22.234000+00:00",
+            "content": "Vào ngày 15/10, ban quản lý sẽ tổ chức cuộc họp với cư dân vào lúc 19h tại phòng sinh hoạt chung của chung cư",
+            "active": "True"
+        },
+        "5": {
+            "name": "Tăng cường bảo vệ an ninh trong khu vực",
+            "created_date": "2024-10-04T05:24:45.243000+00:00",
+            "updated_date": "2024-10-04T05:24:45.243000+00:00",
+            "content": "Bổ sung thêm 2 bảo vệ tuần tra từ 22h-6h",
+            "active": "True"
+        },
+        "6": {
+            "name": "Dịch vụ vệ sinh định kỳ vào ngày chủ nhật",
+            "created_date": "2024-10-04T05:24:56.695000+00:00",
+            "updated_date": "2024-10-04T05:24:56.695000+00:00",
+            "content": "Vệ sinh toàn bộ khu vực chung",
+            "active": "True"
+        },
+        "7": {
+            "name": "Thông báo hoạt động",
+            "created_date": "2024-10-04T05:26:08.130000+00:00",
+            "updated_date": "2024-10-04T05:26:08.130000+00:00",
+            "content": "Với châm ngôn \"Cũ ta mới người\", ban quản lý chung cư tổ chức hoạt động thiện nguyện với nội dung quyên góp sách vở, quần áo, đồ chung và đồ chơi cũ",
+            "active": "True"
+        },
+        "8": {
+            "name": "Tổ chức hội chợ hàng hóa",
+            "created_date": "2024-10-04T05:26:23.450000+00:00",
+            "updated_date": "2024-10-04T05:26:23.450000+00:00",
+            "content": "Hội chợ mở cửa từ 8h-18h ngày 03/10 tại khu vực sân chơi của chung cư",
+            "active": "True"
+        },
+        "9": {
+            "name": "Tập huấn phòng cháy chữa cháy ngày 12/10",
+            "created_date": "2024-10-04T05:26:48.099000+00:00",
+            "updated_date": "2024-10-04T05:26:48.099000+00:00",
+            "content": "Tập huấn tại khu vực nhà để xe từ 9h-11h",
+            "active": "True"
+        },
+        "10": {
+            "name": "Chỉnh trang cảnh quan sân vườn",
+            "created_date": "2024-10-04T05:27:03.447000+00:00",
+            "updated_date": "2024-10-04T05:27:03.447000+00:00",
+            "content": "Bắt đầu từ ngày 22/10, kéo dài trong 1 tuần",
+            "active": "True"
+        },
+        "11": {
+            "name": "Chỉnh trang cảnh quan sân vườn",
+            "created_date": "2024-10-04T05:27:03.475000+00:00",
+            "updated_date": "2024-10-04T05:27:03.475000+00:00",
+            "content": "Bắt đầu từ ngày 22/10, kéo dài trong 1 tuần",
+            "active": "True"
+        },
+        "12": {
+            "name": "Thực hiện an toàn phòng cháy chữa cháy",
+            "created_date": "2024-10-04T05:27:33.217000+00:00",
+            "updated_date": "2024-10-04T05:27:33.217000+00:00",
+            "content": "Xin thông báo về việc kiểm tra hệ thống PCCC vào 17/10, từ 9h-12h trưa",
+            "active": "True"
+        },
+        "13": {
+            "name": "Hội nghị cư dân",
+            "created_date": "2024-10-04T05:27:49.112000+00:00",
+            "updated_date": "2024-10-04T05:27:49.112000+00:00",
+            "content": "Đề xuất ý kiến về việc sắp xếp lại lịch trình vệ sinh khu vực chung",
+            "active": "True"
+        },
+        "14": {
+            "name": "Thay đổi hệ thông cửa",
+            "created_date": "2024-10-04T05:28:04.034000+00:00",
+            "updated_date": "2024-10-04T05:28:04.034000+00:00",
+            "content": "Thông báo về việc thay đổi hệ thống cửa chính vào ngày 28/10",
+            "active": "True"
+        },
+        "15": {
+            "name": "Ý thức trẻ nhỏ",
+            "created_date": "2024-10-04T05:28:30.606000+00:00",
+            "updated_date": "2024-10-04T05:28:30.606000+00:00",
+            "content": "Lưu ý: Trẻ em dưới 12 tuổi phải được người lớn giám sát khi sử dụng cơ sở vật chất chung",
+            "active": "True"
+        }
+    },
+    "applications": {
+        "1": {
+            "client_id": "4WQgo6OG13j1Ca5YAD7VzIRZrN0hvGtMx4Upbsy8",
+            "user": {
+                "username": "admin",
+                "email": "admin@gmail.com"
+            },
+            "redirect_uris": "",
+            "post_logout_redirect_uris": "",
+            "client_type": "confidential",
+            "authorization_grant_type": "password",
+            "client_secret": "pbkdf2_sha256$870000$ajgbKXQFiueA5uQ0QD0x0z$xLsj0KygBCLzTfDMtCTNQnp/3ZoB1YICRmdkP+k0cwc=",
+            "hash_client_secret": "True",
+            "name": "ApartmentManagement",
+            "skip_authorization": "False",
+            "created": "2024-10-04T10:32:52.439348+00:00",
+            "updated": "2024-10-04T10:32:52.439348+00:00",
+            "algorithm": "",
+            "allowed_origins": ""
+        }
+    },
+    "grants": {},
+    "accesstokens": {
+        "1": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "n59ClIKnXlqMcSSce97Wj6zpCZtev4",
+            "token_checksum": "437b7e32da584c271305bcd365d5e02a7b55697b71c8772911d1bf4f03f8a618",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-04T20:40:52.580717+00:00",
+            "scope": "read write",
+            "created": "2024-10-04T10:40:52.581721+00:00",
+            "updated": "2024-10-04T10:40:52.581721+00:00"
+        },
+        "2": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "ISMibMqDBm3zsv4rs57RE2FBtmQ5zX",
+            "token_checksum": "930894b3cffad2126f67f6eb02bcd131b5f90e43f8304aa8a8998eb2966cb52d",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-05T01:39:29.080511+00:00",
+            "scope": "read write",
+            "created": "2024-10-04T15:39:29.081515+00:00",
+            "updated": "2024-10-04T15:39:29.081515+00:00"
+        },
+        "3": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "BiEI8Gdb7v8VrTb92IlT4qOPN1niTp",
+            "token_checksum": "1939c39fbae04560cbaa81d30d7a1759495868bfe7f660faf8770130ccd49383",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-05T13:51:50.397145+00:00",
+            "scope": "read write",
+            "created": "2024-10-05T03:51:50.398150+00:00",
+            "updated": "2024-10-05T03:51:50.398150+00:00"
+        },
+        "4": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "k0eNfZ84y0pDofaHEweiKbnh9OhFCQ",
+            "token_checksum": "a7fbf4b263626b668a7fd52bf3d61cc44ee7603b61388883328de7434c651f2e",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-05T17:24:27.657734+00:00",
+            "scope": "read write",
+            "created": "2024-10-05T07:24:27.659046+00:00",
+            "updated": "2024-10-05T07:24:27.659046+00:00"
+        },
+        "5": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "icZgb5faATxJxfsMwzpYtgZrNQk9tz",
+            "token_checksum": "7f0f4d81ac1c34a4906a55976ac8ea2edf6fd86df60b1abe5105783a5e4f7725",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-05T21:11:43.055196+00:00",
+            "scope": "read write",
+            "created": "2024-10-05T11:11:43.055196+00:00",
+            "updated": "2024-10-05T11:11:43.055196+00:00"
+        },
+        "6": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "kJj7hZZ3juaTCoXJ4XW4htaYcpHSWu",
+            "token_checksum": "bc4443488da1027c296d4fa0faa119d699e8876e42647904324f69dfad95ef57",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-05T23:17:41.966277+00:00",
+            "scope": "read write",
+            "created": "2024-10-05T13:17:41.968845+00:00",
+            "updated": "2024-10-05T13:17:41.968845+00:00"
+        },
+        "7": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "LpPslmfDJCDbyQvO8chMGEuyYRd2Ji",
+            "token_checksum": "2aebee90d18bda78e858408252bf7c8e01cd74416d7c2a3742b9ea0a153919bc",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-05T23:46:42.334890+00:00",
+            "scope": "read write",
+            "created": "2024-10-05T13:46:42.337619+00:00",
+            "updated": "2024-10-05T13:46:42.337619+00:00"
+        },
+        "8": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "BGvofBHmiV8qzXqnsaySJA9pv8pXU4",
+            "token_checksum": "6770689614087d01b754761ea9f681d88dfec73f757e0a861932233b2f5a02c0",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-05T23:56:22.835633+00:00",
+            "scope": "read write",
+            "created": "2024-10-05T13:56:22.836146+00:00",
+            "updated": "2024-10-05T13:56:22.836146+00:00"
+        },
+        "9": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "mQ9HlwYnCr9cFDwmqj74HdRqDajYaO",
+            "token_checksum": "dc849763cb052646fa019e712d255568dd32709f49d080a7b25bc1eaafccf03b",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T01:02:19.055590+00:00",
+            "scope": "read write",
+            "created": "2024-10-05T15:02:19.055590+00:00",
+            "updated": "2024-10-05T15:02:19.055590+00:00"
+        },
+        "10": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "SMZviHUvIULtj5KSoghTaPwYsXpOFj",
+            "token_checksum": "71b900b4bb158f2bbe0bc7720c6b1dba6134164def383aabd638dfcdf5a62146",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T01:07:33.832904+00:00",
+            "scope": "read write",
+            "created": "2024-10-05T15:07:33.833924+00:00",
+            "updated": "2024-10-05T15:07:33.833924+00:00"
+        },
+        "11": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "5HQHTDXBoSkhKrOC1JjBy1yAyb0pyK",
+            "token_checksum": "1566b4142788f39043cb75bde13b7f9c39020215777602c2c3ead12c2a264e23",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T12:24:41.595778+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T02:24:41.597981+00:00",
+            "updated": "2024-10-06T02:24:41.597981+00:00"
+        },
+        "12": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "PsRFwx2QyShlgVqL2SCcuEgIe9D8wn",
+            "token_checksum": "9f6d3375df4a287cea107893545f9a80bf8c7b6177019107bc9e5aa33864a492",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T12:25:49.233180+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T02:25:49.233180+00:00",
+            "updated": "2024-10-06T02:25:49.233180+00:00"
+        },
+        "13": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "Fvz8LiJonTH3Fxb3dq0PIqEFxnIz1P",
+            "token_checksum": "bb945c17d2bc0c19efd24dfbd008eb9fde7ed14944421343a665f94cb1b394b9",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T20:54:49.147689+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T10:54:49.147689+00:00",
+            "updated": "2024-10-06T10:54:49.147689+00:00"
+        },
+        "14": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "dqCJHAlCL3jeNqNSSHyQyjmuwb2PBJ",
+            "token_checksum": "6c3a90d75058cdb629ec63847e00d77e4747fb52b04f2785ab49c273389d8778",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T20:55:14.852787+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T10:55:14.852886+00:00",
+            "updated": "2024-10-06T10:55:14.852886+00:00"
+        },
+        "15": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "Jy0il1KHXXqreWQRpF9d1TrWkPQ7V5",
+            "token_checksum": "3a8f3445f2fab1654a08e067233c6f34c1ab667f8287247cd0df845cd67e5549",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T20:55:27.514485+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T10:55:27.514485+00:00",
+            "updated": "2024-10-06T10:55:27.514485+00:00"
+        },
+        "16": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "0B9n6TSyhF1Try3XGfRMobvThM6qne",
+            "token_checksum": "611adce3d38796501ab8d4b39e89506743bf7949bdbd22825420ae2a68984011",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T22:47:49.673554+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T12:47:49.685091+00:00",
+            "updated": "2024-10-06T12:47:49.685091+00:00"
+        },
+        "17": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "im12dYLIEJ48oT0Cbx4PyoZ1XPkhTr",
+            "token_checksum": "ff3691e92db71c8bea290f0417d60f3986031d9aa72cd4bdf767c1887025f456",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T23:06:00.464990+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T13:06:00.464990+00:00",
+            "updated": "2024-10-06T13:06:00.464990+00:00"
+        },
+        "18": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "yMLLAOw916PTnFaN1uYkRTyVMMve8s",
+            "token_checksum": "6564dd007e071dc99c9799861db18983812bae94e6f4a8cf265ed181e46653a6",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T23:07:20.801525+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T13:07:20.801525+00:00",
+            "updated": "2024-10-06T13:07:20.801525+00:00"
+        },
+        "19": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "UNpHhoiG7tBzQMIGAaXgWU7wQkGXjr",
+            "token_checksum": "f87b64aa14f48d67b0de075174688c67ab4c68cf1e5d2ea8236ca19117b0508e",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T23:08:04.252952+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T13:08:04.252952+00:00",
+            "updated": "2024-10-06T13:08:04.252952+00:00"
+        },
+        "20": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "WqmRpn35ocDuMcrKy3Fu05IYLjDHJA",
+            "token_checksum": "14bb19287985f13616076579607e8c5cb7b0c9f16d49e8d3cec4208b2b7f8f62",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T23:08:17.866695+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T13:08:17.866695+00:00",
+            "updated": "2024-10-06T13:08:17.866695+00:00"
+        },
+        "21": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "fAJiGbNbWRknPuOxTdlPTwz2OkGiY0",
+            "token_checksum": "26d85da100cc322a7883893ba7264e6f215b00f1c19670ff28873e52ec29e83a",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T23:39:07.702981+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T13:39:07.702981+00:00",
+            "updated": "2024-10-06T13:39:07.702981+00:00"
+        },
+        "22": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "YVPp38OZUQXAyEMvPKDtDw5250CO6G",
+            "token_checksum": "3ce3bb1f7aa2c9147e7ab4c398048f1366751e555af4957a132267685304b9a5",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T23:40:25.776813+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T13:40:25.776813+00:00",
+            "updated": "2024-10-06T13:40:25.776813+00:00"
+        },
+        "23": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "lOdRpKoegMSlq5EaJOssvhdGudz7Xc",
+            "token_checksum": "8df8e93a460ec8be6989a83c53abd16e9399a3fd2241660d523c194c16b90c9a",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-06T23:40:38.466731+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T13:40:38.467277+00:00",
+            "updated": "2024-10-06T13:40:38.467277+00:00"
+        },
+        "24": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "kESg0b7v61iW6EkKbtXccaCZE7qJTn",
+            "token_checksum": "7555a31e59b6c689f63b12dd95bde74fb9b44fa502d284b14258a33e5b64e5f8",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-07T00:41:50.559374+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T14:41:50.568172+00:00",
+            "updated": "2024-10-06T14:41:50.568172+00:00"
+        },
+        "25": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "ht9KmIqWQMoOgliWVop1vDNd9RkAyh",
+            "token_checksum": "7544149b320c5cdbe4962b77e873b994fc9e665727c25baacd90a172941e558f",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-07T00:42:13.459361+00:00",
+            "scope": "read write",
+            "created": "2024-10-06T14:42:13.459888+00:00",
+            "updated": "2024-10-06T14:42:13.459888+00:00"
+        },
+        "26": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "CCnt3xnAQ7RWCgVelcbi0u57g9EX30",
+            "token_checksum": "b23fe17fe174b6ed9b8c12e279c56ad8f2e349a564c8a41b482c89d7f82690dd",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-07T16:45:39.293220+00:00",
+            "scope": "read write",
+            "created": "2024-10-07T06:45:39.294222+00:00",
+            "updated": "2024-10-07T06:45:39.294222+00:00"
+        },
+        "27": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "bN1f8DRGGPaXfCYN5ZMq6GO6SG5HP6",
+            "token_checksum": "d133aca160f4aacc78ad11471fabc92af086d822ad9ea7d838c1dc05a00d8ad6",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-07T22:31:49.913370+00:00",
+            "scope": "read write",
+            "created": "2024-10-07T12:31:49.961150+00:00",
+            "updated": "2024-10-07T12:31:49.961150+00:00"
+        },
+        "28": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "Nj7yPhouXJglkw5h9TJ06OQOQfibn9",
+            "token_checksum": "6645a40a6c699c3b9c0cdf639e86552f4e964389d72cf7344218e6b38366fc05",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-08T01:13:50.252906+00:00",
+            "scope": "read write",
+            "created": "2024-10-07T15:13:50.254042+00:00",
+            "updated": "2024-10-07T15:13:50.254042+00:00"
+        },
+        "29": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "oyVdmuCjdjzsB1amfbNzxEZO8XVm1Y",
+            "token_checksum": "9f945cb64e1d8e744d85324a660479f49c100294d86b818957a2dd25672e781b",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-08T16:56:06.589282+00:00",
+            "scope": "read write",
+            "created": "2024-10-08T06:56:06.590942+00:00",
+            "updated": "2024-10-08T06:56:06.590942+00:00"
+        },
+        "30": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "FzzBOylU7YuHNhyAYLWjiZYEZpF6VE",
+            "token_checksum": "d84fde0bb90060a454c8d842fe0e20fdbc99c73b29f08d515b44481e71d3326a",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-08T16:57:37.239520+00:00",
+            "scope": "read write",
+            "created": "2024-10-08T06:57:37.240520+00:00",
+            "updated": "2024-10-08T06:57:37.240520+00:00"
+        },
+        "31": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "xc9A71cixyKN6Ka36tZgNbK7D6MHTO",
+            "token_checksum": "11b46afbf8c04f0af0cbf4485013a8cb175f9c1cc883b16a7554b5a4ef10950a",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-08T17:02:53.394356+00:00",
+            "scope": "read write",
+            "created": "2024-10-08T07:02:53.394356+00:00",
+            "updated": "2024-10-08T07:02:53.394356+00:00"
+        },
+        "32": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "Scvy5XKhya7CUbwHcm00w2KzEzmqXw",
+            "token_checksum": "2c0c0298e0c0c09f20186a78fbd80cefd6686d3acbed63607f8fed905de87c60",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-08T18:43:45.718606+00:00",
+            "scope": "read write",
+            "created": "2024-10-08T08:43:45.726152+00:00",
+            "updated": "2024-10-08T08:43:45.726152+00:00"
+        },
+        "33": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "source_refresh_token": "None",
+            "token": "FGTkiSHq1WeorjRfbxYpE4XQNF1q2J",
+            "token_checksum": "d941ef66b81cfea12b2a56a397ef05c8dd0115608c01a96222b337001fc99fb4",
+            "id_token": "None",
+            "application": 1,
+            "expires": "2024-10-08T18:50:41.469030+00:00",
+            "scope": "read write",
+            "created": "2024-10-08T08:50:41.469030+00:00",
+            "updated": "2024-10-08T08:50:41.469030+00:00"
+        }
+    },
+    "refreshtokens": {
+        "1": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "SwX2ZD6Q8acHjA7iU1LguPb1PdeXUd",
+            "application": 1,
+            "access_token": 1,
+            "token_family": "c3388cc0-fb01-4d73-ac0b-896d74e3ca2c",
+            "created": "2024-10-04T10:40:52.589236+00:00",
+            "updated": "2024-10-04T10:40:52.589236+00:00",
+            "revoked": "None"
+        },
+        "2": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "X5Q1R99w2zJbYktlLZAwd84oKtwckE",
+            "application": 1,
+            "access_token": 2,
+            "token_family": "0a57f908-06e6-49b7-9e79-6d90d75af4ae",
+            "created": "2024-10-04T15:39:29.110438+00:00",
+            "updated": "2024-10-04T15:39:29.110438+00:00",
+            "revoked": "None"
+        },
+        "3": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "qhABRbvUkaPh0kaaNDacUGN7zW7ocd",
+            "application": 1,
+            "access_token": 3,
+            "token_family": "1310c6e6-87f9-4bb1-8211-24e5284a9c9a",
+            "created": "2024-10-05T03:51:50.419395+00:00",
+            "updated": "2024-10-05T03:51:50.419395+00:00",
+            "revoked": "None"
+        },
+        "4": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "5TRT9CpVCKoT1SzeCg5BSMfGyPt05O",
+            "application": 1,
+            "access_token": 4,
+            "token_family": "49c05392-fdd9-49b2-96c5-67c29a3c76f0",
+            "created": "2024-10-05T07:24:27.693058+00:00",
+            "updated": "2024-10-05T07:24:27.693058+00:00",
+            "revoked": "None"
+        },
+        "5": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "2rWaSLzWmoA15eVWQrQm1i6MdkAPBt",
+            "application": 1,
+            "access_token": 5,
+            "token_family": "78763ae4-19dd-4afe-89de-029e47cb237e",
+            "created": "2024-10-05T11:11:43.070446+00:00",
+            "updated": "2024-10-05T11:11:43.070446+00:00",
+            "revoked": "None"
+        },
+        "6": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "iHKnUkIxVdupOerA39ixC4jXg1Mn6R",
+            "application": 1,
+            "access_token": 6,
+            "token_family": "994110b5-98d2-46fd-874a-0e979baa7572",
+            "created": "2024-10-05T13:17:41.974716+00:00",
+            "updated": "2024-10-05T13:17:41.974716+00:00",
+            "revoked": "None"
+        },
+        "7": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "token": "Pqukq4WezoqFLU43t9A2KwTSUX97rW",
+            "application": 1,
+            "access_token": 7,
+            "token_family": "02df38dd-f160-4b42-92e1-ff4506468d62",
+            "created": "2024-10-05T13:46:42.340974+00:00",
+            "updated": "2024-10-05T13:46:42.340974+00:00",
+            "revoked": "None"
+        },
+        "8": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "gC5MEXEJGtbU0k99kMeDCgMEytcurd",
+            "application": 1,
+            "access_token": 8,
+            "token_family": "47580ae3-66d9-48c7-857a-33e757b601d3",
+            "created": "2024-10-05T13:56:22.836146+00:00",
+            "updated": "2024-10-05T13:56:22.836146+00:00",
+            "revoked": "None"
+        },
+        "9": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "token": "Y4fNwgdSby2h37UTTnVMDuALtrx2jj",
+            "application": 1,
+            "access_token": 9,
+            "token_family": "f32e23c8-b772-42a7-98b1-d35f87504f23",
+            "created": "2024-10-05T15:02:19.094290+00:00",
+            "updated": "2024-10-05T15:02:19.094290+00:00",
+            "revoked": "None"
+        },
+        "10": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "token": "eZc9zb8s0XSP0s6DEbrqInPTqAsr6p",
+            "application": 1,
+            "access_token": 10,
+            "token_family": "d96de620-d4e2-4ac6-9ef6-18c3eb978d17",
+            "created": "2024-10-05T15:07:33.838133+00:00",
+            "updated": "2024-10-05T15:07:33.838133+00:00",
+            "revoked": "None"
+        },
+        "11": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "btRvqec27xYHG0JrIKRyRvCIHdVsd1",
+            "application": 1,
+            "access_token": 11,
+            "token_family": "f3a93093-6065-42df-a9eb-8f1b17b871f9",
+            "created": "2024-10-06T02:24:41.620080+00:00",
+            "updated": "2024-10-06T02:24:41.620080+00:00",
+            "revoked": "None"
+        },
+        "12": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "token": "HT0SC0KBcxYDTkqkybNwky7DUOnwnp",
+            "application": 1,
+            "access_token": 12,
+            "token_family": "4fa48ac8-ad0d-4c2e-82b8-10d0634b94c7",
+            "created": "2024-10-06T02:25:49.233180+00:00",
+            "updated": "2024-10-06T02:25:49.233180+00:00",
+            "revoked": "None"
+        },
+        "13": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "ND7hZ8AlPRQ9O21aCQZUY4bqBhhuBZ",
+            "application": 1,
+            "access_token": 13,
+            "token_family": "3f0414e0-949e-4346-b33a-59568e306b1b",
+            "created": "2024-10-06T10:54:49.198919+00:00",
+            "updated": "2024-10-06T10:54:49.198919+00:00",
+            "revoked": "None"
+        },
+        "14": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "token": "SRaxjhaJPzPCakzZkcOEeGqaTpOrXt",
+            "application": 1,
+            "access_token": 14,
+            "token_family": "f6ab923c-3d75-40bb-8399-d7a11b973f82",
+            "created": "2024-10-06T10:55:14.855707+00:00",
+            "updated": "2024-10-06T10:55:14.855707+00:00",
+            "revoked": "None"
+        },
+        "15": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "token": "jlRKLbUxyhE0hvYjgyEWHUdmRYtuYd",
+            "application": 1,
+            "access_token": 15,
+            "token_family": "7a38b570-2d08-431b-87ba-6cf7001b4fea",
+            "created": "2024-10-06T10:55:27.518555+00:00",
+            "updated": "2024-10-06T10:55:27.518555+00:00",
+            "revoked": "None"
+        },
+        "16": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "token": "NEgwlP57v7gn8Cyt3j0WR2M6mhPrfP",
+            "application": 1,
+            "access_token": 16,
+            "token_family": "d81c21c8-b390-4480-ba47-bf12564449e4",
+            "created": "2024-10-06T12:47:49.698612+00:00",
+            "updated": "2024-10-06T12:47:49.698612+00:00",
+            "revoked": "None"
+        },
+        "17": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "PxmFznd8oohmNpMc27lDfSw4a2MTlb",
+            "application": 1,
+            "access_token": 17,
+            "token_family": "52fd16a7-a0a0-4715-bd47-bb0657868cac",
+            "created": "2024-10-06T13:06:00.476544+00:00",
+            "updated": "2024-10-06T13:06:00.476544+00:00",
+            "revoked": "None"
+        },
+        "18": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "5X0DnK5p3MTTmtZlFnqfPgHzR9IXcQ",
+            "application": 1,
+            "access_token": 18,
+            "token_family": "65827f9b-14ca-4031-a172-403147416f59",
+            "created": "2024-10-06T13:07:20.801525+00:00",
+            "updated": "2024-10-06T13:07:20.801525+00:00",
+            "revoked": "None"
+        },
+        "19": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "token": "7j0nsFX6pGjGBmPTAsep95x4podDnL",
+            "application": 1,
+            "access_token": 19,
+            "token_family": "fe500b30-2b9f-4179-984a-cc1df02288de",
+            "created": "2024-10-06T13:08:04.255304+00:00",
+            "updated": "2024-10-06T13:08:04.255304+00:00",
+            "revoked": "None"
+        },
+        "20": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "token": "CYbYytPqVRbCeLJ0laZM9zx4egwyl0",
+            "application": 1,
+            "access_token": 20,
+            "token_family": "7a276b9c-d982-4b20-a38f-24d0dca49a10",
+            "created": "2024-10-06T13:08:17.868695+00:00",
+            "updated": "2024-10-06T13:08:17.868695+00:00",
+            "revoked": "None"
+        },
+        "21": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "is7o9XA0dGRhLtgdjqJPaBFd8L5HhY",
+            "application": 1,
+            "access_token": 21,
+            "token_family": "7efdb7b9-b818-4720-83f1-3b51f73ef479",
+            "created": "2024-10-06T13:39:07.717259+00:00",
+            "updated": "2024-10-06T13:39:07.717259+00:00",
+            "revoked": "None"
+        },
+        "22": {
+            "user": {
+                "username": "resident2",
+                "email": "resident2@gmail.com"
+            },
+            "token": "Gj5PUTJLff22RdVOFQMcxV5Lc6XZwM",
+            "application": 1,
+            "access_token": 22,
+            "token_family": "7bbd8890-309c-49ff-995f-42051645c50a",
+            "created": "2024-10-06T13:40:25.779466+00:00",
+            "updated": "2024-10-06T13:40:25.779466+00:00",
+            "revoked": "None"
+        },
+        "23": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "token": "CHjJEuv7fsBdZMdR3yw9NBgFUeY86J",
+            "application": 1,
+            "access_token": 23,
+            "token_family": "d716bd71-7b25-4ca9-9f24-d2e1e4327be4",
+            "created": "2024-10-06T13:40:38.468911+00:00",
+            "updated": "2024-10-06T13:40:38.468911+00:00",
+            "revoked": "None"
+        },
+        "24": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "D8ALQ9fA9YTf4RnnDFrtAxkaiQTcHT",
+            "application": 1,
+            "access_token": 24,
+            "token_family": "76b375be-00c4-457e-a756-dcff47322454",
+            "created": "2024-10-06T14:41:50.599241+00:00",
+            "updated": "2024-10-06T14:41:50.599745+00:00",
+            "revoked": "None"
+        },
+        "25": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "token": "bQeqFB0ylvXUtOgmoX2Z7O28krMGzW",
+            "application": 1,
+            "access_token": 25,
+            "token_family": "d724f3b4-ab7d-4b86-bda0-8817c930871e",
+            "created": "2024-10-06T14:42:13.481845+00:00",
+            "updated": "2024-10-06T14:42:13.481845+00:00",
+            "revoked": "None"
+        },
+        "26": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "kfOIxmiCUi5E7Yb4f3iKgoqk6EKb73",
+            "application": 1,
+            "access_token": 26,
+            "token_family": "210587d7-d7a5-4b24-a7b3-299d48097b65",
+            "created": "2024-10-07T06:45:39.315703+00:00",
+            "updated": "2024-10-07T06:45:39.315703+00:00",
+            "revoked": "None"
+        },
+        "27": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "token": "MTIZ3dChvBuOELPrL71dN6rcgW04tt",
+            "application": 1,
+            "access_token": 27,
+            "token_family": "b669f331-d41c-4731-86ad-b30fd9b1e1a4",
+            "created": "2024-10-07T12:31:50.044520+00:00",
+            "updated": "2024-10-07T12:31:50.044520+00:00",
+            "revoked": "None"
+        },
+        "28": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "fZnokfKhg0ylbyJ24FLpHFAnPI699H",
+            "application": 1,
+            "access_token": 28,
+            "token_family": "5780aa01-8150-4f5f-bbac-a22ac4d1d5e3",
+            "created": "2024-10-07T15:13:50.270829+00:00",
+            "updated": "2024-10-07T15:13:50.270829+00:00",
+            "revoked": "None"
+        },
+        "29": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "WTY7R9TQMlj9KnYEN8FtYySbUaoSuA",
+            "application": 1,
+            "access_token": 29,
+            "token_family": "6e5cb688-cfb6-47c6-a70e-bb464595a9c5",
+            "created": "2024-10-08T06:56:06.630299+00:00",
+            "updated": "2024-10-08T06:56:06.630299+00:00",
+            "revoked": "None"
+        },
+        "30": {
+            "user": {
+                "username": "resident3",
+                "email": "resident3@gmail.com"
+            },
+            "token": "elqYmhjCnpcBCRfCoZTCogtzpxIzNn",
+            "application": 1,
+            "access_token": 30,
+            "token_family": "7dc66e3e-eafe-4ba5-92a7-6fb28b7d7682",
+            "created": "2024-10-08T06:57:37.243511+00:00",
+            "updated": "2024-10-08T06:57:37.243511+00:00",
+            "revoked": "None"
+        },
+        "31": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "J8ItlUPgQkRMyCOzZeFMVIyBqx2p5q",
+            "application": 1,
+            "access_token": 31,
+            "token_family": "801efa24-2ac1-41ab-b82c-7a43e8d4a8a5",
+            "created": "2024-10-08T07:02:53.398884+00:00",
+            "updated": "2024-10-08T07:02:53.398884+00:00",
+            "revoked": "None"
+        },
+        "32": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "Wv8Joq4TlCaDWCpkXjqVnDEMTXqvys",
+            "application": 1,
+            "access_token": 32,
+            "token_family": "0a597ff5-6816-416f-8c78-1798e8cf6c48",
+            "created": "2024-10-08T08:43:45.760172+00:00",
+            "updated": "2024-10-08T08:43:45.760172+00:00",
+            "revoked": "None"
+        },
+        "33": {
+            "user": {
+                "username": "resident1",
+                "email": "resident1@gmail.com"
+            },
+            "token": "pEGjWCTi5tXJFl1lseGT6p9e3AFlA6",
+            "application": 1,
+            "access_token": 33,
+            "token_family": "7778483a-7755-4f87-b3e8-c6abd07c8420",
+            "created": "2024-10-08T08:50:41.481558+00:00",
+            "updated": "2024-10-08T08:50:41.481558+00:00",
+            "revoked": "None"
+        }
+    },
+    "idtokens": {}
+}

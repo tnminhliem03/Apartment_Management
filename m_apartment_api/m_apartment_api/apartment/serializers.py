@@ -44,7 +44,7 @@ class ResidentSerializer(serializers.ModelSerializer):
     rooms = serializers.SerializerMethodField()
 
     def get_rooms(self, obj):
-        ownerships = obj.ownership_set.all()
+        ownerships = obj.ownership_set.prefetch_related('room').all()
         rooms = [ownership.room for ownership in ownerships]
         return RoomSerializer(rooms, many=True).data
 

@@ -70,8 +70,20 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'oauth2_provider',
-    'corsheaders'
+    'corsheaders',
+    'channels'
 ]
+
+ASGI_APPLICATION = 'm_apartment_api.asgi.application'
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],  # Địa chỉ và cổng của Redis
+        },
+    },
+}
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -114,7 +126,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'm_apartment_api.wsgi.application'
+# WSGI_APPLICATION = 'm_apartment_api.wsgi.application'
 
 
 # Database

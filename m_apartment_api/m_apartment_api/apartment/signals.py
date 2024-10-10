@@ -1,36 +1,7 @@
 from django.db.models.signals import post_save, post_delete
 from django.dispatch import receiver
-from apartment.models import (Resident, Room, Ownership, Payment, Receipt, SecurityCard, Package, Complaint,
-                              Survey, Notification)
+from apartment.models import (Ownership, Payment, Receipt, SecurityCard, Package)
 from apartment.views import SendEmail
-
-# @receiver(post_save, sender=Resident)
-# @receiver(post_save, sender=Room)
-# @receiver(post_save, sender=Ownership)
-# @receiver(post_save, sender=Payment)
-# @receiver(post_save, sender=Receipt)
-# @receiver(post_save, sender=SecurityCard)
-# @receiver(post_save, sender=Package)
-# @receiver(post_save, sender=Complaint)
-# @receiver(post_save, sender=Survey)
-# @receiver(post_save, sender=Notification)
-# def realtime_data(sender, instance, created, **kwargs):
-#     action = "được tạo" if created else "được cập nhật"
-#     notify_users(f"{instance} {action}.")
-
-# @receiver(post_delete, sender=Resident)
-# @receiver(post_delete, sender=Room)
-# @receiver(post_delete, sender=Ownership)
-# @receiver(post_delete, sender=Payment)
-# @receiver(post_delete, sender=Receipt)
-# @receiver(post_delete, sender=SecurityCard)
-# @receiver(post_delete, sender=Package)
-# @receiver(post_delete, sender=Complaint)
-# @receiver(post_delete, sender=Survey)
-# @receiver(post_delete, sender=Notification)
-# def delete_data(sender, instance, **kwargs):
-#     notify_users(f"{instance} đã bị xóa.")
-
 
 # Gửi thông báo qua Email bằng MailJet
 @receiver(post_save, sender=Payment)
